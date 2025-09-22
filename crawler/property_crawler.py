@@ -12,10 +12,10 @@ from .utils import FileUtils
 class EnhancedPropertyCrawler:
     def __init__(self):
         self.extractor = PropertyExtractor()
-    
+
     async def _crawl_single_property(self, url: str) -> Dict[str, Any]:
         """
-        Private method để crawl một property (chỉ dùng nội bộ cho crawl_multiple_properties)
+        Private method để crawl một property
         """
         print(f"🚀 Crawling: {url}")
         
@@ -74,18 +74,3 @@ class EnhancedPropertyCrawler:
         Lưu kết quả crawl vào file JSON
         """
         return FileUtils.save_json_results(results, filename)
-    
-    def save_results_to_csv(self, results: List[Dict[str, Any]], filename: str = None) -> str:
-        """
-        Lưu kết quả crawl vào file CSV
-        """
-        return FileUtils.save_csv_results(results, filename)
-
-
-# Convenience functions
-async def crawl_property_list(urls: List[str]) -> List[Dict[str, Any]]:
-    """
-    Convenience function để crawl nhiều properties
-    """
-    crawler = EnhancedPropertyCrawler()
-    return await crawler.crawl_multiple_properties(urls)

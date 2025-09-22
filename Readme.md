@@ -87,10 +87,8 @@ async def main():
     
     # Lưu kết quả
     json_file = crawler.save_results_to_json(results)
-    csv_file = crawler.save_results_to_csv(results)
     
     print(f"Đã lưu JSON: {json_file}")
-    print(f"Đã lưu CSV: {csv_file}")
 
 asyncio.run(main())
 ```
@@ -291,30 +289,6 @@ Tự động tạo báo cáo thống kê:
    - Kiểm tra package đã cài đúng: `pip install -r requirements.txt`
    - Kiểm tra Python path
 
-### Debug mode:
-
-```python
-# Thêm vào script của bạn
-import logging
-logging.basicConfig(level=logging.DEBUG)
-
-# Hoặc sử dụng config debug
-from crawler.config import CrawlerConfig
-config = CrawlerConfig()
-config.debug = True
-```
-
-### Kiểm tra cấu trúc package:
-
-```bash
-# Test syntax
-python -c "from models import PropertyModel; print('✅ Models OK')"
-python -c "from crawler import EnhancedPropertyCrawler; print('✅ Crawler OK')"
-
-# Test data structure  
-python -c "from crawler.data_schema import PropertyDataSchema; data = PropertyDataSchema.get_empty_property_data('test'); print(f'✅ {len(data)} fields')"
-```
-
 ## 🚨 Lưu ý quan trọng
 
 1. **Rate Limiting**: Thêm delay giữa requests
@@ -338,9 +312,7 @@ python -c "from crawler.data_schema import PropertyDataSchema; data = PropertyDa
 
 ## 📚 Tài liệu bổ sung
 
-- **[FIELD_MANAGEMENT_GUIDE.md](FIELD_MANAGEMENT_GUIDE.md)**: Hướng dẫn thêm/xóa trường dữ liệu
 - **[crawler/README.md](crawler/README.md)**: Tài liệu chi tiết về package crawler
 - **[structure.json](structure.json)**: Mô tả đầy đủ 200+ fields
 - **[models.py](models.py)**: Pydantic models definition
-
 ---

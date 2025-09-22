@@ -5,7 +5,7 @@ Utility functions cho Property Crawler
 import re
 from datetime import datetime
 from typing import Dict, Any
-from crawler.models import PropertyModel, PropertyImage
+from .models import PropertyModel, PropertyImage
 
 
 class PropertyUtils:
@@ -131,43 +131,4 @@ class FileUtils:
             return filename
         except Exception as e:
             print(f"❌ Error saving to JSON: {e}")
-            return None
-    
-    @staticmethod
-    def save_csv_results(results: list, filename: str = None) -> str:
-        """Lưu kết quả vào file CSV"""
-        if filename is None:
-            filename = FileUtils.generate_filename("crawl_results", "csv")
-        
-        try:
-            import pandas as pd
-            
-            # Flatten dữ liệu cho CSV
-            flattened_data = []
-            for result in results:
-                if result.get('success') and 'property_data' in result:
-                    flat_data = result['property_data'].copy()
-                    flat_data['crawl_success'] = True
-                    flat_data['crawl_timestamp'] = result.get('crawl_timestamp')
-                    flat_data['crawl_url'] = result.get('url')
-                    flattened_data.append(flat_data)
-                else:
-                    # Thêm failed records
-                    flattened_data.append({
-                        'crawl_success': False,
-                        'crawl_timestamp': result.get('crawl_timestamp'),
-                        'crawl_url': result.get('url'),
-                        'crawl_error': result.get('error')
-                    })
-            
-            df = pd.DataFrame(flattened_data)
-            df.to_csv(filename, index=False, encoding='utf-8')
-            print(f"💾 Saved results to CSV: {filename}")
-            return filename
-            
-        except ImportError:
-            print("❌ pandas not installed. Cannot save to CSV.")
-            return None
-        except Exception as e:
-            print(f"❌ Error saving to CSV: {e}")
             return None
