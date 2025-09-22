@@ -303,40 +303,40 @@ class AmenityKeywords:
         # Building amenities
         'elevator': ['エレベーター', 'elevator', 'EV'],
         'autolock': ['オートロック', 'auto lock', 'autoloc'],
-        'delivery_box': ['宅配ボックス', 'delivery box', '宅配BOX'],
+        'delivery_box': ['宅配ボックス', 'delivery box', '宅配BOX', '宅配ロッカー'],
         'concierge': ['コンシェルジュ', 'concierge', 'フロント'],
         'gym': ['ジム', 'gym', 'フィットネス'],
         'swimming_pool': ['プール', 'pool', 'swimming'],
         
-        # Parking
-        'parking': ['駐車場', 'parking', '駐車'],
-        'bicycle_parking': ['駐輪場', 'bicycle parking', '自転車'],
-        'motorcycle_parking': ['バイク置場', 'motorcycle', 'バイク'],
+        # Parking - with more specific keywords
+        'parking': ['駐車場有', '駐車場', 'parking', '駐車可', '車庫'],
+        'bicycle_parking': ['駐輪場', 'bicycle parking', '自転車置場', '自転車'],
+        'motorcycle_parking': ['バイク置場', 'motorcycle', 'バイク駐車', 'バイク'],
         
         # Unit amenities
-        'aircon': ['エアコン', 'air conditioning', 'aircon', 'AC'],
+        'aircon': ['エアコン', 'air conditioning', 'aircon', 'AC', '冷暖房'],
         'aircon_heater': ['エアコン暖房', 'air conditioning heater'],
-        'internet_wifi': ['WiFi', 'インターネット', 'internet', 'ネット'],
+        'internet_wifi': ['WiFi', 'インターネット', 'internet', 'ネット', 'ブロードバンド'],
         'cable': ['ケーブルTV', 'cable', 'CATV'],
-        'bs': ['BS', 'BS放送', 'satellite'],
+        'bs': ['BS', 'BS放送', 'satellite', 'BS有'],
         
         # Kitchen
         'system_kitchen': ['システムキッチン', 'system kitchen'],
         'counter_kitchen': ['カウンターキッチン', 'counter kitchen'],
         'full_kitchen': ['フルキッチン', 'full kitchen'],
         'induction_cooker': ['IHクッキング', 'induction', 'IH'],
-        'gas': ['ガス', 'gas'],
+        'gas': ['ガス', 'gas', 'ガスコンロ'],
         'microwave': ['電子レンジ', 'microwave'],
         'oven': ['オーブン', 'oven'],
         'dishwasher': ['食洗機', 'dishwasher', '食器洗い'],
         'refrigerator': ['冷蔵庫', 'refrigerator', '冷蔵'],
         'refrigerator_freezer': ['冷凍冷蔵庫', 'freezer'],
         
-        # Bathroom
-        'bath': ['バス', 'bath', '浴室'],
-        'separate_toilet': ['独立洗面台', 'separate toilet', '独立'],
-        'unit_bath': ['ユニットバス', 'unit bath'],
-        'auto_fill_bath': ['自動給湯', 'auto fill'],
+        # Bathroom - enhanced with more Japanese terms
+        'bath': ['バス', 'bath', '浴室', 'バス有', '浴槽'],
+        'separate_toilet': ['独立洗面台', 'separate toilet', '独立', 'バストイレ別'],
+        'unit_bath': ['ユニットバス', 'unit bath', 'バストイレ'],
+        'auto_fill_bath': ['自動給湯', 'auto fill', '給湯追い焚き有', '追い焚き'],
         'shower': ['シャワー', 'shower'],
         'japanese_toilet': ['和式トイレ', 'japanese toilet'],
         'western_toilet': ['洋式トイレ', 'western toilet'],
@@ -348,25 +348,25 @@ class AmenityKeywords:
         'carpet': ['カーペット', 'carpet'],
         'underfloor_heating': ['床暖房', 'underfloor heating'],
         
-        # Storage & Space
-        'storage': ['収納', 'storage', 'クローゼット'],
+        # Storage & Space - enhanced
+        'storage': ['収納', 'storage', 'クローゼット', '室内洗濯機置場'],
         'loft': ['ロフト', 'loft'],
         'balcony': ['バルコニー', 'balcony'],
         'veranda': ['ベランダ', 'veranda'],
         'roof_balcony': ['ルーフバルコニー', 'roof balcony'],
         'yard': ['庭', 'yard', 'ガーデン'],
         
-        # Appliances
-        'washing_machine': ['洗濯機', 'washing machine'],
-        'washer_dryer': ['洗濯乾燥機', 'washer dryer'],
+        # Appliances - enhanced
+        'washing_machine': ['洗濯機', 'washing machine', '室内洗濯機置場'],
+        'washer_dryer': ['洗濯乾燥機', 'washer dryer', '浴室乾燥機'],
         'furnished': ['家具付き', 'furnished', '家具'],
         'all_electric': ['オール電化', 'all electric'],
         
-        # Special features
-        'pets': ['ペット', 'pet', 'ペット可'],
+        # Special features - enhanced
+        'pets': ['ペット', 'pet', 'ペット可', 'ペット相談'],
         'female_only': ['女性限定', 'female only', '女性専用'],
         'student_friendly': ['学生可', 'student', '学生'],
-        'soho': ['SOHO', 'soho', '事務所可'],
+        'soho': ['SOHO', 'soho', '事務所可', 'ピアノ可'],
         'newly_built': ['新築', 'newly built', '新築物件']
     }
 

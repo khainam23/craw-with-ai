@@ -1,0 +1,13 @@
+| Trường            | Crawl                                                                    | Website                                               | Ghi chú                                                |
+| ----------------- | ------------------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------ |
+| Địa chỉ           | 東京都練馬区                                                                   | 東京都練馬区桜台三丁目２０番３号                                      | Crawl thiếu chi tiết số nhà và khu phố                 |
+| Postcode          | 107-0052                                                                 | Không hiển thị trực tiếp trên web                     | Không kiểm chứng được                                  |
+| Loại tòa nhà      | マンション                                                                    | 鉄筋コンクリート造 地上3階建                                       | Crawl chỉ ghi “マンション”, web chi tiết cấu trúc           |
+| Tên tòa (EN/JA)   | PLANE SOCIE＋ SAKURADAI 1階１０１                                             | PLANE SOCIE＋ SAKURADAI 1階１０１                          | Khớp                                                   |
+| Ga gần nhất       | 新桜台駅 (6 phút đi bộ)                                                      | 新桜台駅 (6 phút đi bộ), 氷川台駅 (8 phút đi bộ)              | Crawl thiếu ga thứ hai                                 |
+| Số tầng           | 3                                                                        | 地上3階建                                                 | Khớp về tổng số tầng                                   |
+| Diện tích         | 31.71㎡                                                                   | 31.71㎡                                                | Khớp                                                   |
+| Ngày có sẵn       | 相談                                                                       | 10月中旬                                                 | Crawl không chính xác                                  |
+| Bãi đỗ xe         | Y                                                                        | 無                                                     | Sai, web không có bãi đỗ xe                            |
+| Bãi xe máy        | Y                                                                        | Không thấy thông tin                                  | Crawl có thể thêm tự động                              |
+| Các tiện ích khác | Autolock, Concierge, Aircon, Balcony, Bath, BS, Storage, Washing Machine | Autolock, 宅配ロッカー, バルコニー, バストイレ, 室内洗濯機置場, バス有, 給湯追い焚き有 | Crawl khá chính xác nhưng thiếu chi tiết “浴室乾燥機, ピアノ可” |

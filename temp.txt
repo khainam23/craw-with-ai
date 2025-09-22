@@ -1,0 +1,891 @@
+<main>
+
+    
+    
+      <div class="l-main">
+
+    <div class="l-main__breadcrumb">
+
+      <!-- パンくずナビ -->
+      <div class="c-breadcrumb">
+        <div class="l-container">
+          <ul class="c-breadcrumb__list">
+            <li><a href="https://www.mitsui-chintai.co.jp/rf" _msttexthash="849082" _msthash="88">"Mitsui Rental" Resident First Top</a></li>
+            <li><a href="https://www.mitsui-chintai.co.jp/rf/ward" _msttexthash="205166" _msthash="89">Search by ward</a></li>
+                          <li><a href="https://www.mitsui-chintai.co.jp/rf/ward/Nerima-ku" _msttexthash="150696" _msthash="90">Nerima Ward</a></li>
+                        <li><a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835" _msttexthash="14727271" _msthash="91">PLANE　SOCIE＋　SAKURADAI</a></li>
+            <li><span _msttexthash="145886" _msthash="92">1st floor 101</span></li>
+          </ul>
+        </div>
+      </div>
+
+    </div><!--/.l-breadcrumb-->
+
+    <!-- メインコンテンツ -->
+    <div class="l-main__content --pt-0">
+
+      <form action="#" name="A0203ActionForm" class="form-horizontal" method="POST">
+        <input type="text" name="_token" value="AX8BSLAoVmx0odYd9tYJqfk2Inx1se1OIggPUxtS" style="display:none;">
+        <input type="hidden" name="list[0].CODE_WITH_TAIOUBUSHO_KBN" value="(10835,101,7)">
+        <input type="hidden" name="list[0].CODE" value="(10835,101)">
+        <input type="hidden" name="list[0].BLD_CD" value="10835">
+        <input type="hidden" name="list[0].BLD_KANJI_NAME" value="PLANE　SOCIE＋　SAKURADAI">
+        <input type="hidden" name="list[0].BUKKEN_ADDR" value="東京都練馬区桜台三丁目２０番３号">
+                  <input type="hidden" name="list[0].MAP_X" value="502813.183">
+          <input type="hidden" name="list[0].MAP_Y" value="128669.157">
+          <input type="hidden" name="list[0].MAP_CX" value="502813.183">
+          <input type="hidden" name="list[0].MAP_CY" value="128669.157">
+          <input type="hidden" name="list[0].MAP_ZOOM_SCALE" value="1">
+          <input type="hidden" name="list[0].MAP_OBJ_DISP_FLG" value="1">
+        
+        <div class="l-buildroom">
+
+          <div class="l-buildroom__summary">
+
+            <div class="c-buildroom">
+              <div class="l-container">
+                <section class="c-buildroom__summary">
+                  <header class="c-buildroom__summary-header">
+                                          <ul class="c-buildroom__summary-flag">
+                        
+                                                  <li><span class="c-flag --sm --pc-md" _msttexthash="31525" _msthash="93">New</span></li>
+                        
+                                                                      </ul>
+                                        <h1 class="c-buildroom__summary-h" _msttexthash="15125877" _msthash="94">PLANE SOCIE＋ SAKURADAI
+ 1st floor 101</h1>
+                    <div class="c-buildroom__summary-links">
+                      
+                      <button type="button" class="btn --normal --xs --pc-md --icon-before --i-save sys-under-review" data-code="10835-101" data-bld_cd="10835" _msttexthash="380783" _msthash="95"> Add to Consideration </button>
+                    </div>
+                  </header>
+
+                  <div class="c-buildroom__summary-body">
+                    <div class="c-buildroom__summary-visual">
+                      <!-- メインスライド -->
+                      <div class="c-buildroom__summary-pics c-buildroom-slide" data-js-buildroom-slide="">
+                        <div class="c-buildroom-slide__main c-skelton-loader" data-js-buildroom-slide-container="">
+                          <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+                            <div class="swiper-wrapper" id="swiper-wrapper-c97f50d78db51f64" aria-live="polite"><div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 1" style="width: 780px;" _mstaria-label="15080" _msthash="96">
+          <div class="swiper-zoom-container">
+            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500101c.jpg" alt="" class="" loading="lazy" onerror="this.onerror='';this.src='https://www.mitsui-chintai.co.jp/rf/assets/img/common/nofloorplan.webp'">
+          </div>
+        </div></div>
+                            <div class="swiper-button-prev c-buildroom-slide__btn --prev swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-c97f50d78db51f64" aria-disabled="true" _mstaria-label="235768" _msthash="97"></div>
+                            <div class="swiper-button-next c-buildroom-slide__btn --next swiper-button-disabled swiper-button-lock" tabindex="-1" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-c97f50d78db51f64" aria-disabled="true" _mstaria-label="135655" _msthash="98"></div>
+                            <div class="swiper-pagination c-buildroom-slide__pagination swiper-pagination-fraction swiper-pagination-horizontal swiper-pagination-lock" _msttexthash="15080" _msthidden="1" _msthash="99"><span class="swiper-pagination-current">1</span> / <span class="swiper-pagination-total">1</span></div>
+                          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        <button class="c-buildroom-slide__btn-open --modal" data-js-buildroom-modal-open="" data-js-modal="#buildroom-slide-modal" type="button">
+    <span class="u-visually-hidden" _msttexthash="232440" _msthash="100">magnification</span>
+    </button></div>
+
+                        <!-- タブ -->
+                        <div class="c-buildroom-slide__tabs" data-js-buildroom-slide-tab-container="">
+                          <!-- AJAXロード -->
+                        <button type="button" data-js-buildroom-slide-tab="floorplan" class="--is-active" _msttexthash="322530" _msthash="101">Floor plan and room</button><button type="button" data-js-buildroom-slide-tab="exterior" _msttexthash="1207635" _msthash="102">Exterior, common areas, and surroundings</button></div>
+
+                        <!-- サムネイル -->
+                        <div class="c-buildroom-slide__thumbs" data-js-buildroom-slide-thumbs-container="">
+                          <div class="swiper swiper-initialized swiper-horizontal swiper-free-mode swiper-backface-hidden swiper-thumbs" data-js-buildroom-slide-thumbs="">
+                            <div class="swiper-wrapper" id="swiper-wrapper-c4697d33c5caac31" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+                              <!-- AJAXロード -->
+                            <div class="swiper-slide swiper-slide-active swiper-slide-visible swiper-slide-fully-visible swiper-slide-thumb-active" role="group" aria-label="1 / 1" style="width: 84.7059px; margin-right: 8px;" _mstaria-label="15080" _msthash="103">
+          <div class="swiper-zoom-container">
+            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500101c.jpg" alt="" class="" loading="lazy" onerror="this.onerror='';this.src='https://www.mitsui-chintai.co.jp/rf/assets/img/common/nofloorplan.webp'">
+          </div>
+        </div></div>
+                          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+                      </div>
+
+                      <!--モーダル-->
+                      <div class="c-buildroom-modal c-modal" data-js-buildroom-modal="" data-js-modal-target="" id="buildroom-slide-modal" _msthidden="4">
+                        <button type="button" data-js-buildroom-modal-close="" data-js-modal-close="" class="c-buildroom-modal__close" _msthidden="1"><span class="u-visually-hidden" _msttexthash="6224634" _msthidden="1" _msthash="104">閉じる</span></button>
+                        <div class="c-buildroom-modal__container" _msthidden="3">
+                          <div class="c-buildroom-modal__slide swiper swiper-initialized swiper-horizontal" _msthidden="3">
+                            <div class="swiper-wrapper" id="swiper-wrapper-010733b13d72a80e2" aria-live="polite" style="transition-duration: 0ms; transition-delay: 0ms;">
+                              <!-- AJAXロード -->
+                            </div>
+
+                            <div class="c-buildroom-modal__btn --prev swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-010733b13d72a80e2" aria-disabled="false" _msthidden="A" _mstaria-label="235768" _msthash="105"></div>
+                            <div class="c-buildroom-modal__btn --next swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-010733b13d72a80e2" aria-disabled="false" _msthidden="A" _mstaria-label="135655" _msthash="106"></div>
+                            <div class="c-buildroom-modal__pagination swiper-pagination swiper-pagination-fraction swiper-pagination-horizontal" _msttexthash="14872" _msthidden="1" _msthash="107"><span class="swiper-pagination-current">0</span> / <span class="swiper-pagination-total">0</span></div>
+                          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                          <div class="c-buildroom-modal__thumbs swiper swiper-initialized swiper-horizontal swiper-free-mode swiper-thumbs" data-js-buildroom-modal-thumbs="">
+                            <div class="swiper-wrapper" id="swiper-wrapper-9b64854eb870cdcf" aria-live="polite" style="transition-duration: 0ms; transition-delay: 0ms;"></div>
+                          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    
+                    <div class="c-buildroom__summary-overview">
+                      <dl class="c-buildroom__summary-overview-list">
+                        <div>
+                          <dt _msttexthash="117312" _msthash="108">location</dt>
+                          <dd class="__map"><a href="#map" class="btn --impact --xxs --icon-before --i-map" _msttexthash="33111" _msthash="109">map</a></dd>
+                          <dd _msttexthash="728676" _msthash="110">Tokyo, Nerima-ku, Sakuradai 3-20-3</dd>
+                        </div>
+                        <div>
+                          <dt _msttexthash="94718" _msthash="111">traffic</dt>
+                          <dd>
+                                                                                    <font _mstmutation="1" _msttexthash="2434133" _msthash="112"><a href="https://www.mitsui-chintai.co.jp/rf/ensen/Seibu+Yurakucho+Line" class="u-td-underline" _mstmutation="1" _istranslated="1">Seibu Railway
+ Seibu Yurakucho</a> <a href="https://www.mitsui-chintai.co.jp/rf/ensen/Shin-Sakuradai" class="u-td-underline" _mstmutation="1" _istranslated="1">Shin-Sakuradai</a> 6 minutes on foot</font><br>
+                                                                                  </dd>
+                        </div>
+                        <div>
+                          <dt _msttexthash="1249378" _msthash="113">Rent, management fees, common service fees</dt>
+                          <dd class="__rent" _msttexthash="241488" _msthash="114"><em _istranslated="1">JPY159,000</em> / JPY10,000</dd>
+                        </div>
+                        <div>
+                          <dt _msttexthash="615147" _msthash="115">Security deposit/key money</dt>
+                          <dd _msttexthash="229437" _msthash="116">1.0 months / None</dd>
+                        </div>
+                        <div>
+                          <dt _msttexthash="312949" _msthash="117">Floor plan and area</dt>
+                          <dd _msttexthash="2817828" _msthash="118">1DK / 31.71㎡</dd>
+                        </div>
+                        <div>
+                          <dt _msttexthash="259103" _msthash="119">Completion date</dt>
+                          <dd _msttexthash="171340" _msthash="120">October 15, 2025</dd>
+                        </div>
+                        <div>
+                          <dt _msttexthash="209547" _msthash="121">Appeal points</dt>
+                          <dd>
+                                                        <span class="c-flag --outline-primary-thick" _msttexthash="31525" _msthash="122">New</span>
+                            
+                                                        <span class="c-flag --outline-primary-thick" _msttexthash="204087" _msthash="123">Mitsui Rental</span>
+                            
+                            
+                            
+                            
+                              
+                              
+                              
+                                                        </dd>
+                        </div>
+                      </dl>
+                    </div>
+
+                </div>
+              </section>
+            </div>
+          </div><!-- /c-buildroom -->
+
+        </div><!-- /l-buildroom__summary -->
+
+        <div class="l-buildroom__detail">
+          <div class="l-container u-justify-content-pc-center">
+            <div class="l-col-pc-10">
+
+              
+              <div class="l-buildroom__body-block --cta">
+                                  
+                  <article class="c-cta-contact">
+                    <header class="c-cta-contact__header">
+                      <h3 class="c-cta-contact__h" _msttexthash="1996241" _msthash="124">Click here for inquiries and reservations for this room</h3>
+                    </header>
+                    <div class="c-cta-contact__body">
+                      <div class="c-cta-contact__btn">
+                        <div class="c-cta-contact__btn-main">
+                          
+                                                      
+                            <a href="tel:0120-321-364" class="__btn-tel btn --primary-light --cta-contact">
+                              <span class="__tel u-color-primary" _msttexthash="96798" _msthash="125">0120-321-364</span>
+                              <span class="__tel-sub" _msttexthash="2741063" _msthash="126">Business hours 9:30~18:00 / Closed:
+ Wednesday and New Year's holidays</span>
+                            </a>
+                                                  </div>
+                        <div class="c-cta-contact__btn-sub">
+                          <a href="https://mypage.mitsui-chintai.co.jp/rf_web/cstRoomInqGst/?roomCd=(10835,101,7)" class="__btn-web btn --primary-light --cta-contact sys-contact-web" target="_blank">
+                            <span class="__web-sub --icon-primary" _msttexthash="394511" _msthash="127">Inquiry from<br class="u-pc-only" _istranslated="1"> the form</span>
+                          </a>
+                          
+                                                  </div>
+                      </div>
+                    </div>
+                  </article>
+                
+              </div>
+
+              
+              
+              
+              <section class="l-buildroom__body-block c-buildroom-sect --detail">
+                <header class="c-buildroom-sect__header">
+                  <h2 class="c-buildroom-sect__h" _msttexthash="530894" _msthash="128">Building and room details</h2>
+                                  </header>
+                <div class="c-buildroom-sect__body">
+                  <div class="c-buildroom-detail">
+                    <div class="c-buildroom-detail__col --w-pc-50">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="94718" _msthash="129">traffic</dt>
+                        <dd>
+                          <div class="__data">
+                                                                                          <font _mstmutation="1" _msttexthash="15074111" _msthash="130"><a href="https://www.mitsui-chintai.co.jp/rf/ensen/Seibu+Yurakucho+Line" class="u-td-underline" _mstmutation="1" _istranslated="1">Seibu Railway
+ Seibu Yurakucho</a> <a href="https://www.mitsui-chintai.co.jp/rf/ensen/Shin-Sakuradai" class="u-td-underline" _mstmutation="1" _istranslated="1">Shin-Sakuradai</a> 6 minutes<br _mstmutation="1" _istranslated="1"> walk <a href="https://www.mitsui-chintai.co.jp/rf/ensen/Yurakucho+Line" class="u-td-underline" _mstmutation="1" _istranslated="1">Tokyo Metro
+ Yurakucho Line</a> <a href="https://www.mitsui-chintai.co.jp/rf/ensen/Hikawadai" class="u-td-underline" _mstmutation="1" _istranslated="1">Hikawadai</a> 8 minutes<br _mstmutation="1" _istranslated="1"> walk <a href="https://www.mitsui-chintai.co.jp/rf/ensen/Fukutoshin+Line" class="u-td-underline" _mstmutation="1" _istranslated="1">Tokyo Metro
+ Fukutoshin Line</a> <a href="https://www.mitsui-chintai.co.jp/rf/ensen/Hikawadai" class="u-td-underline" _mstmutation="1" _istranslated="1">Hikawadai</a> 8 minutes on foot</font><br>
+                                                                                    </div>
+                        </dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col --w-pc-50 --column">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="170456" _msthash="131">Move-in date</dt>
+                        <dd _msttexthash="167336" _msthash="132"> Mid-October </dd>
+                      </dl>
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="247247" _msthash="133">Available Dates</dt>
+                        <dd _msttexthash="167336" _msthash="134"> Mid-October </dd>
+                      </dl>
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="318071" _msthash="135">Contract Duration</dt>
+                        <dd>
+                                                  </dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col --w-pc-50">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="266812" _msthash="136">Scale structure</dt>
+                        <dd _msttexthash="1021020" _msthash="137">Reinforced concrete 3-story building</dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col --w-pc-50">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="153634" _msthash="138">Renewal fee</dt>
+                        <dd _msttexthash="535249" _msthash="139"> 1 month's worth of new rent </dd>
+                      </dl>
+                    </div>
+                  </div>
+                  <div class="c-buildroom-detail u-mt-16">
+                    <div class="c-buildroom-detail__col --w-pc-50">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="162539" _msthash="140">parking lot</dt>
+                        <dd _msttexthash="98228" _msthash="141"> nothing </dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col --w-pc-50 --column">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="95173" _msthash="142">bearing</dt>
+                        <dd _msttexthash="47814" _msthash="143"> east </dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="157534" _msthash="144">Other Costs</dt>
+                        <dd _msttexthash="7743541" _msthash="145"> Account transfer administrative fee 110 yen (tax included)/
+ Normal cleaning fee when moving out: 59,400 yen (tax included) </dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="883298" _msthash="146">Private and common area facilities</dt>
+                        <dd _msttexthash="15414191" _msthash="147"> Delivery lockers / Auto locks / Motorcycle storage / Elevator / Balcony / Toilet / In-room washing machine / Bath available / Bathroom dryer / Hot water supply / Piano available </dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="98670" _msthash="148">remarks</dt>
+                        <dd _msttexthash="10336404" _msthash="149"> Musical instrument consultation available / AC cleaning fee available / 1 pena available / corporate gift +1 / bicycle parking sticker 1100 yen </dd>
+                      </dl>
+                    </div>
+
+                    <div class="c-buildroom-detail__col --w-pc-50">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="746538" _msthash="150">Common area management company</dt>
+                        <dd _msttexthash="598026" _msthash="151"> Maple Living Service Co., Ltd. </dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col --w-pc-50 --column">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="137397" _msthash="152">insurance</dt>
+                        <dd _msttexthash="2879565" _msthash="153"> You need to purchase fire insurance with tenant liability insurance </dd>
+                      </dl>
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="162201" _msthash="154">Meyasu rent</dt>
+                        <dd _msttexthash="84383" _msthash="155"> JPY 172,313 </dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col --w-pc-50">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="458484" _msthash="156">Information updated on</dt>
+                        <dd _msttexthash="220246" _msthash="157"> September 22, 2025 </dd>
+                      </dl>
+                    </div>
+                    <div class="c-buildroom-detail__col --w-pc-50">
+                      <dl class="c-buildroom-detail__list">
+                        <dt _msttexthash="288457" _msthash="158">Trading Patterns</dt>
+                        <dd _msttexthash="210431" _msthash="159"> intermediary </dd>
+                      </dl>
+                    </div>
+                  </div>
+                  <div class="u-mt-24 u-mt-pc-40 u-ta-center">
+                    <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835" class="btn --impact --icon-after --i-arrow-r --mw-400px" _msttexthash="1645371" _msthash="160">List of vacancies in this building To building page</a>
+                  </div>
+                </div>
+              </section>
+
+                              
+                <section class="l-buildroom__body-block c-buildroom-sect --access" id="map">
+                  <header class="c-buildroom-sect__header">
+                    <h2 class="c-buildroom-sect__h" _msttexthash="457522" _msthash="161">Surrounding Map &amp; Access</h2>
+                  </header>
+                  <div class="c-buildroom-sect__body">
+                    <iframe name="iFrameName_map0" style="left:0px;border:green 0px solid;padding: 0px;margin:0px;" src="https://www.mitsui-chintai.co.jp/rf/mapple2?positionX=502813.183&amp;positionY=128669.157&amp;centerX=502813.183&amp;centerY=128669.157&amp;name=PLANE　SOCIE＋　SAKURADAI&amp;zoomScale=1&amp;dspFlag=1&amp;addr=東京都練馬区桜台三丁目２０番３号" width="900px" height="730px" frameborder="0" vspace="0" hspace="0" marginheight="0" scrolling="no" id="iFrameName_map0" class="c-map test">
+                    </iframe>
+                  </div>
+                </section>
+              
+              
+              <section class="l-buildroom__body-block c-buildroom-sect --remark">
+                <header class="c-buildroom-sect__header">
+                  <h2 class="c-buildroom-sect__h" _msttexthash="98670" _msthash="193">remarks</h2>
+                </header>
+                <div class="c-buildroom-sect__body">
+                  <ul class="c-buildroom-sect__remark-list c-list-kome u-fz-12 u-color-dark">
+                    <li _msttexthash="21562762" _msthash="194">The walking minutes listed are calculated (rounded up) 80m as 1 minute based on the approximate distance starting from the entrance and exit of the building and ending at the station entrance and bus stop.</li>
+                    <li _msttexthash="9468719" _msthash="195">The N (barn) and S (service room) in the floor plan indicate spaces other than the living room. Please check <a href="https://www.mitsui-chintai.co.jp/service/annotation/layout.html" target="_blank" _istranslated="1">here</a> for more information.</li>
+                    <li _msttexthash="11060309" _msthash="196">The display of ( Application Available) is currently accepted on a first-come, first-served basis. We also accept applications for waitlists.</li>
+                  </ul>
+                </div>
+              </section>
+
+              
+              <aside class="l-buildroom__body-block c-buildroom-sect --guideline u-mt-24">
+                <header class="c-buildroom-sect__header u-visually-hidden">
+                  <h2 class="c-buildroom-sect__h" _msttexthash="359801" _msthash="197">Meyasu rent display</h2>
+                </header>
+                <div class="c-buildroom-sect__body">
+                  <dl class="c-buildroom-sect__guideline">
+                    <dt><a href="#guarantor" class="u-td-underline" data-js-modal="#guarantor"><span _msttexthash="2878057" _msthash="198">About the terms and conditions of use of the rental guarantee company</span></a>
+                    </dt>
+                    <dd class="__detail" _msthidden="6">
+                      <div class="c-modal" data-js-modal-target="" id="guarantor" _msthidden="6">
+                        <div class="c-modal__inner" _msthidden="6">
+                          <article class="c-modal-content" _msthidden="6">
+                            <header class="c-modal-content__header" _msthidden="2">
+                              <h2 class="c-modal-content__h" _msttexthash="56054882" _msthidden="1" _msthash="199">賃貸保証会社の利用条件について</h2>
+                              <button type="button" class="c-modal-content__header-close" data-js-modal-close="" _msthidden="1"><span class="u-visually-hidden" _msttexthash="6224634" _msthidden="1" _msthash="200">閉じる</span></button>
+                            </header>
+                            <div class="c-modal-content__body --scroll" _msthidden="4">
+                              <p class="u-fw-bold u-mt-24" _msttexthash="306520045" _msthidden="1" _msthash="201">※連帯保証人に保証会社をご利用の場合、保証会社に対し保証委託料のお支払が必要です。
+                              </p>
+                              <p class="u-fw-bold u-mb-16" _msttexthash="982498777" _msthidden="1" _msthash="202">
+                                （三井不動産レジデンシャルリース株式会社管理物件における各社の保証委託料は以下をご参照ください。なおご利用いただける保証会社は、物件や貸主法人によって異なります。）</p>
+                              <p _msttexthash="16268436288" _msthidden="1" _msthash="203">
+                                【レジデントアシスタンス株式会社】<br>
+                                初回保証委託料：月額賃料等の50％（最低保証委託料20,000円）、継続保証委託料（２年目以降）：9,600円/年<br>
+
+                                【クレディセゾン・レジデントアシスタンス】<br>
+                                初回保証委託料：月額賃料等の50％（最低保証委託料15,000円）、継続保証委託料（２年目以降）：10,000円/年<br>
+
+                                【株式会社Ｃａｓａ】<br>
+                                初回保証委託料：月額賃料等の50％（最低保証委託料20,000円）、継続保証委託料（２年目以降）：10,000円/年<br>
+                                ※別途、決済手数料300円/月（税込）<br>
+
+                                【株式会社オリコフォレントインシュア】<br>
+                                初回保証委託料：月額賃料等の50％（最低保証委託料20,000円）、継続保証委託料（２年目以降）：10,000円/年
+                              </p>
+                              <p class="u-ta-end" _msttexthash="3915639" _msthidden="1" _msthash="204">以　上</p>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                    </dd>
+                    <dt><a href="#explanation" class="u-td-underline" data-js-modal="#explanation" _msttexthash="1965886" _msthash="205">Click here for an explanation of the Meyasu rent display</a></dt>
+                    <!-- 不要かもしれない
+                      <dd>物件情報の確認、更新は原則2週間に1回実施しております。<br>
+                      最新情報に関しては、お電話または物件お問い合わせフォームにてお問い合わせ下さい<br>取引態様が「媒介」・「貸主代理」表示のお部屋は、ご契約時に賃料の1.1ヶ月分相当額(税込)を仲介手数料として頂戴いたします。</dd>
+                    -->
+                    <dd _msthidden="7">
+                      <div class="c-modal" data-js-modal-target="" id="explanation" _msthidden="7">
+                        <div class="c-modal__inner" _msthidden="7">
+                          <article class="c-modal-content" _msthidden="7">
+                            <header class="c-modal-content__header" _msthidden="2">
+                              <h2 class="c-modal-content__h" _msttexthash="32945627" _msthidden="1" _msthash="206">めやす賃料表示について</h2>
+                              <button type="button" class="c-modal-content__header-close" data-js-modal-close="" _msthidden="1"><span class="u-visually-hidden" _msttexthash="6224634" _msthidden="1" _msthash="207">閉じる</span></button>
+                            </header>
+                            <div class="c-modal-content__body --scroll" _msthidden="5">
+                              <p class="u-mt-24" _msttexthash="1198055144" _msthidden="1" _msthash="208">
+                                めやす賃料とは賃料、共益費・管理費、敷引金、礼金、更新料を含み、賃料等の改定が無いものと仮定して４年間賃借（定期借家の場合は、契約期間）の１ヶ月あたりの金額です。</p>
+                              <p _msttexthash="278567302" _msthidden="1" _msthash="209">※ 敷引金は、敷金の償却、保証金の償却など、預かった金銭から必ず差し引くものをいいます。</p>
+                              <p _msttexthash="414604554" _msthidden="1" _msthash="210">※ めやす賃料は、消費者に適切な情報を提供する為の表示であり、事業者に一時金を推奨しているものではありません。</p>
+                              <p _msttexthash="248914861" _msthidden="1" _msthash="211">※ めやす賃料は、実際の総支払額と異なる場合があります。詳しくはお問い合わせください。</p>
+                              <p style="text-align: right;" _msttexthash="3915639" _msthidden="1" _msthash="212">以　上</p>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                    </dd>
+                  </dl>
+                </div>
+              </aside>
+
+              
+              <div class="l-buildroom__body-block --cta">
+                                  
+                  <article class="c-cta-contact">
+                    <header class="c-cta-contact__header">
+                      <h3 class="c-cta-contact__h" _msttexthash="1996241" _msthash="213">Click here for inquiries and reservations for this room</h3>
+                    </header>
+                    <div class="c-cta-contact__body">
+                      <div class="c-cta-contact__btn">
+                        <div class="c-cta-contact__btn-main">
+                          
+                                                      
+                            <a href="tel:0120-321-364" class="__btn-tel btn --primary-light --cta-contact">
+                              <span class="__tel u-color-primary" _msttexthash="96798" _msthash="214">0120-321-364</span>
+                              <span class="__tel-sub" _msttexthash="2741063" _msthash="215">Business hours 9:30~18:00 / Closed:
+ Wednesday and New Year's holidays</span>
+                            </a>
+                                                  </div>
+                        <div class="c-cta-contact__btn-sub">
+                          <a href="https://form.mitsui-chintai.co.jp/webapp/form/19959_rndb_101/index.do" class="__btn-web btn --primary-light --cta-contact" target="_blank">
+                            <span class="__web-sub --icon-primary" _msttexthash="394511" _msthash="216">Inquiry from<br class="u-pc-only" _istranslated="1"> the form</span>
+                          </a>
+                          
+                                                  </div>
+                      </div>
+                    </div>
+                  </article>
+                
+
+
+                
+                <article class="c-cta-owner u-mt-16">
+                  <header class="c-cta-owner__header">
+                    <h3 class="c-cta-owner__h" _msttexthash="1296399" _msthash="217">Owners who are thinking of rental operation</h3>
+                    <p class="c-cta-owner__lead" _msttexthash="17315194" _msthash="218">If you are an owner who would like to rent out your building or room, please contact us. We offer<br _istranslated="1"> flexible consultations such as free appraisals and rental management consultations.</p>
+                  </header>
+                  <div class="c-cta-owner__body">
+                    <div class="c-cta-owner__btn">
+                      <a href="tel:0120-496-321" class="btn --normal --cta-owner">
+                        <span class="__tel" _msttexthash="97461" _msthash="219">0120-496-321</span>
+                        <span class="__sub" _msttexthash="3329482" _msthash="220">Business hours 9:30~18:00 <br _istranslated="1"> Closed Wednesdays, year-end and New Year holidays</span>
+                      </a>
+                      <a href="/owner" class="btn --normal" _msttexthash="253045" _msthash="221">Service Details</a>
+                    </div>
+                  </div>
+                </article>
+
+              </div>
+
+              
+
+              <section class="l-buildroom__body-block c-buildroom-sect --related">
+                <header class="c-buildroom-sect__header">
+                  <h2 class="c-buildroom-sect__h" _msttexthash="2083133" _msthash="222">People who checked this room also checked out these rooms.</h2>
+                </header>
+                <div class="c-buildroom-sect__body --related" data-item-id="1083500101" data-endpoint="recommend" data-category="tatemono" data-client-id="mitsui_chintai">
+
+                  <div class="c-prop-slider --related swiper swiper-initialized swiper-horizontal" data-js-related-prop-slider="related">
+                    <div class="swiper-wrapper " id="sys-recomend-container" aria-live="polite" style="transition-duration: 0ms; transition-delay: 0ms; transform: translate3d(40px, 0px, 0px);">
+                      <!-- 繰り返し要素ここから -->
+                      <div class="swiper-slide c-card swiper-slide-active" style="display: none; margin-right: 24px;" role="group" aria-label="1 / 21" _msthidden="A" _mstaria-label="21567" _msthash="223">
+                        <a href="#" class="c-card__link sys-column3" _msthidden="5">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://picsum.photos/id/452/500/500" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body" _msthidden="5">
+                            <div class="c-card__title" _msthidden="1">
+                              <h3 class="c-card__h"><span class="sys-column2" _msttexthash="34252257" _msthidden="1" _msthash="224">芝浦アイランド　ブルームタワー</span> <span class="sys-column5"></span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info" _msthidden="3">
+                              <p _msttexthash="36390250" _msthidden="1" _msthash="225"><span class="sys-tags2">山手線</span> <span class="sys-tags3">田町駅</span> 徒歩<span class="sys-number3">9</span>分</p>
+                              <p class="sys-category1" _msttexthash="15560688" _msthidden="1" _msthash="226">東京都港区</p>
+                              <p class="sys-column6" _msttexthash="370032" _msthidden="1" _msthash="227">3LDK+WIC+SIC+Utility</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="10940553" _msthidden="1" _msthash="228">
+                              賃料<strong class="__price sys-number2">2,600,000</strong>円
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- 繰り返し要素ここまで -->
+                    <div class="swiper-slide c-card swiper-slide-next" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="2 / 21" _mstaria-label="21658" _msthash="229">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835/301" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500301c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="86031933" _msthash="230"><span class="sys-column2">PLANE　SOCIE＋　SAKURADAI</span> <span class="sys-column5">３０１</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1895972" _msthash="231"><span class="sys-tags2" _istranslated="1">Seibu Yurakucho</span> <span class="sys-tags3" _istranslated="1">Shin-Sakuradai Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="232">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="20306" _msthash="233">1DK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="190801" _msthash="234"> Rent <strong class="__price sys-number2" _istranslated="1">169,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="3 / 21" _mstaria-label="21749" _msthash="235">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835/211" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500211c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="86031946" _msthash="236"><span class="sys-column2">PLANE　SOCIE＋　SAKURADAI</span> <span class="sys-column5">２１１</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1895972" _msthash="237"><span class="sys-tags2" _istranslated="1">Seibu Yurakucho</span> <span class="sys-tags3" _istranslated="1">Shin-Sakuradai Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="238">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="20306" _msthash="239">1DK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="207207" _msthash="240"> Rent<strong class="__price sys-number2" _istranslated="1">: 165,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="4 / 21" _mstaria-label="21840" _msthash="241">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835/207" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500207c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="86033844" _msthash="242"><span class="sys-column2">PLANE　SOCIE＋　SAKURADAI</span> <span class="sys-column5">２０７</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1895972" _msthash="243"><span class="sys-tags2" _istranslated="1">Seibu Yurakucho</span> <span class="sys-tags3" _istranslated="1">Shin-Sakuradai Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="244">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="20306" _msthash="245">1DK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="207207" _msthash="246"> Rent<strong class="__price sys-number2" _istranslated="1">: 165,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="5 / 21" _mstaria-label="21931" _msthash="247">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835/104" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500104c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="86032362" _msthash="248"><span class="sys-column2">PLANE　SOCIE＋　SAKURADAI</span> <span class="sys-column5">１０４</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1895972" _msthash="249"><span class="sys-tags2" _istranslated="1">Seibu Yurakucho</span> <span class="sys-tags3" _istranslated="1">Shin-Sakuradai Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="250">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="20306" _msthash="251">1DK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="190645" _msthash="252"> Rent <strong class="__price sys-number2" _istranslated="1">159,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="6 / 21" _mstaria-label="22022" _msthash="253">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835/103" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500103c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="86031985" _msthash="254"><span class="sys-column2">PLANE　SOCIE＋　SAKURADAI</span> <span class="sys-column5">１０３</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1895972" _msthash="255"><span class="sys-tags2" _istranslated="1">Seibu Yurakucho</span> <span class="sys-tags3" _istranslated="1">Shin-Sakuradai Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="256">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="20306" _msthash="257">1DK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="190645" _msthash="258"> Rent <strong class="__price sys-number2" _istranslated="1">159,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="7 / 21" _mstaria-label="22113" _msthash="259">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835/102" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500102c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="86031608" _msthash="260"><span class="sys-column2">PLANE　SOCIE＋　SAKURADAI</span> <span class="sys-column5">１０２</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1895972" _msthash="261"><span class="sys-tags2" _istranslated="1">Seibu Yurakucho</span> <span class="sys-tags3" _istranslated="1">Shin-Sakuradai Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="262">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="20306" _msthash="263">1DK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="190645" _msthash="264"> Rent <strong class="__price sys-number2" _istranslated="1">159,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="8 / 21" _mstaria-label="22204" _msthash="265">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835/305" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500305c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="86033441" _msthash="266"><span class="sys-column2">PLANE　SOCIE＋　SAKURADAI</span> <span class="sys-column5">３０５</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1895972" _msthash="267"><span class="sys-tags2" _istranslated="1">Seibu Yurakucho</span> <span class="sys-tags3" _istranslated="1">Shin-Sakuradai Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="268">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="12259" _msthash="269">1K</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="190632" _msthash="270"> Rent <strong class="__price sys-number2" _istranslated="1">168,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="9 / 21" _mstaria-label="22295" _msthash="271">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10835/106" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500106c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="86033116" _msthash="272"><span class="sys-column2">PLANE　SOCIE＋　SAKURADAI</span> <span class="sys-column5">１０６</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1895972" _msthash="273"><span class="sys-tags2" _istranslated="1">Seibu Yurakucho</span> <span class="sys-tags3" _istranslated="1">Shin-Sakuradai Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="274">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="12259" _msthash="275">1K</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="207584" _msthash="276"> Rent<strong class="__price sys-number2" _istranslated="1">: 158,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="10 / 21" _mstaria-label="28457" _msthash="277">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/8227/203" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/08227/0822700203c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="300365" _msthash="278"><span class="sys-column2" _istranslated="1">VALOTA Hikawadai</span> <span class="sys-column5" _istranslated="1">203</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1497795" _msthash="279"><span class="sys-tags2" _istranslated="1">Yurakucho Line</span> <span class="sys-tags3" _istranslated="1">Hikawadai Station</span> <span class="sys-number3" _istranslated="1">4</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="280">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="30069" _msthash="281">1LDK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="190138" _msthash="282"> Rent <strong class="__price sys-number2" _istranslated="1">156,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="11 / 21" _mstaria-label="28561" _msthash="283">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10603/405" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10603/1060300405c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="168909" _msthash="284"><span class="sys-column2" _istranslated="1">Diosprado</span> <span class="sys-column5" _istranslated="1">405</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1374243" _msthash="285"><span class="sys-tags2" _istranslated="1">Yurakucho Line</span> <span class="sys-tags3" _istranslated="1">Chikawa Station</span> <span class="sys-number3" _istranslated="1">5</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="297362" _msthash="286">Toshima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="30069" _msthash="287">1LDK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="206843" _msthash="288"> Rent<strong class="__price sys-number2" _istranslated="1">: 163,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="12 / 21" _mstaria-label="28665" _msthash="289">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/8199/211" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/08199/0819900211c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="425698" _msthash="290"><span class="sys-column2" _istranslated="1">Musashino Residence</span> <span class="sys-column5" _istranslated="1">211</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1561053" _msthash="291"><span class="sys-tags2" _istranslated="1">Seibu Ikebukuro Line</span> <span class="sys-tags3" _istranslated="1">Ekoda Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="292">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="33163" _msthash="293">SLDK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="190801" _msthash="294"> Rent <strong class="__price sys-number2" _istranslated="1">169,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="13 / 21" _mstaria-label="28769" _msthash="295">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10805/538" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10805/1080500538c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="572559" _msthash="296"><span class="sys-column2" _istranslated="1">Royal Parks Akabane North</span> <span class="sys-column5" _istranslated="1">538</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1198938" _msthash="297"><span class="sys-tags2" _istranslated="1">Namboku Line</span> <span class="sys-tags3" _istranslated="1">Shimao Station</span> <span class="sys-number3" _istranslated="1">8</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="213681" _msthash="298">Kita-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="60476" _msthash="299">1DK+SIC</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="206492" _msthash="300"> Rent<strong class="__price sys-number2" _istranslated="1">: 152,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="14 / 21" _mstaria-label="28873" _msthash="301">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10805/535" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10805/1080500535c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="571350" _msthash="302"><span class="sys-column2" _istranslated="1">Royal Parks Akabane North</span> <span class="sys-column5" _istranslated="1">535</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1198938" _msthash="303"><span class="sys-tags2" _istranslated="1">Namboku Line</span> <span class="sys-tags3" _istranslated="1">Shimao Station</span> <span class="sys-number3" _istranslated="1">8</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="213681" _msthash="304">Kita-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="60476" _msthash="305">1DK+SIC</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="206492" _msthash="306"> Rent<strong class="__price sys-number2" _istranslated="1">: 152,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="15 / 21" _mstaria-label="28977" _msthash="307">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10805/438" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10805/1080500438c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="572182" _msthash="308"><span class="sys-column2" _istranslated="1">Royal Parks Akabane North</span> <span class="sys-column5" _istranslated="1">438</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1198938" _msthash="309"><span class="sys-tags2" _istranslated="1">Namboku Line</span> <span class="sys-tags3" _istranslated="1">Shimao Station</span> <span class="sys-number3" _istranslated="1">8</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="213681" _msthash="310">Kita-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="60476" _msthash="311">1DK+SIC</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="206310" _msthash="312"> Rent<strong class="__price sys-number2" _istranslated="1">: 151,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="16 / 21" _mstaria-label="29081" _msthash="313">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10805/435" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10805/1080500435c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="570973" _msthash="314"><span class="sys-column2" _istranslated="1">Royal Parks Akabane North</span> <span class="sys-column5" _istranslated="1">435</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1198938" _msthash="315"><span class="sys-tags2" _istranslated="1">Namboku Line</span> <span class="sys-tags3" _istranslated="1">Shimao Station</span> <span class="sys-number3" _istranslated="1">8</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="213681" _msthash="316">Kita-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="60476" _msthash="317">1DK+SIC</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="206310" _msthash="318"> Rent<strong class="__price sys-number2" _istranslated="1">: 151,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="17 / 21" _mstaria-label="29185" _msthash="319">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10347/401" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10347/1034700401c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="396136" _msthash="320"><span class="sys-column2" _istranslated="1">Duo Flats Ikebukuro</span> <span class="sys-column5" _istranslated="1">401</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1450189" _msthash="321"><span class="sys-tags2" _istranslated="1">Yamanote Line</span> <span class="sys-tags3" _istranslated="1">Ikebukuro Station</span> <span class="sys-number3" _istranslated="1">9</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="297362" _msthash="322">Toshima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="30069" _msthash="323">1LDK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="207584" _msthash="324"> Rent<strong class="__price sys-number2" _istranslated="1">: 158,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="18 / 21" _mstaria-label="29289" _msthash="325">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10680/1204" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10680/1068001204c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="1223521" _msthash="326"><span class="sys-column2" _istranslated="1">Park Axis Itabashi Honmachi Station Gate</span> <span class="sys-column5" _istranslated="1">1204</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1896037" _msthash="327"><span class="sys-tags2" _istranslated="1">Toei Mita Line</span> <span class="sys-tags3" _istranslated="1">Itabashi Honmachi Station</span> <span class="sys-number3" _istranslated="1">3</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="361452" _msthash="328">Itabashi Ward, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="20306" _msthash="329">1DK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="207038" _msthash="330"> Rent<strong class="__price sys-number2" _istranslated="1">: 155,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="19 / 21" _mstaria-label="29393" _msthash="331">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10282/602" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10282/1028200602c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="59432594" _msthash="332"><span class="sys-column2">ＥＮＹＡ</span> <span class="sys-column5">６０２</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1535326" _msthash="333"><span class="sys-tags2" _istranslated="1">Tobu Tojo Line</span> <span class="sys-tags3" _istranslated="1">Tobu Nerima Station</span> <span class="sys-number3" _istranslated="1">10</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="267085" _msthash="334">Nerima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="33155057" _msthash="335">1LDK+ＷＩＣ</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="190645" _msthash="336"> Rent <strong class="__price sys-number2" _istranslated="1">159,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="20 / 21" _mstaria-label="28548" _msthash="337">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/5024/804" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/05024/0502400804c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="798291" _msthash="338"><span class="sys-column2" _istranslated="1">Talk Nishi-Ikebukuro Wellfort</span> <span class="sys-column5" _istranslated="1">804</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1629277" _msthash="339"><span class="sys-tags2" _istranslated="1">Yurakucho Line</span> <span class="sys-tags3" _istranslated="1">Kanamemachi Station</span> <span class="sys-number3" _istranslated="1">6</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="297362" _msthash="340">Toshima-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="30160" _msthash="341">2LDK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="206986" _msthash="342"> Rent<strong class="__price sys-number2" _istranslated="1">: 191,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div><div class="swiper-slide c-card" style="display: block; width: 228.286px; margin-right: 24px;" role="group" aria-label="21 / 21" _mstaria-label="28652" _msthash="343">
+                        <a href="https://www.mitsui-chintai.co.jp/rf/tatemono/10476/1313" class="c-card__link sys-column3">
+                          <div class="c-card__img c-card-recommend__img">
+                            <img src="https://www.mitsui-chintai.co.jp/rf/resized/10476/1047601313c.jpg" alt="" class="--contain sys-column4">
+                          </div>
+                          <div class="c-card__body">
+                            <div class="c-card__title">
+                              <h3 class="c-card__h" _msttexthash="813137" _msthash="344"><span class="sys-column2" _istranslated="1">HARUMI FLAG PORT VILLAGE Building A</span> <span class="sys-column5" _istranslated="1">1313</span></h3>
+                            </div>
+                            <div class="c-card__text c-card-recommend__info">
+                              <p _msttexthash="1228240" _msthash="345"><span class="sys-tags2" _istranslated="1">Oedo Line</span> <span class="sys-tags3" _istranslated="1">Kachidoki Station</span> <span class="sys-number3" _istranslated="1">12</span> minutes walk</p>
+                              <p class="sys-category1" _msttexthash="214786" _msthash="346">Chuo-ku, Tokyo</p>
+                              <p class="sys-column6" _msttexthash="30069" _msthash="347">1LDK</p>
+                            </div>
+                            <p class="c-card__text c-card-recommend__rent" _msttexthash="207051" _msthash="348"> Rent<strong class="__price sys-number2" _istranslated="1">: 227,000</strong> yen </p>
+                          </div>
+                        </a>
+                      </div></div>
+                    <div class="swiper-button-prev c-prop-slider__btn --prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="sys-recomend-container" aria-disabled="true" _msthidden="A" _mstaria-label="235768" _msthash="349"></div>
+                    <div class="swiper-button-next c-prop-slider__btn --next" tabindex="0" role="button" aria-label="Next slide" aria-controls="sys-recomend-container" aria-disabled="false" _msthidden="A" _mstaria-label="135655" _msthash="350"></div>
+                    <div class="c-prop-slider__pagination swiper-pagination-progressbar swiper-pagination-horizontal"><span class="swiper-pagination-progressbar-fill" style="transform: translate3d(0px, 0px, 0px) scaleX(0.0555556) scaleY(1); transition-duration: 300ms;"></span></div>
+                    
+                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                </div>
+              </section>
+
+
+              
+              
+              
+              
+              
+              
+            </div>
+          </div>
+        </div><!--/.l-buildroom__detail-->
+
+      </div><!-- /.l-buildroom -->
+
+    </form>
+
+  </div><!--/.l-main__content-->
+
+</div><!-- /.l-main -->
+
+<!-- dataLayer -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var google_tag_params = {
+    listing_device: 'PC',
+    listing_itemid: '10835＋101',
+    listing_pvalue: '1',
+    listing_station: '1'
+  };
+  var dataLayer = [{
+    google_tag_params: window.google_tag_params
+  }];
+  /* ]]> */
+</script>
+<!-- End dataLayer -->
+
+  </main>

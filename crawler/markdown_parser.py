@@ -69,10 +69,21 @@ class MarkdownParser:
                 if district_match and not data['district']:
                     data['district'] = district_match.group(1)
                 
-                # Extract chome-banchi
-                chome_match = re.search(r'(\d+丁目\d+番\d+号?)', remaining)
-                if chome_match and not data['chome_banchi']:
-                    data['chome_banchi'] = chome_match.group(1)
+                # Improved chome-banchi extraction with more patterns
+                chome_patterns = [
+                    r'(\d+丁目\d+番\d+号)',  # Full format: 三丁目２０番３号
+                    r'(\d+丁目\d+番)',       # Partial: 三丁目２０番
+                    r'(\d+丁目)',            # Just chome: 三丁目
+                    r'([一二三四五六七八九十]+丁目[一二三四五六七八九十〇]+番[一二三四五六七八九十〇]+号)', # Kanji numbers
+                    r'([一二三四五六七八九十]+丁目[一二三四五六七八九十〇]+番)', # Kanji partial
+                    r'([一二三四五六七八九十]+丁目)'  # Kanji chome only
+                ]
+                
+                for pattern in chome_patterns:
+                    chome_match = re.search(pattern, remaining)
+                    if chome_match and not data['chome_banchi']:
+                        data['chome_banchi'] = chome_match.group(1)
+                        break
                 break
         
         return data
@@ -80,20 +91,47 @@ class MarkdownParser:
     def _extract_station_info(self, line: str, data: Dict[str, Any], station_count: int) -> int:
         """Extract station information từ line"""
         if '駅' in line and station_count <= self.config.MAX_STATIONS:
-            # Extract station name
-            station_match = re.search(r'([^駅\s]+駅)', line)
-            if station_match:
-                station_field = f'station_name_{station_count}'
-                if not data[station_field]:
-                    data[station_field] = station_match.group(1)
+            # Flexible station name extraction patterns
+            station_patterns = [
+                # Station with walking time patterns
+                r'([ぁ-ゟ一-龯ァ-ヾa-zA-Z]{2,}駅).*?(\d+)\s*分',
+                r'([ぁ-ゟ一-龯ァ-ヾa-zA-Z]{2,}駅).*?徒歩(\d+)分',
+                
+                # General station patterns
+                r'([ぁ-ゟ一-龯ァ-ヾ]{2,}駅)',  # Japanese characters (at least 2) + 駅
+                r'([a-zA-Z]{2,}駅)',  # English (at least 2) + 駅
+            ]
+            
+            for pattern in station_patterns:
+                station_matches = re.findall(pattern, line)
+                for match in station_matches:
+                    if isinstance(match, tuple):
+                        station_name, walk_time = match[0], match[1] if len(match) > 1 else None
+                    else:
+                        station_name, walk_time = match, None
                     
-                    # Extract train line
-                    self._extract_train_line(line, data, station_count)
-                    
-                    # Extract transportation times
-                    self._extract_transportation_times(line, data, station_count)
-                    
-                    station_count += 1
+                    # Validate station name
+                    if self._is_valid_station_name(station_name):
+                        station_field = f'station_name_{station_count}'
+                        if not data[station_field]:
+                            data[station_field] = station_name
+                            
+                            # Set walk time if found
+                            if walk_time:
+                                walk_field = f'walk_{station_count}'
+                                if not data[walk_field]:
+                                    data[walk_field] = walk_time
+                            
+                            # Extract train line
+                            self._extract_train_line(line, data, station_count)
+                            
+                            # Extract transportation times (if not already set)
+                            if not walk_time:
+                                self._extract_transportation_times(line, data, station_count)
+                            
+                            station_count += 1
+                            if station_count > self.config.MAX_STATIONS:
+                                break
         
         return station_count
     
@@ -155,16 +193,22 @@ class MarkdownParser:
             date_patterns = [
                 r'入居可能日[：:]\s*([^\n]+)',
                 r'(\d{4}年\d{1,2}月\d{1,2}日)',
+                r'(\d{1,2}月\d{1,2}日)',  # Month and day only
+                r'(\d{1,2}月上旬)',       # Early month
+                r'(\d{1,2}月中旬)',       # Mid month  
+                r'(\d{1,2}月下旬)',       # Late month
+                r'(\d{1,2}月末)',         # End of month
                 r'即入居可',
-                r'相談'
+                r'相談',
+                r'要相談'
             ]
             
             for pattern in date_patterns:
                 date_match = re.search(pattern, line)
                 if date_match:
-                    if pattern == r'即入居可':
+                    if pattern in [r'即入居可']:
                         data['available_from'] = '即入居可'
-                    elif pattern == r'相談':
+                    elif pattern in [r'相談', r'要相談']:
                         data['available_from'] = '相談'
                     else:
                         data['available_from'] = date_match.group(1).strip()
@@ -197,3 +241,31 @@ class MarkdownParser:
                     break
         
         return data
+    
+    def _is_valid_station_name(self, station_name: str) -> bool:
+        """Validate if station name is reasonable and not a false positive"""
+        if not station_name or len(station_name) < 3:
+            return False
+            
+        # Invalid patterns that commonly appear in false positives
+        invalid_patterns = [
+            '建物', '出入口', '起点', '掲載', '徒歩分数', '分数', '建物の',
+            'minutes', 'foot', 'walk', 'station', '駅駅', '・駅', '、駅',
+            '[駅', '駅', '建物の出入口を起点とし駅', '起点とし駅', 
+            '出入口を起点とし駅', '掲載の徒歩分数は、建物の出入口を起点とし駅'
+        ]
+        
+        # Check if station name contains any invalid patterns
+        for invalid in invalid_patterns:
+            if invalid in station_name:
+                return False
+        
+        # Additional validation: station name should not be too long
+        if len(station_name) > 15:
+            return False
+            
+        # Should contain at least one Japanese character or be a known English station
+        has_japanese = any('\u3040' <= char <= '\u309F' or '\u30A0' <= char <= '\u30FF' or '\u4E00' <= char <= '\u9FAF' for char in station_name)
+        has_english = any('a' <= char.lower() <= 'z' for char in station_name)
+        
+        return has_japanese or has_english
