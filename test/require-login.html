@@ -1,0 +1,78 @@
+<!-- Yêu cầu đăng nhập trước khi thấy nội dung -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Comment Page</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .comment { border-bottom: 1px solid #ddd; padding: 10px 0; }
+    .username { font-weight: bold; color: #333; }
+    .text { margin-top: 5px; }
+    #login-form { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Login to see comments</h1>
+  <div id="login-form">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="login-msg" style="color:red;"></p>
+  </div>
+
+  <div id="comment-list"></div>
+
+  <script>
+    const encodedComments = [
+      { user: "Grph", text: "Khoor, wklv lv d whvw frpphqw!" },
+      { user: "Mrk", text: "Lw'v djdwdo, exw lw'v ixq!" },
+      { user: "Wdo", text: "Fdhvdu flskhu lv ixq!" }
+    ];
+
+    function decode(str) {
+      return str.replace(/[a-zA-Z]/g, function(c) {
+        let base = c <= "Z" ? 65 : 97;
+        return String.fromCharCode((c.charCodeAt(0) - base - 3 + 26) % 26 + base);
+      });
+    }
+
+    function login() {
+      const user = document.getElementById("username").value;
+      const pass = document.getElementById("password").value;
+      const msg = document.getElementById("login-msg");
+
+      // Giả lập login: username "admin", password "123"
+      if(user === "admin" && pass === "123") {
+        document.getElementById("login-form").style.display = "none";
+        showComments();
+      } else {
+        msg.textContent = "Login failed!";
+      }
+    }
+
+    function showComments() {
+      const container = document.getElementById("comment-list");
+      encodedComments.forEach((c, idx) => {
+        setTimeout(() => {
+          const div = document.createElement("div");
+          div.classList.add("comment");
+
+          const userDiv = document.createElement("div");
+          userDiv.classList.add("username");
+          userDiv.textContent = decode(c.user);
+
+          const textDiv = document.createElement("div");
+          textDiv.classList.add("text");
+          textDiv.textContent = decode(c.text);
+
+          div.appendChild(userDiv);
+          div.appendChild(textDiv);
+          container.appendChild(div);
+        }, idx * 800 + Math.random() * 500);
+      });
+    }
+  </script>
+</body>
+</html>

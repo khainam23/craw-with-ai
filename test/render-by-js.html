@@ -1,0 +1,68 @@
+<!-- Dùng js load thông tin ra -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Comment List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .comment {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .username {
+      font-weight: bold;
+      color: #333;
+    }
+    .text {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Comments</h1>
+  <div id="comment-list"></div>
+
+  <script>
+    // Mảng comment "mã hóa" (simple Caesar cipher shift 3)
+    const encodedComments = [
+      { user: "Grph", text: "Khoor, wklv lv d whvw frpphqw!" },
+      { user: "Mrk", text: "Lw'v djdwdo, exw lw'v ixq!" },
+      { user: "Wdo", text: "Fdhvdu flskhu lv ixq!" }
+    ];
+
+    function decode(str) {
+      return str.replace(/[a-zA-Z]/g, function(c) {
+        let base = c <= "Z" ? 65 : 97;
+        return String.fromCharCode((c.charCodeAt(0) - base - 3 + 26) % 26 + base);
+      });
+    }
+
+    const container = document.getElementById("comment-list");
+
+    // Render comment với delay ngẫu nhiên (fake human behavior)
+    encodedComments.forEach((c, idx) => {
+      setTimeout(() => {
+        const div = document.createElement("div");
+        div.classList.add("comment");
+
+        const userDiv = document.createElement("div");
+        userDiv.classList.add("username");
+        userDiv.textContent = decode(c.user);
+
+        const textDiv = document.createElement("div");
+        textDiv.classList.add("text");
+        textDiv.textContent = decode(c.text);
+
+        div.appendChild(userDiv);
+        div.appendChild(textDiv);
+        container.appendChild(div);
+      }, idx * 800 + Math.random() * 500); // random delay
+    });
+  </script>
+</body>
+</html>
