@@ -4,7 +4,10 @@ from crawler import EnhancedPropertyCrawler
 
 async def main():
     start = datetime.now()
-    urls = ["https://www.mitsui-chintai.co.jp/rf/tatemono/10835/101"]
+    urls = [
+        "https://www.mitsui-chintai.co.jp/rf/tatemono/10835/101", 
+        "https://www.mitsui-chintai.co.jp/rf/tatemono/10835/102"
+    ]
 
     crawler = EnhancedPropertyCrawler()
     print("\n=== 😶‍🌫️☀️😁😂😑🤷‍♂️ ===")

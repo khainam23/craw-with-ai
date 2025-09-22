@@ -13,29 +13,48 @@ class EnhancedPropertyCrawler:
     def __init__(self):
         self.extractor = PropertyExtractor()
 
-    async def _crawl_single_property(self, url: str) -> Dict[str, Any]:
+    async def _crawl_single_property(self, url: str, verbose: bool = True) -> Dict[str, Any]:
         """
         Private method để crawl một property
+        
+        Args:
+            url: URL to crawl
+            verbose: Whether to print progress messages (default: True)
         """
-        print(f"🚀 Crawling: {url}")
+        if verbose:
+            print(f"🚀 Crawling: {url}")
         
-        # Extract dữ liệu bằng crawl4ai
-        result = await self.extractor.extract_property_data(url)
-        
-        if result['success']:
-            # Validate và tạo PropertyModel
-            property_model = self.extractor.validate_and_create_property_model(
-                result['property_data']
-            )
+        try:
+            # Extract dữ liệu bằng crawl4ai
+            result = await self.extractor.extract_property_data(url)
             
-            # Convert về dict để serialize JSON
-            result['property_data'] = property_model.dict(exclude_none=True)
+            if result['success']:
+                # Validate và tạo PropertyModel
+                property_model = self.extractor.validate_and_create_property_model(
+                    result['property_data']
+                )
+                
+                # Convert về dict để serialize JSON
+                result['property_data'] = property_model.dict(exclude_none=True)
+                
+                if verbose:
+                    print(f"✅ Success: Extracted {len(result['property_data'])} fields")
+            else:
+                if verbose:
+                    print(f"❌ Failed: {result.get('error', 'Unknown error')}")
             
-            print(f"✅ Success: Extracted {len(result['property_data'])} fields")
-        else:
-            print(f"❌ Failed: {result.get('error', 'Unknown error')}")
-        
-        return result
+            return result
+            
+        except Exception as e:
+            error_result = {
+                'success': False,
+                'url': url,
+                'error': str(e),
+                'crawl_timestamp': datetime.now().isoformat()
+            }
+            if verbose:
+                print(f"❌ Exception crawling {url}: {e}")
+            return error_result
 
     async def crawl_multiple_properties(self, urls: List[str]) -> List[Dict[str, Any]]:
         """

@@ -1,0 +1,5068 @@
+[
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/379",
+    "crawl_timestamp": "2025-09-22T16:56:42.638381",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/379",
+      "property_csv_id": "PROP_379",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "六本木七丁目１９番１１号",
+      "building_type": "マンション",
+      "building_name_en": "六本木プレイス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "六本木プレイス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "7",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "23.84",
+      "available_from": "1997年12月01日",
+      "property_description_en": "六本木プレイス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "六本木プレイス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "7",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/00379/00379a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/00379/00379a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/00379/00379a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/00379/00379a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/00379/00379a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/00379/00379a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/00379/0037900403c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67449/67449a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10095/10095a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10680/10680a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:56:41.527272"
+    },
+    "raw_html_length": 326293,
+    "metadata": {
+      "title": "六本木プレイス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "六本木プレイス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "六本木プレイス,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/5995",
+    "crawl_timestamp": "2025-09-22T16:56:43.939071",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/5995",
+      "property_csv_id": "PROP_5995",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "パークルージュ赤坂檜町 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークルージュ赤坂檜町 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "14",
+      "bicycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "25.38",
+      "available_from": "2005年02月04日",
+      "property_description_en": "パークルージュ赤坂檜町 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークルージュ赤坂檜町 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "14",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05995/05995a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05995/05995a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05995/05995a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05995/05995a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05995/05995a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05995/05995a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05995/05995a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05995/05995a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599500202c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599500514c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599500409c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599500410c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599500513c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599500608c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599500609c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599500401c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599501103c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05995/0599500802c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:56:42.973860"
+    },
+    "raw_html_length": 348733,
+    "metadata": {
+      "title": "パークルージュ赤坂檜町 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークルージュ赤坂檜町 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークルージュ赤坂檜町,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/6757",
+    "crawl_timestamp": "2025-09-22T16:56:39.278765",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/6757",
+      "property_csv_id": "PROP_6757",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "六本木七丁目６番２号",
+      "building_type": "マンション",
+      "building_name_en": "六本木エムケイアートレジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "六本木エムケイアートレジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "8",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "25.96",
+      "available_from": "2009年06月30日",
+      "property_description_en": "六本木エムケイアートレジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "六本木エムケイアートレジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "8",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06757/0675700306c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:56:38.074976"
+    },
+    "raw_html_length": 324142,
+    "metadata": {
+      "title": "六本木エムケイアートレジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "六本木エムケイアートレジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "六本木エムケイアートレジデンス,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/66713",
+    "crawl_timestamp": "2025-09-22T16:56:45.128353",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/66713",
+      "property_csv_id": "PROP_66713",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "パークリュクス西麻布 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークリュクス西麻布 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "六本木駅",
+      "train_line_name_2": "日比谷線",
+      "station_name_3": "乃木坂駅",
+      "train_line_name_3": "千代田線",
+      "station_name_4": "表参道駅",
+      "train_line_name_4": "銀座線",
+      "station_name_5": "赤坂駅",
+      "train_line_name_5": "千代田線",
+      "floors": "12",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "31.24",
+      "available_from": "相談",
+      "property_description_en": "パークリュクス西麻布 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークリュクス西麻布 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "12",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/66713/6671300405c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06876/0687600804c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/00379/00379a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06239/06239a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69189/69189a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05995/05995a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08206/08206a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73809/73809a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06326/06326a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05769/05769a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/71986/71986a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08449/08449a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62388/62388a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08474/08474a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07338/07338a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05792/05792a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:56:44.190847"
+    },
+    "raw_html_length": 314383,
+    "metadata": {
+      "title": "パークリュクス西麻布 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークリュクス西麻布 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークリュクス西麻布,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/7462",
+    "crawl_timestamp": "2025-09-22T16:56:40.923634",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/7462",
+      "property_csv_id": "PROP_7462",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂三丁目１０番１２号",
+      "building_type": "マンション",
+      "building_name_en": "パークアクシス赤坂見附 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークアクシス赤坂見附 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "13",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "24.80",
+      "available_from": "2015年01月15日",
+      "property_description_en": "パークアクシス赤坂見附 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークアクシス赤坂見附 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "1",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07462/0746200308c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07462/0746200608c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07462/0746201107c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07462/0746200302c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07462/0746200206c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07462/0746200701c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07462/0746200305c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:56:39.893408"
+    },
+    "raw_html_length": 340531,
+    "metadata": {
+      "title": "パークアクシス赤坂見附 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークアクシス赤坂見附 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークアクシス赤坂見附,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/7996",
+    "crawl_timestamp": "2025-09-22T16:57:02.531264",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/7996",
+      "property_csv_id": "PROP_7996",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂四丁目９番１１号",
+      "building_type": "マンション",
+      "building_name_en": "ルビア赤坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "ルビア赤坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "12",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "27.99",
+      "available_from": "2019年08月01日",
+      "property_description_en": "ルビア赤坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "ルビア赤坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "12",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07996/0799600905c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07996/0799601005c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07996/0799601108c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07996/0799600301c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:01.288816"
+    },
+    "raw_html_length": 326954,
+    "metadata": {
+      "title": "ルビア赤坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "ルビア赤坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "ルビア赤坂,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/7839",
+    "crawl_timestamp": "2025-09-22T16:57:04.737725",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/7839",
+      "property_csv_id": "PROP_7839",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "西麻布四丁目１番１１号",
+      "building_type": "マンション",
+      "building_name_en": "ＡＬＩＶＩＯ西麻布 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "ＡＬＩＶＩＯ西麻布 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "9",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "30.48",
+      "available_from": "2017年03月24日",
+      "property_description_en": "ＡＬＩＶＩＯ西麻布 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "ＡＬＩＶＩＯ西麻布 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "9",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07839/07839a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07839/0783900304c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07839/0783900802c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:03.722028"
+    },
+    "raw_html_length": 320356,
+    "metadata": {
+      "title": "ＡＬＩＶＩＯ西麻布 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "ＡＬＩＶＩＯ西麻布 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "ＡＬＩＶＩＯ西麻布,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/6221",
+    "crawl_timestamp": "2025-09-22T16:57:07.291344",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/6221",
+      "property_csv_id": "PROP_6221",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂２丁目１２番３０号",
+      "building_type": "マンション",
+      "building_name_en": "パークアクシス溜池山王 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークアクシス溜池山王 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "三井不動産企画の高級賃貸マンション。赤坂駅",
+      "train_line_name_1": "--xs --pc-md --icon-after --i-link-outオリジナルサイト",
+      "walk_1": "2",
+      "station_name_2": "赤坂駅",
+      "station_name_3": "田町駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "押上駅",
+      "train_line_name_4": "半蔵門線",
+      "station_name_5": "品川駅",
+      "train_line_name_5": "山手線",
+      "floors": "15",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "26.45",
+      "available_from": "2005年12月14日",
+      "property_description_en": "パークアクシス溜池山王 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークアクシス溜池山王 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "15",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06221/0622101304c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06221/0622100703c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06221/0622101601c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06221/0622100302c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06221/0622100802c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67449/67449a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10095/10095a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10680/10680a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60666/60666a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73845/73845a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:06.316316"
+    },
+    "raw_html_length": 327824,
+    "metadata": {
+      "title": "パークアクシス溜池山王 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークアクシス溜池山王 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークアクシス溜池山王,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/10051",
+    "crawl_timestamp": "2025-09-22T16:57:05.992933",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/10051",
+      "property_csv_id": "PROP_10051",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂二丁目６番４号",
+      "building_type": "マンション",
+      "building_name_en": "パークアクシス赤坂山王 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークアクシス赤坂山王 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "赤坂駅",
+      "train_line_name_2": "千代田線",
+      "station_name_3": "赤坂見附駅",
+      "train_line_name_3": "丸ノ内線",
+      "station_name_4": "溜池山王駅",
+      "train_line_name_4": "南北線",
+      "station_name_5": "永田町駅",
+      "train_line_name_5": "有楽町線",
+      "floors": "15",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "31.37",
+      "available_from": "2021年02月10日",
+      "property_description_en": "パークアクシス赤坂山王 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークアクシス赤坂山王 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "15",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10051/1005100601c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10051/1005100904c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10051/1005101201c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06221/06221a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07436/07436a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:05.045257"
+    },
+    "raw_html_length": 320228,
+    "metadata": {
+      "title": "パークアクシス赤坂山王 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークアクシス赤坂山王 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークアクシス赤坂山王,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/8206",
+    "crawl_timestamp": "2025-09-22T16:57:08.991038",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/8206",
+      "property_csv_id": "PROP_8206",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "南青山七丁目１０番１０号",
+      "building_type": "マンション",
+      "building_name_en": "パークアクシス南青山七丁目 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークアクシス南青山七丁目 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "10",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "30.15",
+      "available_from": "2018年08月31日",
+      "property_description_en": "パークアクシス南青山七丁目 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークアクシス南青山七丁目 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "10",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08206/08206a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08206/08206a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08206/08206a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08206/08206a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08206/08206a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08206/08206a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08206/08206a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08206/08206a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/08206/0820600703c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/08206/0820600503c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/08206/0820600505c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:07.910955"
+    },
+    "raw_html_length": 333833,
+    "metadata": {
+      "title": "パークアクシス南青山七丁目 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークアクシス南青山七丁目 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークアクシス南青山七丁目,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/10178",
+    "crawl_timestamp": "2025-09-22T16:57:23.760248",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/10178",
+      "property_csv_id": "PROP_10178",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "六本木三丁目８番５号",
+      "building_type": "マンション",
+      "building_name_en": "オーキッドレジデンス六本木 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "オーキッドレジデンス六本木 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "「六本木駅",
+      "walk_1": "3",
+      "station_name_2": "田町駅",
+      "train_line_name_2": "山手線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "六本木駅",
+      "train_line_name_4": "大江戸線",
+      "station_name_5": "六本木一丁目駅",
+      "train_line_name_5": "南北線",
+      "floors": "14",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "gym": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "34.55",
+      "available_from": "2002年08月19日",
+      "property_description_en": "オーキッドレジデンス六本木 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "オーキッドレジデンス六本木 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "14",
+      "aircon": "Y",
+      "balcony": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "roof_balcony": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10178/1017801001c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10178/1017800802c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10178/1017800305c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10178/1017800302c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10178/1017800306c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05792/05792a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69842/69842a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08426/08426a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:22.481083"
+    },
+    "raw_html_length": 326100,
+    "metadata": {
+      "title": "オーキッドレジデンス六本木 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "オーキッドレジデンス六本木 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "オーキッドレジデンス六本木,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/7226",
+    "crawl_timestamp": "2025-09-22T16:57:32.776931",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/7226",
+      "property_csv_id": "PROP_7226",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "六本木３丁目７番１号",
+      "building_type": "マンション",
+      "building_name_en": "ＴＨＥ　ＲＯＰＰＯＮＧＩ　ＴＯＫＹＯ　ＳＵＰＥＲＩＯＲ　ＲＥＳＩＤＥＮＣＥ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "ＴＨＥ　ＲＯＰＰＯＮＧＩ　ＴＯＫＹＯ　ＳＵＰＥＲＩＯＲ　ＲＥＳＩＤＥＮＣＥ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "39",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "30.63",
+      "available_from": "2011年11月30日",
+      "property_description_en": "ＴＨＥ　ＲＯＰＰＯＮＧＩ　ＴＯＫＹＯ　ＳＵＰＥＲＩＯＲ　ＲＥＳＩＤＥＮＣＥ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "ＴＨＥ　ＲＯＰＰＯＮＧＩ　ＴＯＫＹＯ　ＳＵＰＥＲＩＯＲ　ＲＥＳＩＤＥＮＣＥ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "39",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a04.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600603c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600418c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600607c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600707c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600619c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600422c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600919c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600622c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600508c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600516c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600717c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600905c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600812c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07226/0722600514c.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:31.386020"
+    },
+    "raw_html_length": 374423,
+    "metadata": {
+      "title": "ＴＨＥ　ＲＯＰＰＯＮＧＩ　ＴＯＫＹＯ　ＳＵＰＥＲＩＯＲ　ＲＥＳＩＤＥＮＣＥ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "ＴＨＥ　ＲＯＰＰＯＮＧＩ　ＴＯＫＹＯ　ＳＵＰＥＲＩＯＲ　ＲＥＳＩＤＥＮＣＥ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "ＴＨＥ　ＲＯＰＰＯＮＧＩ　ＴＯＫＹＯ　ＳＵＰＥＲＩＯＲ　ＲＥＳＩＤＥＮＣＥ,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/8449",
+    "crawl_timestamp": "2025-09-22T16:57:28.832979",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/8449",
+      "property_csv_id": "PROP_8449",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "西麻布一丁目１３番１５号",
+      "building_type": "マンション",
+      "building_name_en": "ブリューム西麻布 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "ブリューム西麻布 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "7",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "39.21",
+      "available_from": "2021年03月11日",
+      "property_description_en": "ブリューム西麻布 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "ブリューム西麻布 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "7",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08449/08449a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08449/08449a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08449/08449a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08449/08449a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08449/08449a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08449/08449a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08449/08449a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08449/08449a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/08449/0844900501c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67449/67449a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:27.859767"
+    },
+    "raw_html_length": 314050,
+    "metadata": {
+      "title": "ブリューム西麻布 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "ブリューム西麻布 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "ブリューム西麻布,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/69842",
+    "crawl_timestamp": "2025-09-22T16:57:25.259735",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/69842",
+      "property_csv_id": "PROP_69842",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "ウェリス六本木 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "ウェリス六本木 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "六本木駅",
+      "train_line_name_2": "日比谷線",
+      "station_name_3": "六本木一丁目駅",
+      "train_line_name_3": "南北線",
+      "station_name_4": "神谷町駅",
+      "train_line_name_4": "日比谷線",
+      "station_name_5": "麻布十番駅",
+      "train_line_name_5": "南北線",
+      "floors": "17",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "37.14",
+      "available_from": "相談",
+      "property_description_en": "ウェリス六本木 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "ウェリス六本木 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "17",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69842/69842a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69842/69842a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/69842/6984200302c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60634/60634a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/70680/70680a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/68211/68211a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08426/08426a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60123/60123a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10178/10178a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05792/05792a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06757/06757a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60128/60128a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07134/07134a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07364/07364a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73896/73896a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63548/63548a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:24.095598"
+    },
+    "raw_html_length": 311753,
+    "metadata": {
+      "title": "ウェリス六本木 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "ウェリス六本木 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "ウェリス六本木,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/7436",
+    "crawl_timestamp": "2025-09-22T16:57:30.855794",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/7436",
+      "property_csv_id": "PROP_7436",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "ＭＦＰＲコート赤坂見附 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "ＭＦＰＲコート赤坂見附 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "12",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "33.41",
+      "available_from": "2006年02月15日",
+      "property_description_en": "ＭＦＰＲコート赤坂見附 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "ＭＦＰＲコート赤坂見附 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "12",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07436/07436a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07436/07436a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07436/0743600503c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07436/0743601003c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07436/0743600305c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67449/67449a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10095/10095a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10680/10680a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60666/60666a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73845/73845a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:29.878634"
+    },
+    "raw_html_length": 322725,
+    "metadata": {
+      "title": "ＭＦＰＲコート赤坂見附 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "ＭＦＰＲコート赤坂見附 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "ＭＦＰＲコート赤坂見附,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/6143",
+    "crawl_timestamp": "2025-09-22T16:57:44.397556",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/6143",
+      "property_csv_id": "PROP_6143",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "南青山６丁目８番８号",
+      "building_type": "マンション",
+      "building_name_en": "パークアクシス青山骨董通り | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークアクシス青山骨董通り | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "10",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "36.16",
+      "available_from": "2005年08月31日",
+      "property_description_en": "パークアクシス青山骨董通り 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークアクシス青山骨董通り 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "10",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06143/06143a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06143/06143a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06143/06143a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06143/06143a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06143/06143a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06143/06143a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06143/06143a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06143/06143a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06143/0614300406c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06143/0614300802c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06143/0614300902c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06143/0614300702c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06143/0614300603c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:43.277980"
+    },
+    "raw_html_length": 331461,
+    "metadata": {
+      "title": "パークアクシス青山骨董通り | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークアクシス青山骨董通り 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークアクシス青山骨董通り,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/8447",
+    "crawl_timestamp": "2025-09-22T16:57:46.378284",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/8447",
+      "property_csv_id": "PROP_8447",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂六丁目１１番４",
+      "building_type": "マンション",
+      "building_name_en": "パークアクシス赤坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークアクシス赤坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "11",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "35.54",
+      "available_from": "2020年01月31日",
+      "property_description_en": "パークアクシス赤坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークアクシス赤坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "11",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/08447/0844700804c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:45.134429"
+    },
+    "raw_html_length": 326057,
+    "metadata": {
+      "title": "パークアクシス赤坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークアクシス赤坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークアクシス赤坂,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/6703",
+    "crawl_timestamp": "2025-09-22T16:57:54.840831",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/6703",
+      "property_csv_id": "PROP_6703",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂四丁目１４番１４号",
+      "building_type": "マンション",
+      "building_name_en": "パークコート赤坂　ザ　タワー | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークコート赤坂　ザ　タワー | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "43",
+      "bicycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "elevator": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "40.54",
+      "available_from": "2009年06月23日",
+      "property_description_en": "パークコート赤坂　ザ　タワー 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークコート赤坂　ザ　タワー 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "43",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06703/0670302012c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67449/67449a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:53.731018"
+    },
+    "raw_html_length": 344164,
+    "metadata": {
+      "title": "パークコート赤坂　ザ　タワー | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークコート赤坂　ザ　タワー 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークコート赤坂　ザ　タワー,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/5035",
+    "crawl_timestamp": "2025-09-22T16:57:51.342098",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/5035",
+      "property_csv_id": "PROP_5035",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂四丁目２番２５号",
+      "building_type": "マンション",
+      "building_name_en": "パークオアシス赤坂丹後坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークオアシス赤坂丹後坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "4",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "53.85",
+      "available_from": "2003年10月31日",
+      "property_description_en": "パークオアシス赤坂丹後坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークオアシス赤坂丹後坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "4",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05035/0503500101c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/05035/0503500503c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:50.364832"
+    },
+    "raw_html_length": 320797,
+    "metadata": {
+      "title": "パークオアシス赤坂丹後坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークオアシス赤坂丹後坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークオアシス赤坂丹後坂,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/6239",
+    "crawl_timestamp": "2025-09-22T16:57:53.476399",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/6239",
+      "property_csv_id": "PROP_6239",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "六本木七丁目１番１４号",
+      "building_type": "マンション",
+      "building_name_en": "パークホームズ六本木乃木坂アーバンレジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークホームズ六本木乃木坂アーバンレジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "5",
+      "bicycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "53.74",
+      "available_from": "2006年03月31日",
+      "property_description_en": "パークホームズ六本木乃木坂アーバンレジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークホームズ六本木乃木坂アーバンレジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "5",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06239/06239a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06239/06239a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06239/06239a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06239/06239a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06239/06239a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06239/06239a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06239/06239a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06239/06239a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06239/0623900508c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67449/67449a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:57:52.351266"
+    },
+    "raw_html_length": 324380,
+    "metadata": {
+      "title": "パークホームズ六本木乃木坂アーバンレジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークホームズ六本木乃木坂アーバンレジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークホームズ六本木乃木坂アーバンレジデンス,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/10219",
+    "crawl_timestamp": "2025-09-22T16:58:14.348139",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/10219",
+      "property_csv_id": "PROP_10219",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "虎ノ門四丁目１番２０号",
+      "building_type": "マンション",
+      "building_name_en": "パークコート虎ノ門 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークコート虎ノ門 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "「神谷町」駅",
+      "walk_1": "4",
+      "station_name_2": "田町駅",
+      "train_line_name_2": "山手線",
+      "station_name_3": "神谷町駅",
+      "train_line_name_3": "日比谷線",
+      "station_name_4": "六本木一丁目駅",
+      "train_line_name_4": "南北線",
+      "station_name_5": "六本木駅",
+      "train_line_name_5": "大江戸線",
+      "floors": "21",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "44.26",
+      "available_from": "2022年01月31日",
+      "property_description_en": "パークコート虎ノ門 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークコート虎ノ門 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "21",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10219/1021900406c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10219/1021900606c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10219/1021900706c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10219/1021902102c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08426/08426a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60634/60634a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/70680/70680a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69842/69842a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/68211/68211a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:13.512426"
+    },
+    "raw_html_length": 308653,
+    "metadata": {
+      "title": "パークコート虎ノ門 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークコート虎ノ門 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークコート虎ノ門,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/10740",
+    "crawl_timestamp": "2025-09-22T16:58:12.948411",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/10740",
+      "property_csv_id": "PROP_10740",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂二丁目５番１７号",
+      "building_type": "マンション",
+      "building_name_en": "THE AKASAKA RESIDENCE S.O.A. -spirit of akasaka- | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "THE AKASAKA RESIDENCE S.O.A. -spirit of akasaka- | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "溜池山王駅",
+      "train_line_name_2": "銀座線",
+      "station_name_3": "赤坂駅",
+      "train_line_name_3": "千代田線",
+      "station_name_4": "永田町駅",
+      "train_line_name_4": "有楽町線",
+      "station_name_5": "赤坂見附駅",
+      "train_line_name_5": "丸ノ内線",
+      "floors": "10",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "60.05",
+      "available_from": "2025年04月10日",
+      "property_description_en": "THE AKASAKA RESIDENCE S.O.A. -spirit of akasaka- 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "THE AKASAKA RESIDENCE S.O.A. -spirit of akasaka- 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "10",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10740/1074000502c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10740/1074000801c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10740/1074000901c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06221/06221a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/64043/64043a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07436/07436a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:12.127435"
+    },
+    "raw_html_length": 301740,
+    "metadata": {
+      "title": "THE AKASAKA RESIDENCE S.O.A. -spirit of akasaka- | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "THE AKASAKA RESIDENCE S.O.A. -spirit of akasaka- 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "THE AKASAKA RESIDENCE S.O.A. -spirit of akasaka-,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/6214",
+    "crawl_timestamp": "2025-09-22T16:58:18.049688",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/6214",
+      "property_csv_id": "PROP_6214",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂６丁目１９番４１号",
+      "building_type": "マンション",
+      "building_name_en": "パークアクシス六本木檜町公園 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークアクシス六本木檜町公園 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "6",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "63.22",
+      "available_from": "2005年11月30日",
+      "property_description_en": "パークアクシス六本木檜町公園 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークアクシス六本木檜町公園 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "6",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06214/0621400302c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:17.281990"
+    },
+    "raw_html_length": 296642,
+    "metadata": {
+      "title": "パークアクシス六本木檜町公園 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークアクシス六本木檜町公園 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークアクシス六本木檜町公園,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/70680",
+    "crawl_timestamp": "2025-09-22T16:58:17.052379",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/70680",
+      "property_csv_id": "PROP_70680",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "六本木ビュータワー | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "六本木ビュータワー | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "六本木一丁目駅",
+      "train_line_name_2": "南北線",
+      "station_name_3": "神谷町駅",
+      "train_line_name_3": "日比谷線",
+      "station_name_4": "六本木駅",
+      "train_line_name_4": "日比谷線",
+      "station_name_5": "麻布十番駅",
+      "train_line_name_5": "大江戸線",
+      "floors": "20",
+      "bicycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "58.91",
+      "available_from": "相談",
+      "property_description_en": "六本木ビュータワー 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "六本木ビュータワー 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "20",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/70680/70680a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/70680/70680a04.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/70680/70680a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/70680/70680a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/70680/70680a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/70680/70680a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/70680/7068001901c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60634/60634a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/68211/68211a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69842/69842a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08426/08426a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10178/10178a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63548/63548a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06828/06828a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06829/06829a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06363/06363a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05792/05792a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:16.216890"
+    },
+    "raw_html_length": 292937,
+    "metadata": {
+      "title": "六本木ビュータワー | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "六本木ビュータワー 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "六本木ビュータワー,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/7115",
+    "crawl_timestamp": "2025-09-22T16:58:15.549084",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/7115",
+      "property_csv_id": "PROP_7115",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "元赤坂一丁目３番１０号",
+      "building_type": "マンション",
+      "building_name_en": "エル・セレーノ元赤坂レジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "エル・セレーノ元赤坂レジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "20",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "52.29",
+      "available_from": "2013年01月15日",
+      "property_description_en": "エル・セレーノ元赤坂レジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "エル・セレーノ元赤坂レジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "20",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07115/07115a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07115/0711501812c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/07115/0711501905c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:14.622609"
+    },
+    "raw_html_length": 311739,
+    "metadata": {
+      "title": "エル・セレーノ元赤坂レジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "エル・セレーノ元赤坂レジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "エル・セレーノ元赤坂レジデンス,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/64043",
+    "crawl_timestamp": "2025-09-22T16:58:34.130412",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/64043",
+      "property_csv_id": "PROP_64043",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "赤坂タワーレジデンス　Top of the Hill | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "赤坂タワーレジデンス　Top of the Hill | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "赤坂駅",
+      "train_line_name_2": "千代田線",
+      "station_name_3": "赤坂見附駅",
+      "train_line_name_3": "丸ノ内線",
+      "station_name_4": "溜池山王駅",
+      "train_line_name_4": "銀座線",
+      "station_name_5": "外苑前駅",
+      "train_line_name_5": "銀座線",
+      "floors": "45",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "66.13",
+      "available_from": "相談",
+      "property_description_en": "赤坂タワーレジデンス　Top of the Hill 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "赤坂タワーレジデンス　Top of the Hill 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "45",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/64043/6404301616c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06487/0648701401c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06221/06221a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07436/07436a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07462/07462a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05035/05035a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69012/69012a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62412/62412a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10051/10051a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07996/07996a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/71986/71986a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10740/10740a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72293/72293a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06703/06703a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08447/08447a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60123/60123a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73809/73809a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74089/74089a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74346/74346a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:32.892447"
+    },
+    "raw_html_length": 317956,
+    "metadata": {
+      "title": "赤坂タワーレジデンス　Top of the Hill | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "赤坂タワーレジデンス　Top of the Hill 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "赤坂タワーレジデンス　Top of the Hill,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/6712",
+    "crawl_timestamp": "2025-09-22T16:58:36.782831",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/6712",
+      "property_csv_id": "PROP_6712",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "南青山１丁",
+      "building_type": "マンション",
+      "building_name_en": "アルティスコート南青山 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "アルティスコート南青山 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "15",
+      "bicycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "77.16",
+      "available_from": "2008年08月29日",
+      "property_description_en": "アルティスコート南青山 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "アルティスコート南青山 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "15",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06712/06712a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06712/0671200202c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06712/0671200401c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:35.684183"
+    },
+    "raw_html_length": 320213,
+    "metadata": {
+      "title": "アルティスコート南青山 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "アルティスコート南青山 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "アルティスコート南青山,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/60634",
+    "crawl_timestamp": "2025-09-22T16:58:38.042876",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/60634",
+      "property_csv_id": "PROP_60634",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "泉ガーデンレジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "泉ガーデンレジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "六本木一丁目駅",
+      "train_line_name_1": "--xs --pc-md --icon-after --i-link-outオリジナルサイト",
+      "station_name_2": "田町駅",
+      "train_line_name_2": "山手線",
+      "station_name_3": "神谷町駅",
+      "train_line_name_3": "日比谷線",
+      "station_name_4": "六本木駅",
+      "train_line_name_4": "大江戸線",
+      "station_name_5": "麻布十番駅",
+      "train_line_name_5": "大江戸線",
+      "floors": "32",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "gym": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "58.04",
+      "available_from": "相談",
+      "property_description_en": "泉ガーデンレジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "泉ガーデンレジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "32",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/60634/6063401307c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/68211/68211a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/70680/70680a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69842/69842a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10219/10219a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08426/08426a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07226/07226a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06829/06829a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63548/63548a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06214/06214a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06828/06828a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63400/63400a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/05844/05844a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07307/07307a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72255/72255a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06822/06822a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72103/72103a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62325/62325a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07134/07134a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73632/73632a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:37.063917"
+    },
+    "raw_html_length": 310397,
+    "metadata": {
+      "title": "泉ガーデンレジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "泉ガーデンレジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "泉ガーデンレジデンス,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/8267",
+    "crawl_timestamp": "2025-09-22T16:58:39.819558",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/8267",
+      "property_csv_id": "PROP_8267",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "千代田区",
+      "chome_banchi": "麹町三丁目２番１３号",
+      "building_type": "マンション",
+      "building_name_en": "ＴＨＥ千代田麹町ＴＯＷＥＲ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "ＴＨＥ千代田麹町ＴＯＷＥＲ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "23",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "73.21",
+      "available_from": "2018年12月01日",
+      "property_description_en": "ＴＨＥ千代田麹町ＴＯＷＥＲ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "ＴＨＥ千代田麹町ＴＯＷＥＲ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "23",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08267/08267a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08267/08267a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08267/08267a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08267/08267a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08267/08267a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08267/08267a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08267/08267a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08267/08267a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/08267/0826701301c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67449/67449a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:38.643979"
+    },
+    "raw_html_length": 323584,
+    "metadata": {
+      "title": "ＴＨＥ千代田麹町ＴＯＷＥＲ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "ＴＨＥ千代田麹町ＴＯＷＥＲ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "ＴＨＥ千代田麹町ＴＯＷＥＲ,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/72236",
+    "crawl_timestamp": "2025-09-22T16:58:41.901060",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/72236",
+      "property_csv_id": "PROP_72236",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "千代田区",
+      "chome_banchi": "麹町",
+      "building_type": "マンション",
+      "building_name_en": "ＴＨＥ　千代田麹町　ＴＯＷＥＲ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "ＴＨＥ　千代田麹町　ＴＯＷＥＲ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "23",
+      "bicycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "73.21",
+      "available_from": "相談",
+      "property_description_en": "ＴＨＥ　千代田麹町　ＴＯＷＥＲ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "ＴＨＥ　千代田麹町　ＴＯＷＥＲ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "23",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72236/72236a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72236/72236a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72236/72236a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72236/72236a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72236/72236a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72236/72236a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "/owner/img/tatemono_top.png"
+        },
+        {
+          "category": "interior",
+          "url": "/owner/img/tatemono01.png"
+        },
+        {
+          "category": "other",
+          "url": "/owner/img/tatemono02.png"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/08267/0826701301c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:40.889062"
+    },
+    "raw_html_length": 319392,
+    "metadata": {
+      "title": "ＴＨＥ　千代田麹町　ＴＯＷＥＲ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "ＴＨＥ　千代田麹町　ＴＯＷＥＲ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "ＴＨＥ　千代田麹町　ＴＯＷＥＲ,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/62052",
+    "crawl_timestamp": "2025-09-22T16:58:53.626611",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/62052",
+      "property_csv_id": "PROP_62052",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "六本木ファーストプラザ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "六本木ファーストプラザ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "六本木一丁目駅",
+      "train_line_name_2": "南北線",
+      "station_name_3": "溜池山王駅",
+      "train_line_name_3": "銀座線",
+      "station_name_4": "神谷町駅",
+      "train_line_name_4": "日比谷線",
+      "station_name_5": "麻布十番駅",
+      "train_line_name_5": "南北線",
+      "floors": "20",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "85.19",
+      "available_from": "相談",
+      "property_description_en": "六本木ファーストプラザ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "六本木ファーストプラザ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "20",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/60676/6067600522c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/62052/6205200822c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74374/74374a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73366/73366a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73845/73845a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60670/60670a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74366/74366a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/65919/65919a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:52.177972"
+    },
+    "raw_html_length": 324236,
+    "metadata": {
+      "title": "六本木ファーストプラザ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "六本木ファーストプラザ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "六本木ファーストプラザ,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/74374",
+    "crawl_timestamp": "2025-09-22T16:58:55.862956",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/74374",
+      "property_csv_id": "PROP_74374",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "麻布台1丁",
+      "building_type": "マンション",
+      "building_name_en": "麻布台ヒルズレジデンスB | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "麻布台ヒルズレジデンスB | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "六本木一丁目駅",
+      "train_line_name_2": "南北線",
+      "station_name_3": "麻布十番駅",
+      "train_line_name_3": "南北線",
+      "station_name_4": "溜池山王駅",
+      "train_line_name_4": "銀座線",
+      "station_name_5": "神谷町駅",
+      "train_line_name_5": "日比谷線",
+      "floors": "64",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "44.22",
+      "available_from": "相談",
+      "property_description_en": "麻布台ヒルズレジデンスB 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "麻布台ヒルズレジデンスB 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "64",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://www.mitsui-chintai.co.jp/rf/assets/img/common/nophoto.webp"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/assets/img/common/nophoto.webp"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/74374/7437400700c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74366/74366a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73366/73366a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73845/73845a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/65919/65919a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73450/73450a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74327/74327a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60670/60670a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72499/72499a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73839/73839a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60666/60666a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63961/63961a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69569/69569a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60527/60527a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:54.707063"
+    },
+    "raw_html_length": 311529,
+    "metadata": {
+      "title": "麻布台ヒルズレジデンスB | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "麻布台ヒルズレジデンスB 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "麻布台ヒルズレジデンスB,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/67862",
+    "crawl_timestamp": "2025-09-22T16:59:03.128853",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/67862",
+      "property_csv_id": "PROP_67862",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "フォレセーヌ霊南坂レジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "フォレセーヌ霊南坂レジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "六本木一丁目駅",
+      "train_line_name_2": "南北線",
+      "station_name_3": "溜池山王駅",
+      "train_line_name_3": "銀座線",
+      "station_name_4": "神谷町駅",
+      "train_line_name_4": "日比谷線",
+      "station_name_5": "虎ノ門駅",
+      "train_line_name_5": "銀座線",
+      "floors": "8",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "109.08",
+      "available_from": "相談",
+      "property_description_en": "フォレセーヌ霊南坂レジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "フォレセーヌ霊南坂レジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "8",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a03.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a03.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a04.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/67862/6786200301c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/67862/6786200701c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/67862/6786200702c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60527/60527a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74374/74374a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73366/73366a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73845/73845a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60670/60670a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:59:01.656685"
+    },
+    "raw_html_length": 329802,
+    "metadata": {
+      "title": "フォレセーヌ霊南坂レジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "フォレセーヌ霊南坂レジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "フォレセーヌ霊南坂レジデンス,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/74327",
+    "crawl_timestamp": "2025-09-22T16:59:01.351365",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/74327",
+      "property_csv_id": "PROP_74327",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "ザ・パークハウス西麻布レジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "ザ・パークハウス西麻布レジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "六本木駅",
+      "train_line_name_2": "大江戸線",
+      "station_name_3": "虎ノ門駅",
+      "train_line_name_3": "銀座線",
+      "station_name_4": "乃木坂駅",
+      "train_line_name_4": "千代田線",
+      "station_name_5": "赤坂駅",
+      "train_line_name_5": "千代田線",
+      "floors": "24",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "123.15",
+      "available_from": "相談",
+      "property_description_en": "ザ・パークハウス西麻布レジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "ザ・パークハウス西麻布レジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "24",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74327/74327a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74327/74327a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/74327/7432702305c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73839/73839a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74371/74371a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60367/60367a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63315/63315a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67804/67804a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72499/72499a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60666/60666a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74374/74374a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/65919/65919a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73845/73845a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74366/74366a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60429/60429a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74352/74352a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:58:59.991310"
+    },
+    "raw_html_length": 324854,
+    "metadata": {
+      "title": "ザ・パークハウス西麻布レジデンス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "ザ・パークハウス西麻布レジデンス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "ザ・パークハウス西麻布レジデンス,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/6290",
+    "crawl_timestamp": "2025-09-22T16:59:05.333975",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/6290",
+      "property_csv_id": "PROP_6290",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "赤坂９丁",
+      "building_type": "マンション",
+      "building_name_en": "東京ミッドタウン・レジデンシィズ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "東京ミッドタウン・レジデンシィズ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "押上駅",
+      "train_line_name_2": "半蔵門線",
+      "station_name_3": "品川駅",
+      "train_line_name_3": "山手線",
+      "station_name_4": "東十条駅",
+      "train_line_name_4": "京浜東北線",
+      "station_name_5": "大森駅",
+      "train_line_name_5": "京浜東北線",
+      "floors": "25",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "117.32",
+      "available_from": "2007年01月26日",
+      "property_description_en": "東京ミッドタウン・レジデンシィズ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "東京ミッドタウン・レジデンシィズ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "25",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a02.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a05.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a02.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a04.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a05.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/06290/0629001904c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10714/10714a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10678/10678a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10669/10669a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63953/63953a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10657/10657a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62816/62816a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10696/10696a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10611/10611a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10699/10699a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67449/67449a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:59:04.250263"
+    },
+    "raw_html_length": 322147,
+    "metadata": {
+      "title": "東京ミッドタウン・レジデンシィズ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "東京ミッドタウン・レジデンシィズ 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "東京ミッドタウン・レジデンシィズ,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/74366",
+    "crawl_timestamp": "2025-09-22T16:59:15.212469",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/74366",
+      "property_csv_id": "PROP_74366",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "chome_banchi": "六本木５丁",
+      "building_type": "マンション",
+      "building_name_en": "パークマンション鳥居坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "パークマンション鳥居坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "六本木一丁目駅",
+      "train_line_name_2": "南北線",
+      "station_name_3": "麻布十番駅",
+      "train_line_name_3": "大江戸線",
+      "station_name_4": "六本木駅",
+      "train_line_name_4": "日比谷線",
+      "station_name_5": "溜池山王駅",
+      "train_line_name_5": "銀座線",
+      "floors": "6",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "101.93",
+      "available_from": "相談",
+      "property_description_en": "パークマンション鳥居坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "パークマンション鳥居坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "6",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://www.mitsui-chintai.co.jp/rf/assets/img/common/nophoto.webp"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/assets/img/common/nophoto.webp"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/74366/7436600100c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74374/74374a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69569/69569a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60666/60666a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67862/67862a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73450/73450a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10009/10009a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74327/74327a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60670/60670a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10761/10761a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10742/10742a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63961/63961a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74333/74333a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/65919/65919a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74342/74342a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:59:14.171886"
+    },
+    "raw_html_length": 315225,
+    "metadata": {
+      "title": "パークマンション鳥居坂 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "パークマンション鳥居坂 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "パークマンション鳥居坂,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/74371",
+    "crawl_timestamp": "2025-09-22T16:59:13.103303",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/74371",
+      "property_csv_id": "PROP_74371",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "乃木坂パークハウス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "乃木坂パークハウス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "青山一丁目駅",
+      "train_line_name_2": "銀座線",
+      "station_name_3": "六本木駅",
+      "train_line_name_3": "大江戸線",
+      "station_name_4": "表参道駅",
+      "train_line_name_4": "銀座線",
+      "station_name_5": "広尾駅",
+      "train_line_name_5": "日比谷線",
+      "floors": "25",
+      "bicycle_parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "delivery_box": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "176.87",
+      "available_from": "相談",
+      "property_description_en": "乃木坂パークハウス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "乃木坂パークハウス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "25",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "internet_wifi": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://www.mitsui-chintai.co.jp/rf/assets/img/common/nophoto.webp"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/assets/img/common/nophoto.webp"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/74371/7437101900c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72245/72245a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/06290/06290a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74372/74372a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74327/74327a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73839/73839a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/08014/08014a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60666/60666a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/07602/07602a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/65919/65919a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74048/74048a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72499/72499a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74369/74369a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74336/74336a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60367/60367a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10820/10820a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74359/74359a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73845/73845a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:59:12.007318"
+    },
+    "raw_html_length": 312566,
+    "metadata": {
+      "title": "乃木坂パークハウス | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "乃木坂パークハウス 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "乃木坂パークハウス,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  },
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/73450",
+    "crawl_timestamp": "2025-09-22T16:59:23.821921",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/73450",
+      "property_csv_id": "PROP_73450",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "港区",
+      "building_type": "マンション",
+      "building_name_en": "メイフェア六本木 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "メイフェア六本木 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "田町駅",
+      "train_line_name_1": "山手線",
+      "station_name_2": "麻布十番駅",
+      "train_line_name_2": "大江戸線",
+      "station_name_3": "六本木一丁目駅",
+      "train_line_name_3": "南北線",
+      "station_name_4": "六本木駅",
+      "train_line_name_4": "日比谷線",
+      "station_name_5": "乃木坂駅",
+      "train_line_name_5": "千代田線",
+      "floors": "4",
+      "bicycle_parking": "Y",
+      "structure": "/規模",
+      "autolock": "Y",
+      "concierge": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "195.05",
+      "available_from": "相談",
+      "property_description_en": "メイフェア六本木 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "メイフェア六本木 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "4",
+      "aircon": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "yard": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73450/73450a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73450/73450a.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/73450/7345000306c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/67804/67804a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/69569/69569a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/65919/65919a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60666/60666a.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/10009/10009a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74374/74374a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74307/74307a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/72499/72499a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74366/74366a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/60133/60133a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63961/63961a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/63315/63315a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/62052/62052a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74342/74342a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/74333/74333a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73333/73333a.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://mfhl.mitsui-chintai.co.jp/websearch/image/73845/73845a.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T16:59:22.854687"
+    },
+    "raw_html_length": 315453,
+    "metadata": {
+      "title": "メイフェア六本木 | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "メイフェア六本木 東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "メイフェア六本木,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  }
+]
