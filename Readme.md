@@ -1,27 +1,39 @@
 # Craw Data By AI
 
-Dùng AI crawl dữ liệu từ trang web bất động sản của Nhật Bản bất kỳ và phân tích theo cấu trúc định nghĩa.
+Hệ thống AI-powered crawler chuyên nghiệp để crawl và phân tích dữ liệu bất động sản Nhật Bản với cấu trúc dữ liệu chuẩn hóa và khả năng mở rộng cao.
 
 ## 🚀 Tính năng chính
 
 - **AI-Powered Extraction**: Sử dụng AI của crawl4ai để extract dữ liệu thông minh
-- **Structured Data**: Output JSON với 200+ fields theo PropertyModel
-- **Multi-language Support**: Hỗ trợ tiếng Nhật, Anh, Việt
+- **Structured Data**: Output JSON/CSV với 200+ fields theo PropertyModel chuẩn
+- **Multi-language Support**: Hỗ trợ tiếng Nhật, Anh, Việt, Trung (CN/TW)
 - **Smart Image Classification**: Tự động phân loại hình ảnh (exterior, interior, kitchen, etc.)
-- **Transportation Info**: Extract thông tin 3 ga tàu gần nhất
-- **Comprehensive Amenities**: Detect 50+ tiện nghi khác nhau
-- **Batch Processing**: Crawl nhiều properties cùng lúc
+- **Transportation Info**: Extract thông tin 5 ga tàu gần nhất với đầy đủ phương tiện
+- **Comprehensive Amenities**: Detect 50+ tiện nghi và đặc điểm căn hộ
+- **Modular Architecture**: Cấu trúc package rõ ràng, dễ bảo trì và mở rộng
+- **Batch Processing**: Crawl nhiều properties cùng lúc với hiệu suất cao
 - **Statistics & Reports**: Tạo báo cáo thống kê tự động
 
-## 📁 Files
+## 📁 Cấu trúc dự án
 
 ```
-├── index.py              # File gốc đơn giản
-├── models.py            # Pydantic models (200+ fields)
-├── enhanced_crawler.py  # AI-powered crawler chính
-├── demo.py             # Demo script với UI đẹp
-├── requirements.txt    # Dependencies
-└── README.md          # Hướng dẫn này
+├── crawler/                    # Package crawler chính
+│   ├── __init__.py            # Export các class chính
+│   ├── config.py              # Cấu hình crawler
+│   ├── data_schema.py         # Schema và cấu trúc dữ liệu
+│   ├── html_parser.py         # Parse HTML và extract dữ liệu
+│   ├── markdown_parser.py     # Parse markdown content
+│   ├── image_extractor.py     # Xử lý extract hình ảnh
+│   ├── property_extractor.py  # Logic chính extract dữ liệu property
+│   ├── property_crawler.py    # Crawler chính
+│   ├── utils.py               # Các utility functions
+│   └── README.md              # Tài liệu package
+├── index.py                   # File demo đơn giản
+├── models.py                  # Pydantic models (200+ fields)
+├── requirements.txt           # Dependencies
+├── structure.json             # Mô tả chi tiết 200+ fields
+├── FIELD_MANAGEMENT_GUIDE.md  # Hướng dẫn thêm/xóa trường
+└── README.md                  # Hướng dẫn này
 ```
 
 ## 🛠️ Cài đặt
@@ -51,88 +63,124 @@ crawl4ai-doctor
 
 ## 🎯 Cách sử dụng
 
-### 1. Demo nhanh
-```bash
-python demo.py
-```
-
-### 2. Sử dụng file gốc (đơn giản)
+### 1. Demo nhanh (file đơn giản)
 ```bash
 python index.py
 ```
 
-### 3. Sử dụng enhanced crawler (AI)
-```bash
-python enhanced_crawler.py
-```
+### 2. Sử dụng package crawler (khuyến nghị)
 
-### 4. Sử dụng trong code
-
+#### Crawl
 ```python
-from enhanced_crawler import EnhancedPropertyCrawler
 import asyncio
+from crawler import EnhancedPropertyCrawler
 
-async def crawl_property():
+async def main():
+    urls = [
+        "https://example.com/property/123",
+        "https://example.com/property/456",
+        "https://example.com/property/789"
+    ]
+    
     crawler = EnhancedPropertyCrawler()
+    results = await crawler.crawl_multiple_properties(urls)
     
-    # Crawl một property
-    result = await crawler.crawl_property('https://example.com/property/123')
+    # Lưu kết quả
+    json_file = crawler.save_results_to_json(results)
+    csv_file = crawler.save_results_to_csv(results)
     
-    if result['success']:
-        data = result['property_data']
-        print(f"Tên tòa nhà: {data.get('building_name_ja')}")
-        print(f"Tiền thuê: {data.get('monthly_rent')} yen")
-        print(f"Diện tích: {data.get('size')} m²")
-    
-    # Lưu vào file JSON
-    filename = crawler.save_results_to_file([result])
-    print(f"Đã lưu: {filename}")
+    print(f"Đã lưu JSON: {json_file}")
+    print(f"Đã lưu CSV: {csv_file}")
 
-asyncio.run(crawl_property())
+asyncio.run(main())
 ```
 
-## 🏗️ PropertyModel Structure
+### 3. Import trực tiếp các module
+```python
+from crawler import EnhancedPropertyCrawler, PropertyExtractor
+from crawler.config import CrawlerConfig
+from crawler.utils import create_property_model
+```
 
-PropertyModel bao gồm 200+ fields:
+## 🏗️ PropertyModel Structure (200+ Fields)
 
-### Thông tin cơ bản
-- `property_csv_id`: Mã định danh
-- `link`: URL gốc  
-- `building_name_ja/en/vi`: Tên tòa nhà đa ngôn ngữ
-- `building_type`: Loại tòa nhà
+Hệ thống sử dụng cấu trúc dữ liệu chuẩn hóa với 200+ trường dữ liệu được phân nhóm rõ ràng:
 
-### Địa chỉ
+### 📍 Thông tin địa chỉ
+- `postcode`: Mã bưu điện
 - `prefecture`: Tỉnh (東京都, 大阪府, etc.)
 - `city`: Thành phố
 - `district`: Quận/phường
-- `chome_banchi`: Số nhà theo hệ thống Nhật
+- `chome_banchi`: Số khối và lô (hệ thống địa chỉ Nhật)
 
-### Thông tin phòng
+### 🏢 Thông tin tòa nhà
+- `building_name_ja/en/zh_CN/zh_TW`: Tên tòa nhà đa ngôn ngữ
+- `building_type`: Loại tòa nhà (chung cư, nhà riêng)
+- `building_description_*`: Mô tả tòa nhà đa ngôn ngữ
+- `year`: Năm xây dựng
+- `floors`: Số tầng
+- `num_units`: Số căn hộ trong tòa nhà
+- `structure`: Loại cấu trúc (thép, gỗ, khác)
+
+### 🏠 Thông tin căn hộ
 - `room_type`: Loại phòng (1K, 1DK, 2LDK, etc.)
 - `size`: Diện tích (m²)
-- `floor_no`: Số tầng
-- `monthly_rent`: Tiền thuê/tháng
-- `monthly_maintenance`: Phí quản lý
+- `floor_no`: Số tầng của căn hộ
+- `unit_no`: Số căn hộ
+- `balcony_size`: Diện tích ban công
 
-### Giao thông (3 ga gần nhất)
-- `station_name_1/2/3`: Tên ga
-- `train_line_name_1/2/3`: Tên tuyến
-- `walk_1/2/3`: Thời gian đi bộ (phút)
+### 💰 Thông tin tài chính
+- `monthly_rent`: Tiền thuê hàng tháng
+- `monthly_maintenance`: Phí bảo trì hàng tháng
+- `months_deposit/numeric_deposit`: Tiền đặt cọc
+- `months_key/numeric_key`: Tiền chìa khóa
+- `fire_insurance`: Phí bảo hiểm cháy nổ
+- `other_initial_fees`: Các phí ban đầu khác
 
-### Tiện nghi (50+ items)
-- `aircon`: Điều hòa (Y/N)
-- `elevator`: Thang máy (Y/N)
+### 🚇 Giao thông (5 ga gần nhất)
+- `station_name_1/2/3/4/5`: Tên ga tàu
+- `train_line_name_1/2/3/4/5`: Tên tuyến tàu
+- `walk_1/2/3/4/5`: Thời gian đi bộ (phút)
+- `bus_1/2/3/4/5`: Thời gian đi xe buýt (phút)
+- `car_1/2/3/4/5`: Thời gian đi ô tô (phút)
+- `cycle_1/2/3/4/5`: Thời gian đi xe đạp (phút)
+
+### 🏢 Tiện ích tòa nhà
 - `autolock`: Khóa tự động (Y/N)
+- `elevator`: Thang máy (Y/N)
 - `parking`: Chỗ đậu xe (Y/N)
+- `bicycle_parking`: Chỗ đậu xe đạp (Y/N)
+- `delivery_box`: Hộp giao hàng (Y/N)
+- `concierge`: Dịch vụ lễ tân (Y/N)
+- `gym`: Phòng tập thể dục (Y/N)
+- `swimming_pool`: Hồ bơi (Y/N)
+
+### 🏠 Tiện nghi căn hộ (50+ items)
+- `aircon`: Điều hòa không khí (Y/N)
 - `internet_wifi`: WiFi (Y/N)
-- ... và nhiều tiện nghi khác
+- `system_kitchen`: Bếp hệ thống (Y/N)
+- `washer_dryer`: Máy giặt/sấy (Y/N)
+- `bath`: Bồn tắm (Y/N)
+- `separate_toilet`: Toilet riêng biệt (Y/N)
+- `balcony`: Ban công (Y/N)
+- `storage`: Kho chứa (Y/N)
+- ... và 40+ tiện nghi khác
 
-### Hình ảnh
-- `images`: Array với category và URL
+### 🧭 Hướng căn hộ
+- `facing_north/south/east/west`: Hướng bắc/nam/đông/tây (Y/N)
+- `facing_northeast/southeast/southwest/northwest`: Hướng chéo (Y/N)
 
-### Tọa độ
+### 📸 Hình ảnh (16 slots)
+- `image_category_1-16`: Danh mục hình ảnh
+- `image_url_1-16`: URL hình ảnh
+
+### 📍 Tọa độ & Links
 - `map_lat`: Vĩ độ
 - `map_lng`: Kinh độ
+- `youtube`: Link video YouTube
+- `vr_link`: Link tour thực tế ảo
+
+> **Chi tiết đầy đủ**: Xem file `structure.json` để biết mô tả chi tiết tất cả 200+ trường dữ liệu
 
 ## 📊 Sample Output
 
@@ -168,31 +216,38 @@ PropertyModel bao gồm 200+ fields:
 
 ## 🤖 AI Configuration
 
-Crawler sử dụng AI để extract dữ liệu thông minh:
+Hệ thống sử dụng AI để extract dữ liệu thông minh với các tính năng:
 
-- **Provider**: Ollama/llama3.2 (local) hoặc OpenAI/Claude
-- **Schema-based**: Extract theo cấu trúc PropertyModel
+- **Schema-based**: Extract theo cấu trúc PropertyModel chuẩn
 - **Smart Conversion**: Tự động chuyển đổi 万円 → yen, 坪 → m²
-- **Context-aware**: Hiểu ngữ cảnh tiếng Nhật
+- **Context-aware**: Hiểu ngữ cảnh tiếng Nhật và đa ngôn ngữ
+- **Modular Processing**: Tách biệt HTML parser và Markdown parser
 
-### Thay đổi AI Provider
+### Cấu hình AI Provider
 
-Trong `enhanced_crawler.py`:
+Trong `crawler/config.py`:
 
 ```python
-# Sử dụng OpenAI
-extraction_strategy = LLMExtractionStrategy(
-    provider="openai/gpt-4",
-    api_token="your-api-key",
+# Cấu hình mặc định (Ollama local)
+CRAWLER_CONFIG = {
+    "ai_provider": "ollama/llama3.2",
+    "api_token": None,  # Không cần token cho Ollama
     # ...
-)
+}
+
+# Sử dụng OpenAI
+CRAWLER_CONFIG = {
+    "ai_provider": "openai/gpt-4",
+    "api_token": "your-openai-api-key",
+    # ...
+}
 
 # Sử dụng Claude
-extraction_strategy = LLMExtractionStrategy(
-    provider="anthropic/claude-3",
-    api_token="your-api-key", 
+CRAWLER_CONFIG = {
+    "ai_provider": "anthropic/claude-3",
+    "api_token": "your-anthropic-api-key",
     # ...
-)
+}
 ```
 
 ## 📈 Statistics & Reports
@@ -220,24 +275,44 @@ Tự động tạo báo cáo thống kê:
 ### Lỗi thường gặp:
 
 1. **"Failed to extract content"**
-   - Kiểm tra crawl4ai-setup
+   - Kiểm tra crawl4ai-setup: `crawl4ai-setup`
    - Kiểm tra internet connection
    - Thử URL khác
 
 2. **"AI provider error"**
    - Kiểm tra Ollama đã chạy: `ollama serve`
-   - Hoặc thay đổi provider trong code
+   - Hoặc thay đổi provider trong `crawler/config.py`
 
 3. **"Timeout error"**
-   - Tăng page_timeout trong config
+   - Tăng page_timeout trong `crawler/config.py`
    - Kiểm tra tốc độ mạng
+
+4. **"Import error"**
+   - Kiểm tra package đã cài đúng: `pip install -r requirements.txt`
+   - Kiểm tra Python path
 
 ### Debug mode:
 
 ```python
-# Thêm vào enhanced_crawler.py
+# Thêm vào script của bạn
 import logging
 logging.basicConfig(level=logging.DEBUG)
+
+# Hoặc sử dụng config debug
+from crawler.config import CrawlerConfig
+config = CrawlerConfig()
+config.debug = True
+```
+
+### Kiểm tra cấu trúc package:
+
+```bash
+# Test syntax
+python -c "from models import PropertyModel; print('✅ Models OK')"
+python -c "from crawler import EnhancedPropertyCrawler; print('✅ Crawler OK')"
+
+# Test data structure  
+python -c "from crawler.data_schema import PropertyDataSchema; data = PropertyDataSchema.get_empty_property_data('test'); print(f'✅ {len(data)} fields')"
 ```
 
 ## 🚨 Lưu ý quan trọng
@@ -249,20 +324,23 @@ logging.basicConfig(level=logging.DEBUG)
 
 ## 🎯 Roadmap
 
-- [ ] Hỗ trợ thêm website bất động sản
-- [ ] Cải thiện accuracy của AI extraction  
-- [ ] Thêm export CSV/Excel
-- [ ] Dashboard web interface
-- [ ] Real-time monitoring
-- [ ] Multi-threading optimization
+- [x] ✅ Cấu trúc package modular
+- [x] ✅ Hỗ trợ 200+ fields chuẩn hóa
+- [x] ✅ Export JSON/CSV
+- [x] ✅ Multi-language support (4 ngôn ngữ)
+- [x] ✅ Comprehensive field management guide
+- [ ] 🔄 Dashboard web interface
+- [ ] 🔄 Real-time monitoring
+- [ ] 🔄 Multi-threading optimization
+- [ ] 🔄 Hỗ trợ thêm website bất động sản
+- [ ] 🔄 API REST endpoints
+- [ ] 🔄 Docker containerization
 
-## 🤝 Contributing
+## 📚 Tài liệu bổ sung
 
-1. Fork repository
-2. Create feature branch
-3. Test thoroughly
-4. Submit pull request
+- **[FIELD_MANAGEMENT_GUIDE.md](FIELD_MANAGEMENT_GUIDE.md)**: Hướng dẫn thêm/xóa trường dữ liệu
+- **[crawler/README.md](crawler/README.md)**: Tài liệu chi tiết về package crawler
+- **[structure.json](structure.json)**: Mô tả đầy đủ 200+ fields
+- **[models.py](models.py)**: Pydantic models definition
 
 ---
-
-**Happy Crawling with AI! 🤖🏠**
