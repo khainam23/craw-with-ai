@@ -2,6 +2,7 @@
   {
     "success": true,
     "url": "https://rent.tokyu-housing-lease.co.jp/rent/8034884/117024",
+    "crawl_timestamp": "2025-09-22T11:07:39.189872",
     "property_data": {
       "link": "https://rent.tokyu-housing-lease.co.jp/rent/8034884/117024",
       "property_csv_id": "PROP_117024",
@@ -29,14 +30,12 @@
       "elevator": "Y",
       "newly_built": "Y",
       "pets": "Y",
-      "room_type": "1DK",
       "size": "25.08",
       "unit_no": "1003号室",
       "available_from": "2025年09月22日",
       "property_description_en": "バウスフラッツ蔵前1003（25.08m²-1DK-14万円）【117024】は台東区蔵前4丁目にあり、都営浅草線蔵前駅が最寄りの物件です。東急住宅リースが管理している物件の賃貸情報を豊富な写真と詳細な情報で毎日更新しております。",
       "property_description_ja": "バウスフラッツ蔵前1003（25.08m²-1DK-14万円）【117024】は台東区蔵前4丁目にあり、都営浅草線蔵前駅が最寄りの物件です。東急住宅リースが管理している物件の賃貸情報を豊富な写真と詳細な情報で毎日更新しております。",
       "floor_no": "10",
-      "monthly_rent": "14",
       "aircon": "Y",
       "balcony": "Y",
       "bath": "Y",
@@ -52,31 +51,31 @@
       "washing_machine": "Y",
       "images": [
         {
-          "category": "exterior",
+          "category": "main",
           "url": "/img/front/rent_view/btn_photo_prev_off.png"
         },
         {
-          "category": "interior",
+          "category": "exterior",
           "url": "/img/front/rent_view/btn_photo_next_off.png"
         },
         {
-          "category": "kitchen",
+          "category": "exterior",
           "url": "/img/front/common/btn_favorite_off.png"
         },
         {
-          "category": "bathroom",
+          "category": "interior",
           "url": "/img/front/common/btn_contact_off.png"
         },
         {
-          "category": "balcony",
+          "category": "interior",
           "url": "/img/front/rent_view/contact_btn_pc.png"
         },
         {
-          "category": "other",
+          "category": "interior",
           "url": "/img/front/rent_view/residents-contact-image.jpg"
         },
         {
-          "category": "exterior",
+          "category": "floor_plan",
           "url": "/img/cache/232x232_92aa3c9a10ed1d5b099a1e1ca896e6fa.jpg"
         },
         {
@@ -84,15 +83,15 @@
           "url": "/img/cache/112x84_fd004e96f7975200b0bb60e3d83fe41f.jpg"
         },
         {
-          "category": "kitchen",
+          "category": "other",
           "url": "/img/front/common/btn_page_top_off.png"
         },
         {
-          "category": "bathroom",
+          "category": "other",
           "url": "/img/front/common/bnr_footer_tokyu_holdings.png"
         },
         {
-          "category": "balcony",
+          "category": "other",
           "url": "/img/front/common/bnr_footer_touhoku_selecton.png"
         },
         {
@@ -100,23 +99,23 @@
           "url": "/img/front/common/bnr_footer_comforia.png"
         },
         {
-          "category": "interior",
+          "category": "other",
           "url": "/img/front/common/bnr_footer_nasic.png"
         },
         {
-          "category": "interior",
+          "category": "other",
           "url": "/img/front/gmap/ico_pin.png"
         },
         {
-          "category": "kitchen",
+          "category": "other",
           "url": "/img/cache/680x600_4c37b56b6ba8ec64ae3e5b1c12554ac4.jpg"
         },
         {
-          "category": "bathroom",
+          "category": "other",
           "url": "/img/cache/680x600_7749db4a803e8341b1c09a433a0e25d9.jpg"
         },
         {
-          "category": "balcony",
+          "category": "other",
           "url": "/img/cache/680x600_8517bf6ad62f4667ee20af0c4c2a8095.jpg"
         },
         {
@@ -124,18 +123,17 @@
           "url": "/img/cache/680x600_e616b40c68c919099ba76387b81667b3.jpg"
         },
         {
-          "category": "exterior",
+          "category": "other",
           "url": "/img/cache/680x600_d79c052e5d5fcded8dcba876666e9a28.jpg"
         },
         {
-          "category": "interior",
+          "category": "other",
           "url": "/img/cache/680x600_96fbb72814f4f0deef02a36e274be944.jpg"
         }
       ],
-      "create_date": "2025-09-22T10:33:57.008870"
+      "create_date": "2025-09-22T11:07:39.152573"
     },
-    "crawl_timestamp": "2025-09-22T10:33:57.048132",
-    "raw_html_length": 137154,
+    "raw_html_length": 137460,
     "metadata": {
       "title": "バウスフラッツ蔵前1003（25.08m²-1DK-14万円）【117024】 | 東急住宅リースの賃貸情報サイト",
       "description": "バウスフラッツ蔵前1003（25.08m²-1DK-14万円）【117024】は台東区蔵前4丁目にあり、都営浅草線蔵前駅が最寄りの物件です。東急住宅リースが管理している物件の賃貸情報を豊富な写真と詳細な情報で毎日更新しております。",
