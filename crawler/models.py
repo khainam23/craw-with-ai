@@ -42,17 +42,14 @@ class PropertyModel(BaseModel):
     # Tên tòa nhà đa ngôn ngữ
     building_name_en: Optional[str] = Field(None, description="Tên tòa nhà bằng tiếng Anh")
     building_name_ja: Optional[str] = Field(None, description="Tên tòa nhà bằng tiếng Nhật")
-    building_name_vi: Optional[str] = Field(None, description="Tên tòa nhà bằng tiếng Việt")
     
     # Mô tả tòa nhà đa ngôn ngữ
     building_description_en: Optional[str] = Field(None, description="Mô tả tòa nhà bằng tiếng Anh")
     building_description_ja: Optional[str] = Field(None, description="Mô tả tòa nhà bằng tiếng Nhật")
-    building_description_vi: Optional[str] = Field(None, description="Mô tả tòa nhà bằng tiếng Việt")
     
     # Địa danh gần đó đa ngôn ngữ
     building_landmarks_en: Optional[str] = Field(None, description="Các địa danh gần đó bằng tiếng Anh")
     building_landmarks_ja: Optional[str] = Field(None, description="Các địa danh gần đó bằng tiếng Nhật")
-    building_landmarks_vi: Optional[str] = Field(None, description="Các địa danh gần đó bằng tiếng Việt")
     
     # Thông tin ga tàu 1
     station_name_1: Optional[str] = Field(None, description="Tên ga tàu gần nhất (thứ 1)")
@@ -136,12 +133,10 @@ class PropertyModel(BaseModel):
     # Mô tả bất động sản đa ngôn ngữ
     property_description_en: Optional[str] = Field(None, description="Mô tả bất động sản bằng tiếng Anh")
     property_description_ja: Optional[str] = Field(None, description="Mô tả bất động sản bằng tiếng Nhật")
-    property_description_vi: Optional[str] = Field(None, description="Mô tả bất động sản bằng tiếng Việt")
     
     # Chi phí khác đa ngôn ngữ
     property_other_expenses_en: Optional[str] = Field(None, description="Chi phí khác (tiếng Anh)")
     property_other_expenses_ja: Optional[str] = Field(None, description="Chi phí khác (tiếng Nhật)")
-    property_other_expenses_vi: Optional[str] = Field(None, description="Chi phí khác (tiếng Việt)")
     
     # Loại nổi bật
     featured_a: Optional[Literal['Y', 'N']] = Field(None, description="Có phải là loại nổi bật A không? ('Y' hoặc 'N')")
@@ -300,101 +295,6 @@ class PropertyModel(BaseModel):
                 ]
             }
         }
-
-
-# Utility functions để làm việc với model
-def create_property_from_dict(data: dict) -> PropertyModel:
-    """
-    Tạo PropertyModel từ dictionary
-    """
-    return PropertyModel(**data)
-
-
-def property_to_dict(property_model: PropertyModel, exclude_none: bool = True) -> dict:
-    """
-    Chuyển PropertyModel thành dictionary
-    """
-    return property_model.dict(exclude_none=exclude_none)
-
-
-def validate_property_data(data: dict) -> tuple[bool, list]:
-    """
-    Validate dữ liệu property và trả về kết quả validation
-    Returns: (is_valid, list_of_errors)
-    """
-    try:
-        PropertyModel(**data)
-        return True, []
-    except Exception as e:
-        return False, [str(e)]
-
-
-def convert_legacy_images_to_new_format(data: dict) -> dict:
-    """
-    Chuyển đổi format hình ảnh cũ (image_category_1, image_url_1, ...) 
-    sang format mới (images list)
-    """
-    converted_data = data.copy()
-    images = []
-    
-    # Tìm tất cả các trường hình ảnh cũ
-    i = 1
-    while f"image_category_{i}" in data or f"image_url_{i}" in data:
-        category = data.get(f"image_category_{i}")
-        url = data.get(f"image_url_{i}")
-        
-        if category or url:
-            image = PropertyImage(category=category, url=url)
-            images.append(image)
-        
-        # Xóa các trường cũ
-        converted_data.pop(f"image_category_{i}", None)
-        converted_data.pop(f"image_url_{i}", None)
-        i += 1
-    
-    # Thêm danh sách hình ảnh mới
-    if images:
-        converted_data["images"] = images
-    
-    return converted_data
-
-
-def add_image_to_property(property_model: PropertyModel, category: str, url: str) -> PropertyModel:
-    """
-    Thêm hình ảnh vào property
-    """
-    if property_model.images is None:
-        property_model.images = []
-    
-    new_image = PropertyImage(category=category, url=url)
-    property_model.images.append(new_image)
-    return property_model
-
-
-def get_images_by_category(property_model: PropertyModel, category: str) -> List[PropertyImage]:
-    """
-    Lấy tất cả hình ảnh theo category
-    """
-    if not property_model.images:
-        return []
-    
-    return [img for img in property_model.images if img.category == category]
-
-
-def get_all_image_categories(property_model: PropertyModel) -> List[str]:
-    """
-    Lấy tất cả categories của hình ảnh
-    """
-    if not property_model.images:
-        return []
-    
-    categories = set()
-    for img in property_model.images:
-        if img.category:
-            categories.add(img.category)
-    
-    return list(categories)
-
 
 class AmenityKeywords:
     """Keywords cho việc detect amenities"""

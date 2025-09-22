@@ -1,0 +1,135 @@
+[
+  {
+    "success": true,
+    "url": "https://www.mitsui-chintai.co.jp/rf/tatemono/10835/101",
+    "crawl_timestamp": "2025-09-22T15:28:26.238909",
+    "property_data": {
+      "link": "https://www.mitsui-chintai.co.jp/rf/tatemono/10835/101",
+      "property_csv_id": "PROP_101",
+      "postcode": "107-0052",
+      "prefecture": "東京都",
+      "district": "練馬区",
+      "building_type": "マンション",
+      "building_name_en": "PLANE　SOCIE＋　SAKURADAI 1階１０１ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "building_name_ja": "PLANE　SOCIE＋　SAKURADAI 1階１０１ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "station_name_1": "[駅",
+      "train_line_name_1": "[駅・沿線",
+      "station_name_2": "掲載の徒歩分数は、建物の出入口を起点とし駅",
+      "station_name_3": "田町駅",
+      "train_line_name_3": "山手線",
+      "walk_3": "9",
+      "station_name_4": "新桜台駅",
+      "walk_4": "6",
+      "station_name_5": "新桜台駅",
+      "walk_5": "6",
+      "floors": "3",
+      "parking": "Y",
+      "motorcycle_parking": "Y",
+      "structure": "src",
+      "autolock": "Y",
+      "concierge": "Y",
+      "newly_built": "Y",
+      "pets": "Y",
+      "size": "31.71",
+      "available_from": "相談",
+      "property_description_en": "PLANE　SOCIE＋　SAKURADAI,\n  1階１０１。東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "property_description_ja": "PLANE　SOCIE＋　SAKURADAI,\n  1階１０１。東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "floor_no": "1",
+      "aircon": "Y",
+      "balcony": "Y",
+      "bath": "Y",
+      "bs": "Y",
+      "storage": "Y",
+      "washing_machine": "Y",
+      "images": [
+        {
+          "category": "main",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500101c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500101c.jpg"
+        },
+        {
+          "category": "exterior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500301c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500211c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500207c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500104c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500103c.jpg"
+        },
+        {
+          "category": "interior",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500102c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500305c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10835/1083500106c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/08227/0822700203c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10603/1060300405c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/08199/0819900211c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10805/1080500538c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10805/1080500535c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10805/1080500438c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10805/1080500435c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10347/1034700401c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10680/1068001204c.jpg"
+        },
+        {
+          "category": "other",
+          "url": "https://www.mitsui-chintai.co.jp/rf/resized/10282/1028200602c.jpg"
+        }
+      ],
+      "create_date": "2025-09-22T15:28:26.154718"
+    },
+    "raw_html_length": 327841,
+    "metadata": {
+      "title": "PLANE　SOCIE＋　SAKURADAI 1階１０１ | 東京都心の高級賃貸マンションをお探しなら［三井の賃貸］レジデントファースト",
+      "description": "PLANE　SOCIE＋　SAKURADAI,\n  1階１０１。東京の高級賃貸マンションをお探しなら[三井の賃貸]レジデントファースト。当社限定取扱い物件や新築、ペット可物件等の上質な物件をエリア、沿線、地図、こだわり条件から検索可能。",
+      "keywords": "PLANE　SOCIE＋　SAKURADAI, 1階１０１,高級,賃貸,マンション,三井,レジデントファースト"
+    }
+  }
+]
