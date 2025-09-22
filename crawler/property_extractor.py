@@ -5,7 +5,7 @@ Module chính xử lý extract dữ liệu property
 from typing import Dict, Any
 from crawl4ai import AsyncWebCrawler
 from .config import CrawlerConfig
-from .data_schema import PropertyDataSchema
+from .models import get_empty_property_data
 from .image_extractor import ImageExtractor
 from .html_parser import HTMLParser
 from .markdown_parser import MarkdownParser
@@ -72,7 +72,7 @@ class PropertyExtractor:
         Extract comprehensive property data từ crawl result
         """
         # Khởi tạo data structure với tất cả fields từ PropertyModel
-        extracted_data = PropertyDataSchema.get_empty_property_data(url)
+        extracted_data = get_empty_property_data(url)
         
         # Set property ID
         extracted_data['property_csv_id'] = PropertyUtils.generate_property_id(url)

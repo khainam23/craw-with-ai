@@ -4,7 +4,7 @@ Module xử lý parse HTML và extract dữ liệu
 
 import re
 from typing import Dict, Any
-from .data_schema import AmenityKeywords
+from .models import AmenityKeywords
 
 
 class HTMLParser:

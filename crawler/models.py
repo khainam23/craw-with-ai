@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field
-from typing import Optional, Literal, List
+from typing import Optional, Literal, List, Dict, Any
+from datetime import datetime
 
 
 class PropertyImage(BaseModel):
@@ -393,3 +394,94 @@ def get_all_image_categories(property_model: PropertyModel) -> List[str]:
             categories.add(img.category)
     
     return list(categories)
+
+
+class AmenityKeywords:
+    """Keywords cho việc detect amenities"""
+    
+    AMENITY_KEYWORDS = {
+        # Building amenities
+        'elevator': ['エレベーター', 'elevator', 'EV'],
+        'autolock': ['オートロック', 'auto lock', 'autoloc'],
+        'delivery_box': ['宅配ボックス', 'delivery box', '宅配BOX'],
+        'concierge': ['コンシェルジュ', 'concierge', 'フロント'],
+        'gym': ['ジム', 'gym', 'フィットネス'],
+        'swimming_pool': ['プール', 'pool', 'swimming'],
+        
+        # Parking
+        'parking': ['駐車場', 'parking', '駐車'],
+        'bicycle_parking': ['駐輪場', 'bicycle parking', '自転車'],
+        'motorcycle_parking': ['バイク置場', 'motorcycle', 'バイク'],
+        
+        # Unit amenities
+        'aircon': ['エアコン', 'air conditioning', 'aircon', 'AC'],
+        'aircon_heater': ['エアコン暖房', 'air conditioning heater'],
+        'internet_wifi': ['WiFi', 'インターネット', 'internet', 'ネット'],
+        'cable': ['ケーブルTV', 'cable', 'CATV'],
+        'bs': ['BS', 'BS放送', 'satellite'],
+        
+        # Kitchen
+        'system_kitchen': ['システムキッチン', 'system kitchen'],
+        'counter_kitchen': ['カウンターキッチン', 'counter kitchen'],
+        'full_kitchen': ['フルキッチン', 'full kitchen'],
+        'induction_cooker': ['IHクッキング', 'induction', 'IH'],
+        'gas': ['ガス', 'gas'],
+        'microwave': ['電子レンジ', 'microwave'],
+        'oven': ['オーブン', 'oven'],
+        'dishwasher': ['食洗機', 'dishwasher', '食器洗い'],
+        'refrigerator': ['冷蔵庫', 'refrigerator', '冷蔵'],
+        'refrigerator_freezer': ['冷凍冷蔵庫', 'freezer'],
+        
+        # Bathroom
+        'bath': ['バス', 'bath', '浴室'],
+        'separate_toilet': ['独立洗面台', 'separate toilet', '独立'],
+        'unit_bath': ['ユニットバス', 'unit bath'],
+        'auto_fill_bath': ['自動給湯', 'auto fill'],
+        'shower': ['シャワー', 'shower'],
+        'japanese_toilet': ['和式トイレ', 'japanese toilet'],
+        'western_toilet': ['洋式トイレ', 'western toilet'],
+        'washlet': ['ウォシュレット', 'washlet'],
+        
+        # Flooring & Interior
+        'flooring': ['フローリング', 'flooring', 'フロア'],
+        'tatami': ['畳', 'tatami'],
+        'carpet': ['カーペット', 'carpet'],
+        'underfloor_heating': ['床暖房', 'underfloor heating'],
+        
+        # Storage & Space
+        'storage': ['収納', 'storage', 'クローゼット'],
+        'loft': ['ロフト', 'loft'],
+        'balcony': ['バルコニー', 'balcony'],
+        'veranda': ['ベランダ', 'veranda'],
+        'roof_balcony': ['ルーフバルコニー', 'roof balcony'],
+        'yard': ['庭', 'yard', 'ガーデン'],
+        
+        # Appliances
+        'washing_machine': ['洗濯機', 'washing machine'],
+        'washer_dryer': ['洗濯乾燥機', 'washer dryer'],
+        'furnished': ['家具付き', 'furnished', '家具'],
+        'all_electric': ['オール電化', 'all electric'],
+        
+        # Special features
+        'pets': ['ペット', 'pet', 'ペット可'],
+        'female_only': ['女性限定', 'female only', '女性専用'],
+        'student_friendly': ['学生可', 'student', '学生'],
+        'soho': ['SOHO', 'soho', '事務所可'],
+        'newly_built': ['新築', 'newly built', '新築物件']
+    }
+
+
+# Thêm class method vào PropertyModel để tạo empty data
+def get_empty_property_data(url: str) -> Dict[str, Any]:
+    """
+    Tạo cấu trúc dữ liệu property rỗng với tất cả fields từ PropertyModel
+    """
+    # Tạo một instance rỗng của PropertyModel
+    empty_model = PropertyModel()
+    
+    # Convert sang dict và set các giá trị cần thiết
+    data = empty_model.dict()
+    data['link'] = url
+    data['create_date'] = datetime.now().isoformat()
+    
+    return data
