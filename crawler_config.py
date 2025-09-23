@@ -79,6 +79,18 @@ TESTING_CONFIG = CrawlerConfig(
     save_intermediate=False
 )
 
+# Unlimited configuration for crawling without limits
+UNLIMITED_CONFIG = CrawlerConfig(
+    max_concurrent=10,
+    batch_size=50,
+    memory_threshold=80.0,
+    delay=1.0,
+    max_pages=999999,  # Practically unlimited
+    max_properties=None,  # No limit on properties
+    save_intermediate=True,
+    intermediate_save_frequency=10
+)
+
 
 def get_config_by_name(config_name: str) -> CrawlerConfig:
     """Get configuration by name"""
@@ -86,7 +98,8 @@ def get_config_by_name(config_name: str) -> CrawlerConfig:
         'conservative': CONSERVATIVE_CONFIG,
         'balanced': BALANCED_CONFIG,
         'aggressive': AGGRESSIVE_CONFIG,
-        'testing': TESTING_CONFIG
+        'testing': TESTING_CONFIG,
+        'unlimited': UNLIMITED_CONFIG
     }
     
     return configs.get(config_name.lower(), BALANCED_CONFIG)
@@ -101,7 +114,8 @@ def print_config_info():
         'Conservative': CONSERVATIVE_CONFIG,
         'Balanced': BALANCED_CONFIG,
         'Aggressive': AGGRESSIVE_CONFIG,
-        'Testing': TESTING_CONFIG
+        'Testing': TESTING_CONFIG,
+        'Unlimited': UNLIMITED_CONFIG
     }
     
     for name, config in configs.items():

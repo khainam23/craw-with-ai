@@ -14,8 +14,8 @@ async def main():
     print()
     
     # Choose configuration based on your needs
-    # Options: 'conservative', 'balanced', 'aggressive', 'testing'
-    config_name = 'balanced'  # Change this to suit your needs
+    # Options: 'conservative', 'balanced', 'aggressive', 'testing', 'unlimited'
+    config_name = 'unlimited'  # Change this to suit your needs
     config = get_config_by_name(config_name)
     
     print(f"🔧 Using '{config_name.upper()}' configuration")
@@ -104,6 +104,7 @@ def show_usage_tips():
     print("   • 'conservative' - For slow/unstable connections")
     print("   • 'balanced' - For normal usage (recommended)")
     print("   • 'aggressive' - For high-performance systems")
+    print("   • 'unlimited' - For crawling without page/property limits")
     print()
     print("⚠️ Memory Management:")
     print("   • Monitor system resources during large crawls")
