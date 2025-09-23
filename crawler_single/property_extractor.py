@@ -10,6 +10,7 @@ from .image_extractor import ImageExtractor
 from .html_parser import HTMLParser
 from .markdown_parser import MarkdownParser
 from .utils import PropertyUtils
+from .custom_config import setup_custom_extractor
 
 class PropertyExtractor:    
     def __init__(self):
@@ -18,6 +19,7 @@ class PropertyExtractor:
         self.html_parser = HTMLParser()
         self.markdown_parser = MarkdownParser()
         self.utils = PropertyUtils()
+        self.custom_extractor = setup_custom_extractor()
     
     async def extract_property_data(self, url: str) -> Dict[str, Any]:
         """
@@ -86,6 +88,9 @@ class PropertyExtractor:
         
         # Extract từ markdown content
         extracted_data = self.markdown_parser.extract_from_markdown(markdown_content, extracted_data)
+        
+        # Apply custom rules
+        extracted_data = self.custom_extractor.extract_with_rules(html_content, extracted_data)
         
         return extracted_data
     

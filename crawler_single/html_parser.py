@@ -48,6 +48,6 @@ class HTMLParser:
         
         # Extract date and station information
         data = self.date_station_extractor.extract_available_date_from_html(html, data)
-        # data = self.date_station_extractor.extract_station_from_html(html, data) - Tạm thời chưa cần station
+        data = self.date_station_extractor.extract_station_from_html(html, data)
         
         return data
