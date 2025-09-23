@@ -75,9 +75,9 @@ class PropertyExtractor:
         # Get content
         html_content = result.html if result.html else ""
         markdown_content = result.markdown if result.markdown else ""
-        
-        # Extract basic info từ metadata
-        self._extract_metadata(result.metadata or {}, extracted_data)
+                
+        # Apply custom rules
+        extracted_data = self.custom_extractor.extract_with_rules(html_content, extracted_data)
         
         # Extract images từ HTML content
         images = self.image_extractor.extract_images_from_html(html_content)
@@ -89,25 +89,7 @@ class PropertyExtractor:
         # Extract từ markdown content
         extracted_data = self.markdown_parser.extract_from_markdown(markdown_content, extracted_data)
         
-        # Apply custom rules
-        extracted_data = self.custom_extractor.extract_with_rules(html_content, extracted_data)
-        
         return extracted_data
-    
-    def _extract_metadata(self, metadata: Dict[str, Any], extracted_data: Dict[str, Any]):
-        """Extract basic info từ metadata"""
-        title = metadata.get('title', '')
-        description = metadata.get('description', '')
-        
-        # Set building name từ title
-        if title:
-            extracted_data['building_name_ja'] = title
-            extracted_data['building_name_en'] = title  # Có thể translate sau
-        
-        # Set description
-        if description:
-            extracted_data['property_description_ja'] = description
-            extracted_data['property_description_en'] = description  # Có thể translate sau
     
     def validate_and_create_property_model(self, data: Dict[str, Any]):
         """
