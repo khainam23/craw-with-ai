@@ -20,4 +20,4 @@ def xy_to_latlon_tokyo(x, y, zone=9):
     
     # Chuyển đổi
     lon, lat = transformer.transform(x, y)
-    return lat -1.291213 , lon -5.82497 # Sai số trên lệch, tính dựa vào thống kê trung bình nhiều điểm
+    return lat - 1.291213 , lon - 5.82497 # Sai số trên lệch, tính dựa vào thống kê trung bình nhiều điểm

@@ -1,0 +1,130 @@
+"""
+Station information parser from Markdown content
+"""
+
+import re
+from typing import Dict, Any
+from ..config import CrawlerConfig
+
+
+class StationParser:
+    """Parse station information from markdown content"""
+    
+    def __init__(self):
+        self.config = CrawlerConfig()
+    
+    def extract_station_info(self, line: str, data: Dict[str, Any], station_count: int) -> int:
+        """Extract station information từ line"""
+        if '駅' in line and station_count <= self.config.MAX_STATIONS:
+            # Flexible station name extraction patterns
+            station_patterns = [
+                # Station with walking time patterns
+                r'([ぁ-ゟ一-龯ァ-ヾa-zA-Z]{2,}駅).*?(\d+)\s*分',
+                r'([ぁ-ゟ一-龯ァ-ヾa-zA-Z]{2,}駅).*?徒歩(\d+)分',
+                
+                # General station patterns
+                r'([ぁ-ゟ一-龯ァ-ヾ]{2,}駅)',  # Japanese characters (at least 2) + 駅
+                r'([a-zA-Z]{2,}駅)',  # English (at least 2) + 駅
+            ]
+            
+            for pattern in station_patterns:
+                station_matches = re.findall(pattern, line)
+                for match in station_matches:
+                    if isinstance(match, tuple):
+                        station_name, walk_time = match[0], match[1] if len(match) > 1 else None
+                    else:
+                        station_name, walk_time = match, None
+                    
+                    # Validate station name
+                    if self._is_valid_station_name(station_name):
+                        station_field = f'station_name_{station_count}'
+                        if not data[station_field]:
+                            data[station_field] = station_name
+                            
+                            # Set walk time if found
+                            if walk_time:
+                                walk_field = f'walk_{station_count}'
+                                if not data[walk_field]:
+                                    data[walk_field] = walk_time
+                            
+                            # Extract train line
+                            self._extract_train_line(line, data, station_count)
+                            
+                            # Extract transportation times (if not already set)
+                            if not walk_time:
+                                self._extract_transportation_times(line, data, station_count)
+                            
+                            station_count += 1
+                            if station_count > self.config.MAX_STATIONS:
+                                break
+        
+        return station_count
+    
+    def _extract_train_line(self, line: str, data: Dict[str, Any], station_count: int):
+        """Extract train line information"""
+        line_patterns = [
+            r'([^線\s]+線)',
+            r'JR([^駅\s]+)',
+            r'(東急[^駅\s]+)',
+            r'(京急[^駅\s]+)',
+            r'(小田急[^駅\s]+)'
+        ]
+        
+        for pattern in line_patterns:
+            line_match = re.search(pattern, line)
+            if line_match:
+                train_line_field = f'train_line_name_{station_count}'
+                if not data[train_line_field]:
+                    data[train_line_field] = line_match.group(1)
+                break
+    
+    def _extract_transportation_times(self, line: str, data: Dict[str, Any], station_count: int):
+        """Extract transportation times"""
+        # Extract walking time
+        walk_match = re.search(r'徒歩(\d+)分', line)
+        if walk_match:
+            walk_field = f'walk_{station_count}'
+            if not data[walk_field]:
+                data[walk_field] = walk_match.group(1)
+        
+        # Extract bus time
+        bus_match = re.search(r'バス(\d+)分', line)
+        if bus_match:
+            bus_field = f'bus_{station_count}'
+            if not data[bus_field]:
+                data[bus_field] = bus_match.group(1)
+        
+        # Extract car time
+        car_match = re.search(r'車(\d+)分', line)
+        if car_match:
+            car_field = f'car_{station_count}'
+            if not data[car_field]:
+                data[car_field] = car_match.group(1)
+    
+    def _is_valid_station_name(self, station_name: str) -> bool:
+        """Validate if station name is reasonable and not a false positive"""
+        if not station_name or len(station_name) < 3:
+            return False
+            
+        # Invalid patterns that commonly appear in false positives
+        invalid_patterns = [
+            '建物', '出入口', '起点', '掲載', '徒歩分数', '分数', '建物の',
+            'minutes', 'foot', 'walk', 'station', '駅駅', '・駅', '、駅',
+            '[駅', '駅', '建物の出入口を起点とし駅', '起点とし駅', 
+            '出入口を起点とし駅', '掲載の徒歩分数は、建物の出入口を起点とし駅'
+        ]
+        
+        # Check if station name contains any invalid patterns
+        for invalid in invalid_patterns:
+            if invalid in station_name:
+                return False
+        
+        # Additional validation: station name should not be too long
+        if len(station_name) > 15:
+            return False
+            
+        # Should contain at least one Japanese character or be a known English station
+        has_japanese = any('\u3040' <= char <= '\u309F' or '\u30A0' <= char <= '\u30FF' or '\u4E00' <= char <= '\u9FAF' for char in station_name)
+        has_english = any('a' <= char.lower() <= 'z' for char in station_name)
+        
+        return has_japanese or has_english

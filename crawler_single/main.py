@@ -1,6 +1,6 @@
 import asyncio
 from datetime import datetime
-from crawler_single import EnhancedPropertyCrawler
+from .property_crawler import EnhancedPropertyCrawler
 
 async def main():
     start = datetime.now()
