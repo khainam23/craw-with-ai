@@ -34,7 +34,6 @@ class PropertyUtils:
         """
         try:
             print(f"🔍 Creating PropertyModel with data type: {type(data)}")
-            print(f"🔍 Data keys: {list(data.keys()) if isinstance(data, dict) else 'Not a dict'}")
             
             # Xử lý images nếu có
             if 'images' in data and isinstance(data['images'], list):

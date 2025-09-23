@@ -12,7 +12,7 @@ import os
 from datetime import datetime
 from typing import List, Optional, AsyncGenerator
 from url_extractor import extract_property_urls
-from crawler import EnhancedPropertyCrawler
+from crawler_single import EnhancedPropertyCrawler
 
 
 class IntegratedPropertyCrawler:

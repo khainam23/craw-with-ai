@@ -1,7 +1,5 @@
 # Property Crawler Package
 
-Đây là package được tách từ file `enhanced_crawler.py` gốc để tạo cấu trúc module rõ ràng, dễ đọc, dễ bảo trì và có thể mở rộng.
-
 ## Cấu trúc Package
 
 ```

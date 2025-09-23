@@ -1,3 +1,5 @@
 Với playwright cấu hình như dạng người dùng thật khá tốt nên có thể xử lý nhiều tính huống phức tạp
 
 Crawl4ai không được như vậy, nó sẽ đòi hỏi crack vài thứ
+
+Crawl4ai đang viết kiểu extract theo name và regex thay vì chỉ định từng field

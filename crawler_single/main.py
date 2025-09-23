@@ -1,12 +1,11 @@
 import asyncio
 from datetime import datetime
-from crawler import EnhancedPropertyCrawler
+from crawler_single import EnhancedPropertyCrawler
 
 async def main():
     start = datetime.now()
     urls = [
         "https://www.mitsui-chintai.co.jp/rf/tatemono/10835/101", 
-        "https://www.mitsui-chintai.co.jp/rf/tatemono/10835/102"
     ]
 
     crawler = EnhancedPropertyCrawler()
