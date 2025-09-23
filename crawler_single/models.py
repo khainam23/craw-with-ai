@@ -37,7 +37,7 @@ class PropertyModel(BaseModel):
     
     # Thông tin tòa nhà
     building_type: Optional[str] = Field(None, description="Loại tòa nhà (ví dụ: chung cư, nhà riêng)")
-    year: Optional[str] = Field(None, description="Năm xây dựng tòa nhà")
+    year: Optional[int] = Field(None, description="Năm xây dựng tòa nhà")
     
     # Tên tòa nhà đa ngôn ngữ
     building_name_en: Optional[str] = Field(None, description="Tên tòa nhà bằng tiếng Anh")
@@ -54,55 +54,55 @@ class PropertyModel(BaseModel):
     # Thông tin ga tàu 1
     station_name_1: Optional[str] = Field(None, description="Tên ga tàu gần nhất (thứ 1)")
     train_line_name_1: Optional[str] = Field(None, description="Tên tuyến tàu cho ga 1")
-    walk_1: Optional[str] = Field(None, description="Thời gian đi bộ đến ga 1 (phút)")
-    bus_1: Optional[str] = Field(None, description="Thời gian đi xe buýt đến ga 1 (phút)")
-    car_1: Optional[str] = Field(None, description="Thời gian đi ô tô đến ga 1 (phút)")
-    cycle_1: Optional[str] = Field(None, description="Thời gian đi xe đạp đến ga 1 (phút)")
+    walk_1: Optional[int] = Field(None, description="Thời gian đi bộ đến ga 1 (phút)")
+    bus_1: Optional[int] = Field(None, description="Thời gian đi xe buýt đến ga 1 (phút)")
+    car_1: Optional[int] = Field(None, description="Thời gian đi ô tô đến ga 1 (phút)")
+    cycle_1: Optional[int] = Field(None, description="Thời gian đi xe đạp đến ga 1 (phút)")
     
     # Thông tin ga tàu 2
     station_name_2: Optional[str] = Field(None, description="Tên ga tàu gần thứ hai")
     train_line_name_2: Optional[str] = Field(None, description="Tên tuyến tàu cho ga 2")
-    walk_2: Optional[str] = Field(None, description="Thời gian đi bộ đến ga 2 (phút)")
-    bus_2: Optional[str] = Field(None, description="Thời gian đi xe buýt đến ga 2 (phút)")
-    car_2: Optional[str] = Field(None, description="Thời gian đi ô tô đến ga 2 (phút)")
-    cycle_2: Optional[str] = Field(None, description="Thời gian đi xe đạp đến ga 2 (phút)")
+    walk_2: Optional[int] = Field(None, description="Thời gian đi bộ đến ga 2 (phút)")
+    bus_2: Optional[int] = Field(None, description="Thời gian đi xe buýt đến ga 2 (phút)")
+    car_2: Optional[int] = Field(None, description="Thời gian đi ô tô đến ga 2 (phút)")
+    cycle_2: Optional[int] = Field(None, description="Thời gian đi xe đạp đến ga 2 (phút)")
     
     # Thông tin ga tàu 3
     station_name_3: Optional[str] = Field(None, description="Tên ga tàu gần thứ ba")
     train_line_name_3: Optional[str] = Field(None, description="Tên tuyến tàu cho ga 3")
-    walk_3: Optional[str] = Field(None, description="Thời gian đi bộ đến ga 3 (phút)")
-    bus_3: Optional[str] = Field(None, description="Thời gian đi xe buýt đến ga 3 (phút)")
-    car_3: Optional[str] = Field(None, description="Thời gian đi ô tô đến ga 3 (phút)")
-    cycle_3: Optional[str] = Field(None, description="Thời gian đi xe đạp đến ga 3 (phút)")
+    walk_3: Optional[int] = Field(None, description="Thời gian đi bộ đến ga 3 (phút)")
+    bus_3: Optional[int] = Field(None, description="Thời gian đi xe buýt đến ga 3 (phút)")
+    car_3: Optional[int] = Field(None, description="Thời gian đi ô tô đến ga 3 (phút)")
+    cycle_3: Optional[int] = Field(None, description="Thời gian đi xe đạp đến ga 3 (phút)")
     
     # Thông tin ga tàu 4
     station_name_4: Optional[str] = Field(None, description="Tên ga tàu gần thứ tư")
     train_line_name_4: Optional[str] = Field(None, description="Tên tuyến tàu cho ga 4")
-    walk_4: Optional[str] = Field(None, description="Thời gian đi bộ đến ga 4 (phút)")
-    bus_4: Optional[str] = Field(None, description="Thời gian đi xe buýt đến ga 4 (phút)")
-    car_4: Optional[str] = Field(None, description="Thời gian đi ô tô đến ga 4 (phút)")
-    cycle_4: Optional[str] = Field(None, description="Thời gian đi xe đạp đến ga 4 (phút)")
+    walk_4: Optional[int] = Field(None, description="Thời gian đi bộ đến ga 4 (phút)")
+    bus_4: Optional[int] = Field(None, description="Thời gian đi xe buýt đến ga 4 (phút)")
+    car_4: Optional[int] = Field(None, description="Thời gian đi ô tô đến ga 4 (phút)")
+    cycle_4: Optional[int] = Field(None, description="Thời gian đi xe đạp đến ga 4 (phút)")
     
     # Thông tin ga tàu 5
     station_name_5: Optional[str] = Field(None, description="Tên ga tàu gần thứ năm")
     train_line_name_5: Optional[str] = Field(None, description="Tên tuyến tàu cho ga 5")
-    walk_5: Optional[str] = Field(None, description="Thời gian đi bộ đến ga 5 (phút)")
-    bus_5: Optional[str] = Field(None, description="Thời gian đi xe buýt đến ga 5 (phút)")
-    car_5: Optional[str] = Field(None, description="Thời gian đi ô tô đến ga 5 (phút)")
-    cycle_5: Optional[str] = Field(None, description="Thời gian đi xe đạp đến ga 5 (phút)")
+    walk_5: Optional[int] = Field(None, description="Thời gian đi bộ đến ga 5 (phút)")
+    bus_5: Optional[int] = Field(None, description="Thời gian đi xe buýt đến ga 5 (phút)")
+    car_5: Optional[int] = Field(None, description="Thời gian đi ô tô đến ga 5 (phút)")
+    cycle_5: Optional[int] = Field(None, description="Thời gian đi xe đạp đến ga 5 (phút)")
     
     # Tọa độ địa lý
-    map_lat: Optional[str] = Field(None, description="Vĩ độ của vị trí bất động sản")
-    map_lng: Optional[str] = Field(None, description="Kinh độ của vị trí bất động sản")
+    map_lat: Optional[float] = Field(None, description="Vĩ độ của vị trí bất động sản")
+    map_lng: Optional[float] = Field(None, description="Kinh độ của vị trí bất động sản")
     
     # Thông tin cấu trúc tòa nhà
-    num_units: Optional[str] = Field(None, description="Số căn hộ trong tòa nhà")
-    floors: Optional[str] = Field(None, description="Số tầng của tòa nhà")
-    basement_floors: Optional[str] = Field(None, description="Số tầng hầm")
+    num_units: Optional[int] = Field(None, description="Số căn hộ trong tòa nhà")
+    floors: Optional[int] = Field(None, description="Số tầng của tòa nhà")
+    basement_floors: Optional[int] = Field(None, description="Số tầng hầm")
     
     # Thông tin đậu xe
     parking: Optional[Literal['Y', 'N']] = Field(None, description="Có chỗ đậu xe không? ('Y' hoặc 'N')")
-    parking_cost: Optional[str] = Field(None, description="Chi phí đậu xe (hàng tháng)")
+    parking_cost: Optional[int] = Field(None, description="Chi phí đậu xe (hàng tháng)")
     bicycle_parking: Optional[Literal['Y', 'N']] = Field(None, description="Có chỗ đậu xe đạp không? ('Y' hoặc 'N')")
     motorcycle_parking: Optional[Literal['Y', 'N']] = Field(None, description="Có chỗ đậu xe máy không? ('Y' hoặc 'N')")
     
@@ -125,7 +125,7 @@ class PropertyModel(BaseModel):
     
     # Thông tin căn hộ
     room_type: Optional[str] = Field(None, description="Loại phòng/mặt bằng (ví dụ: 1K, 2DK)")
-    size: Optional[str] = Field(None, description="Diện tích phòng (mét vuông)")
+    size: Optional[float] = Field(None, description="Diện tích phòng (mét vuông)")
     unit_no: Optional[str] = Field(None, description="Số căn hộ")
     ad_type: Optional[str] = Field(None, description="Loại quảng cáo (ví dụ: đại lý, chủ sở hữu)")
     available_from: Optional[str] = Field(None, description="Ngày bất động sản có sẵn")
@@ -144,50 +144,50 @@ class PropertyModel(BaseModel):
     featured_c: Optional[Literal['Y', 'N']] = Field(None, description="Có phải là loại nổi bật C không? ('Y' hoặc 'N')")
     
     # Thông tin tầng và giá thuê
-    floor_no: Optional[str] = Field(None, description="Số tầng của căn hộ")
-    monthly_rent: Optional[str] = Field(None, description="Số tiền thuê hàng tháng")
-    monthly_maintenance: Optional[str] = Field(None, description="Phí bảo trì hàng tháng")
+    floor_no: Optional[int] = Field(None, description="Số tầng của căn hộ")
+    monthly_rent: Optional[int] = Field(None, description="Số tiền thuê hàng tháng")
+    monthly_maintenance: Optional[int] = Field(None, description="Phí bảo trì hàng tháng")
     
     # Các khoản phí (theo tháng và số tiền)
-    months_deposit: Optional[str] = Field(None, description="Tiền đặt cọc yêu cầu (tháng)")
-    numeric_deposit: Optional[str] = Field(None, description="Tiền đặt cọc yêu cầu (số tiền)")
-    months_key: Optional[str] = Field(None, description="Tiền chìa khóa yêu cầu (tháng)")
-    numeric_key: Optional[str] = Field(None, description="Tiền chìa khóa yêu cầu (số tiền)")
-    months_guarantor: Optional[str] = Field(None, description="Phí người bảo lãnh yêu cầu (tháng)")
-    numeric_guarantor: Optional[str] = Field(None, description="Phí người bảo lãnh yêu cầu (số tiền)")
-    months_agency: Optional[str] = Field(None, description="Phí đại lý yêu cầu (tháng)")
-    numeric_agency: Optional[str] = Field(None, description="Phí đại lý yêu cầu (số tiền)")
-    months_renewal: Optional[str] = Field(None, description="Phí gia hạn yêu cầu (tháng)")
-    numeric_renewal: Optional[str] = Field(None, description="Phí gia hạn yêu cầu (số tiền)")
-    months_deposit_amortization: Optional[str] = Field(None, description="Khấu hao tiền đặt cọc (tháng)")
-    numeric_deposit_amortization: Optional[str] = Field(None, description="Khấu hao tiền đặt cọc (số tiền)")
-    months_security_deposit: Optional[str] = Field(None, description="Tiền đặt cọc bảo đảm yêu cầu (tháng)")
-    numeric_security_deposit: Optional[str] = Field(None, description="Tiền đặt cọc bảo đảm yêu cầu (số tiền)")
+    months_deposit: Optional[int] = Field(None, description="Tiền đặt cọc yêu cầu (tháng)")
+    numeric_deposit: Optional[int] = Field(None, description="Tiền đặt cọc yêu cầu (số tiền)")
+    months_key: Optional[int] = Field(None, description="Tiền chìa khóa yêu cầu (tháng)")
+    numeric_key: Optional[int] = Field(None, description="Tiền chìa khóa yêu cầu (số tiền)")
+    months_guarantor: Optional[int] = Field(None, description="Phí người bảo lãnh yêu cầu (tháng)")
+    numeric_guarantor: Optional[int] = Field(None, description="Phí người bảo lãnh yêu cầu (số tiền)")
+    months_agency: Optional[int] = Field(None, description="Phí đại lý yêu cầu (tháng)")
+    numeric_agency: Optional[int] = Field(None, description="Phí đại lý yêu cầu (số tiền)")
+    months_renewal: Optional[int] = Field(None, description="Phí gia hạn yêu cầu (tháng)")
+    numeric_renewal: Optional[int] = Field(None, description="Phí gia hạn yêu cầu (số tiền)")
+    months_deposit_amortization: Optional[int] = Field(None, description="Khấu hao tiền đặt cọc (tháng)")
+    numeric_deposit_amortization: Optional[int] = Field(None, description="Khấu hao tiền đặt cọc (số tiền)")
+    months_security_deposit: Optional[int] = Field(None, description="Tiền đặt cọc bảo đảm yêu cầu (tháng)")
+    numeric_security_deposit: Optional[int] = Field(None, description="Tiền đặt cọc bảo đảm yêu cầu (số tiền)")
     
     # Các phí khác
-    lock_exchange: Optional[str] = Field(None, description="Phí thay khóa")
-    fire_insurance: Optional[str] = Field(None, description="Phí bảo hiểm cháy nổ")
-    other_initial_fees: Optional[str] = Field(None, description="Các phí ban đầu khác")
-    other_subscription_fees: Optional[str] = Field(None, description="Các phí đăng ký khác")
+    lock_exchange: Optional[int] = Field(None, description="Phí thay khóa")
+    fire_insurance: Optional[int] = Field(None, description="Phí bảo hiểm cháy nổ")
+    other_initial_fees: Optional[int] = Field(None, description="Các phí ban đầu khác")
+    other_subscription_fees: Optional[int] = Field(None, description="Các phí đăng ký khác")
     
     # Thông tin bảo lãnh
     no_guarantor: Optional[Literal['Y', 'N']] = Field(None, description="Có yêu cầu không cần người bảo lãnh không? ('Y' hoặc 'N')")
     guarantor_agency: Optional[str] = Field(None, description="Yêu cầu đại lý bảo lãnh")
     guarantor_agency_name: Optional[str] = Field(None, description="Tên đại lý bảo lãnh")
-    numeric_guarantor_max: Optional[str] = Field(None, description="Phí người bảo lãnh tối đa (số tiền)")
+    numeric_guarantor_max: Optional[int] = Field(None, description="Phí người bảo lãnh tối đa (số tiền)")
     
     # Thông tin thuê
     rent_negotiable: Optional[Literal['Y', 'N']] = Field(None, description="Tiền thuê có thể thương lượng không? ('Y' hoặc 'N')")
     renewal_new_rent: Optional[Literal['Y', 'N']] = Field(None, description="Có áp dụng tiền thuê mới khi gia hạn không? ('Y' hoặc 'N')")
     lease_date: Optional[str] = Field(None, description="Ngày bắt đầu hợp đồng thuê")
-    lease_months: Optional[str] = Field(None, description="Thời hạn thuê tính bằng tháng")
+    lease_months: Optional[int] = Field(None, description="Thời hạn thuê tính bằng tháng")
     lease_type: Optional[str] = Field(None, description="Loại hợp đồng thuê (ví dụ: thường, ngắn hạn)")
     short_term_ok: Optional[Literal['Y', 'N']] = Field(None, description="Có cho phép thuê ngắn hạn không? ('Y' hoặc 'N')")
     
     # Thông tin ban công và ghi chú
-    balcony_size: Optional[str] = Field(None, description="Diện tích ban công (mét vuông)")
+    balcony_size: Optional[float] = Field(None, description="Diện tích ban công (mét vuông)")
     property_notes: Optional[str] = Field(None, description="Ghi chú bổ sung về bất động sản")
-    discount: Optional[str] = Field(None, description="Số tiền giảm giá")
+    discount: Optional[int] = Field(None, description="Số tiền giảm giá")
     
     # Hướng căn hộ
     facing_north: Optional[Literal['Y', 'N']] = Field(None, description="Căn hộ có hướng bắc không? ('Y' hoặc 'N')")
@@ -288,6 +288,13 @@ class PropertyModel(BaseModel):
                 "internet_wifi": "Y",
                 "map_lat": 35.6762,
                 "map_lng": 139.6503,
+                "walk_1": 5,
+                "floor_no": 3,
+                "floors": 10,
+                "num_units": 50,
+                "parking_cost": 15000,
+                "balcony_size": 8.5,
+                "lease_months": 24,
                 "images": [
                     {"category": "exterior", "url": "https://example.com/exterior1.jpg"},
                     {"category": "interior", "url": "https://example.com/interior1.jpg"},
