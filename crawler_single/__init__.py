@@ -8,8 +8,8 @@ from .property_crawler import EnhancedPropertyCrawler
 from .property_extractor import PropertyExtractor
 from .config import CrawlerConfig
 from .utils import PropertyUtils, FileUtils
-from .html_parser_refactored import HTMLParser
-from .markdown_parser_refactored import MarkdownParser
+from .html_parser import HTMLParser
+from .markdown_parser import MarkdownParser
 
 __version__ = "1.0.0"
 

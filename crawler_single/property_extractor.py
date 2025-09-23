@@ -7,8 +7,8 @@ from crawl4ai import AsyncWebCrawler
 from .config import CrawlerConfig
 from .models import get_empty_property_data
 from .image_extractor import ImageExtractor
-from .html_parser_refactored import HTMLParser
-from .markdown_parser_refactored import MarkdownParser
+from .html_parser import HTMLParser
+from .markdown_parser import MarkdownParser
 from .utils import PropertyUtils
 
 class PropertyExtractor:    
