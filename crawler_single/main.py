@@ -13,17 +13,12 @@ async def main():
     results = await crawler.crawl_multiple_properties(urls)
     json_file = crawler.save_results_to_json(results)
 
-    success = sum(r.get("success") for r in results)
-    fail = len(results) - success
-
     end = datetime.now()
     duration = end - start
 
     print(f"""
         === Summary ===
         Total URLs: {len(urls)}
-        Successful: {success}
-        Failed: {fail}
         JSON saved: {json_file or "None"}
         Start: {start:%Y%m%d_%H%M%S} | End: {end:%Y%m%d_%H%M%S} | 🕒 Duration: {duration}
     """)

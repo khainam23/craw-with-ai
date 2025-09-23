@@ -74,7 +74,6 @@ class IntegratedPropertyCrawler:
                     'success': False,
                     'url': urls_batch[i],
                     'error': str(result),
-                    'crawl_timestamp': datetime.now().isoformat()
                 })
             else:
                 processed_results.append(result)

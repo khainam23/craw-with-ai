@@ -35,7 +35,23 @@ class EnhancedPropertyCrawler:
                 )
                 
                 # Convert về dict để serialize JSON
-                result['property_data'] = property_model.dict(exclude_none=True)
+                property_dict = property_model.dict(exclude_none=True)
+                
+                # Chuyển đổi images thành các field riêng biệt
+                if 'images' in property_dict and isinstance(property_dict['images'], list):
+                    images_list = property_dict.pop('images', [])
+                    for i, img in enumerate(images_list):
+                        img_num = i + 1
+                        if isinstance(img, dict):
+                            if 'url' in img or 'category' in img:
+                                entry = {}
+                                if 'url' in img:
+                                    entry['url'] = img['url']
+                                if 'category' in img:
+                                    entry['category'] = img['category']
+                                property_dict[f'image_{img_num}'] = entry
+                
+                result['property_data'] = property_dict
                 
                 if verbose:
                     print(f"✅ Success: Extracted {len(result['property_data'])} fields")
@@ -43,14 +59,13 @@ class EnhancedPropertyCrawler:
                 if verbose:
                     print(f"❌ Failed: {result.get('error', 'Unknown error')}")
             
-            return result
+            return result['property_data']
             
         except Exception as e:
             error_result = {
                 'success': False,
                 'url': url,
                 'error': str(e),
-                'crawl_timestamp': datetime.now().isoformat()
             }
             if verbose:
                 print(f"❌ Exception crawling {url}: {e}")
@@ -77,7 +92,6 @@ class EnhancedPropertyCrawler:
                     'success': False,
                     'url': urls[i],
                     'error': str(result),
-                    'crawl_timestamp': datetime.now().isoformat()
                 })
             else:
                 processed_results.append(result)

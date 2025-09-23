@@ -33,14 +33,10 @@ class PropertyUtils:
         Validate và tạo PropertyModel từ extracted data
         """
         try:
-            print(f"🔍 Creating PropertyModel with data type: {type(data)}")
-            
             # Xử lý images nếu có
             if 'images' in data and isinstance(data['images'], list):
-                print(f"🔍 Processing {len(data['images'])} images")
                 processed_images = []
                 for i, img in enumerate(data['images']):
-                    print(f"🔍 Image {i}: {type(img)} - {img}")
                     if isinstance(img, dict) and 'url' in img:
                         processed_images.append(PropertyImage(**img))
                     else:
@@ -67,20 +63,16 @@ class PropertyUtils:
     
     @staticmethod
     def create_crawl_result(success: bool, url: str, property_data: Dict[str, Any] = None, 
-                           error: str = None, metadata: Dict[str, Any] = None, 
-                           raw_html_length: int = 0) -> Dict[str, Any]:
+                           error: str = None) -> Dict[str, Any]:
         """Tạo cấu trúc kết quả crawl chuẩn"""
         result = {
             'success': success,
             'url': url,
-            'crawl_timestamp': datetime.now().isoformat()
         }
         
         if success and property_data:
             result.update({
                 'property_data': property_data,
-                'raw_html_length': raw_html_length,
-                'metadata': metadata or {}
             })
         else:
             result['error'] = error or 'Unknown error'

@@ -389,6 +389,5 @@ def get_empty_property_data(url: str) -> Dict[str, Any]:
     # Convert sang dict và set các giá trị cần thiết
     data = empty_model.dict()
     data['link'] = url
-    data['create_date'] = datetime.now().isoformat()
-    
+        
     return data

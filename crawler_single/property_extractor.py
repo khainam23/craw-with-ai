@@ -41,12 +41,6 @@ class PropertyExtractor:
                         success=True,
                         url=url,
                         property_data=extracted_data,
-                        raw_html_length=len(result.html) if result.html else 0,
-                        metadata={
-                            'title': result.metadata.get('title', ''),
-                            'description': result.metadata.get('description', ''),
-                            'keywords': result.metadata.get('keywords', '')
-                        }
                     )
                 else:
                     error_msg = result.error_message or 'Failed to extract content'
