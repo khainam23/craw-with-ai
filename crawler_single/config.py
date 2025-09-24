@@ -3,6 +3,7 @@ Cấu hình cho Property Crawler
 """
 
 from crawl4ai.async_configs import BrowserConfig, CrawlerRunConfig
+from crawl4ai.async_configs import CacheMode
 
 class CrawlerConfig:
     """Cấu hình cho crawler"""
@@ -16,10 +17,12 @@ class CrawlerConfig:
     # Crawler run configuration
     RUN_CONFIG = CrawlerRunConfig(
         wait_for_images=True,
+        scan_full_page=True,
+        scroll_delay=0.4,
         delay_before_return_html=3.0,
         page_timeout=45000,
         remove_overlay_elements=True,
-        screenshot=True
+        cache_mode=CacheMode.BYPASS,
     )
     
     # Image extraction limits

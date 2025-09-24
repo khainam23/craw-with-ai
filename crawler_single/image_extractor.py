@@ -3,6 +3,7 @@ Module xử lý extract hình ảnh từ HTML
 """
 
 import re
+from bs4 import BeautifulSoup
 from typing import List, Dict
 from .config import CrawlerConfig
 
@@ -20,38 +21,27 @@ class ImageExtractor:
         if not html:
             return []
         
+        soup = BeautifulSoup(html, "lxml")
         images = []
         
-        # Extract img tags with src attributes
-        img_patterns = [
-            r'<img[^>]+src=["\']([^"\']+)["\'][^>]*alt=["\']([^"\']*)["\'][^>]*>',
-            r'<img[^>]+alt=["\']([^"\']*)["\'][^>]*src=["\']([^"\']+)["\'][^>]*>',
-            r'<img[^>]+src=["\']([^"\']+)["\'][^>]*>'
-        ]
-        
-        for pattern in img_patterns:
-            matches = re.findall(pattern, html, re.IGNORECASE)
-            for match in matches:
-                src, alt = self._parse_image_match(match, pattern)
-                
-                if self._is_valid_image(src):
-                    # Make relative URLs absolute if needed
-                    if src.startswith('/'):
-                        src = src  # Keep as is for now, can be enhanced later
-                    
-                    image_data = {
-                        'url': src,
-                        'category': self._categorize_image(alt, len(images))
-                    }
-                    images.append(image_data)
-                    
-                    # Limit to MAX_IMAGES
-                    if len(images) >= self.config.MAX_IMAGES:
-                        break
-            
+        for img in soup.find_all("img"):
+            src = (
+                img.get("src")
+                or img.get("data-src")
+                or img.get("data-original")
+                or img.get("data-lazy")
+            )
+            alt = img.get("alt", "")
+
+            if self._is_valid_image(src):
+                images.append({
+                    "url": src,
+                    "category": self._categorize_image(alt, len(images))
+                })
+
             if len(images) >= self.config.MAX_IMAGES:
                 break
-        
+
         return images
     
     def _parse_image_match(self, match, pattern: str) -> tuple:
@@ -76,8 +66,6 @@ class ImageExtractor:
         """Kiểm tra xem image có hợp lệ không"""
         if not src:
             return False
-        
-        print("Checking image src:", src)
         
         # Filter out small icons and invalid URLs
         if any(skip in src.lower() for skip in self.config.IMAGE_SKIP_PATTERNS):
