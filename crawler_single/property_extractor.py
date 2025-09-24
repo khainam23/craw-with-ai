@@ -8,7 +8,6 @@ from .config import CrawlerConfig
 from .models import get_empty_property_data
 from .image_extractor import ImageExtractor
 from .html_parser import HTMLParser
-from .markdown_parser import MarkdownParser
 from .utils import PropertyUtils
 from .custom_config import setup_custom_extractor
 
@@ -17,7 +16,6 @@ class PropertyExtractor:
         self.config = CrawlerConfig()
         self.image_extractor = ImageExtractor()
         self.html_parser = HTMLParser()
-        self.markdown_parser = MarkdownParser()
         self.utils = PropertyUtils()
         self.custom_extractor = setup_custom_extractor()
     
@@ -68,7 +66,6 @@ class PropertyExtractor:
         
         # Get content
         html_content = result.html if result.html else ""
-        markdown_content = result.markdown if result.markdown else ""
                 
         # Apply custom rules (this will clean HTML and store it in _html)
         extracted_data = self.custom_extractor.extract_with_rules(html_content, extracted_data)
@@ -80,9 +77,6 @@ class PropertyExtractor:
         
         # Extract structured data từ cleaned HTML patterns
         extracted_data = self.html_parser.extract_from_html_patterns(cleaned_html, extracted_data)
-        
-        # Extract từ markdown content
-        # extracted_data = self.markdown_parser.extract_from_markdown(markdown_content, extracted_data)
         
         return extracted_data
     

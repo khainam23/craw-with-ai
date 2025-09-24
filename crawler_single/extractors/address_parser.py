@@ -8,36 +8,6 @@ from typing import Dict, Any
 
 class AddressParser:
     """Parse address information from markdown content"""
-    
-    def extract_address_info(self, line: str, data: Dict[str, Any]) -> Dict[str, Any]:
-        """Extract address information từ line"""
-        prefecture_patterns = [
-            '東京都', '大阪府', '神奈川県', '愛知県', '兵庫県', '福岡県', 
-            '埼玉県', '千葉県', '北海道', '京都府', '広島県', '宮城県'
-        ]
-        
-        for prefecture in prefecture_patterns:
-            if prefecture in line and not data['prefecture']:
-                data['prefecture'] = prefecture
-                # Extract city and district from the same line
-                remaining = line.split(prefecture)[1] if prefecture in line else line
-                
-                # Extract city (市)
-                city_match = re.search(r'([^市]+市)', remaining)
-                if city_match and not data['city']:
-                    data['city'] = city_match.group(1)
-                
-                # Extract district (区)
-                district_match = re.search(r'([^区]+区)', remaining)
-                if district_match and not data['district']:
-                    data['district'] = district_match.group(1)
-                
-                # Improved chome-banchi extraction with more patterns
-                data = self._extract_chome_banchi(remaining, data)
-                break
-        
-        return data
-    
     def _extract_chome_banchi(self, remaining: str, data: Dict[str, Any]) -> Dict[str, Any]:
         """Extract chome-banchi information"""
         chome_patterns = [

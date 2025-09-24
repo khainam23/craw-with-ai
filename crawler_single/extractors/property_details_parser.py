@@ -48,29 +48,3 @@ class PropertyDetailsParser:
                     break
         
         return data
-    
-    def extract_postcode(self, line: str, data: Dict[str, Any]) -> Dict[str, Any]:
-        """Extract postcode từ line"""
-        if not data['postcode']:
-            postcode_match = re.search(r'〒(\d{3}-\d{4})', line)
-            if postcode_match:
-                data['postcode'] = postcode_match.group(1)
-        
-        return data
-    
-    def extract_unit_number(self, line: str, data: Dict[str, Any]) -> Dict[str, Any]:
-        """Extract unit number từ line"""
-        if not data['unit_no']:
-            unit_patterns = [
-                r'(\d+号室)',
-                r'部屋番号[：:]\s*(\d+)',
-                r'Unit\s*(\d+)'
-            ]
-            
-            for pattern in unit_patterns:
-                unit_match = re.search(pattern, line, re.IGNORECASE)
-                if unit_match:
-                    data['unit_no'] = unit_match.group(1)
-                    break
-        
-        return data
