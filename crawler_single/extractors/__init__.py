@@ -9,7 +9,6 @@ from .building_info_extractor import BuildingInfoExtractor
 from .location_extractor import LocationExtractor
 from .date_extractor import DateExtractor
 from .address_parser import AddressParser
-from .property_details_parser import PropertyDetailsParser
 
 __all__ = [
     'BasicPropertyExtractor',
@@ -19,5 +18,4 @@ __all__ = [
     'LocationExtractor',
     'DateExtractor',
     'AddressParser',
-    'PropertyDetailsParser'
 ]
