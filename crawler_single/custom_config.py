@@ -1,7 +1,6 @@
 """
 Custom Configuration - Setup your custom rules and hooks here
 """
-
 import re
 from typing import Dict, Any
 from .custom_rules import CustomExtractor, RuleBuilder, ExtractionRule
@@ -42,14 +41,17 @@ def setup_custom_extractor() -> CustomExtractor:
             except Exception as e:
                 print(f"❌ Coordinate conversion error: {e}")
         
-        # Clean up temporary HTML data
-        if '_html' in data:
-            del data['_html']
-            
+        # Keep _html for image extraction, it will be cleaned up later
         return data
     
     # Pre-hook to pass HTML to post-hook
     def pass_html(html: str, data: Dict[str, Any]) -> tuple:
+        # Remove section tags with class containing "--related"
+        html = re.sub(r'<section[^>]*class="[^"]*--related[^"]*"[^>]*>.*?</section>', '', html, flags=re.DOTALL | re.IGNORECASE)
+        
+        # Remove the specific Japanese text section about related properties
+        html = re.sub(r'この部屋をチェックした人は、こんな部屋もチェックしています。.*?(?=<footer|$)', '', html, flags=re.DOTALL | re.IGNORECASE)
+        
         data['_html'] = html
         return html, data
     

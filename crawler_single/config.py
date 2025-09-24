@@ -23,13 +23,13 @@ class CrawlerConfig:
     )
     
     # Image extraction limits
-    MAX_IMAGES = 20
+    MAX_IMAGES = 99
     
     # Station limits
     MAX_STATIONS = 5
     
     # Skip patterns for images
-    IMAGE_SKIP_PATTERNS = ['icon', 'logo', 'button', 'arrow']
+    IMAGE_SKIP_PATTERNS = ['icon', 'logo', 'button', 'arrow', 'common']
     
     # Valid image extensions
     VALID_IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.webp', '.gif']

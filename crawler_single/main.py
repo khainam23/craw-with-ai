@@ -1,6 +1,7 @@
 import asyncio
 from datetime import datetime
 from .property_crawler import EnhancedPropertyCrawler
+from .utils import FileUtils
 
 async def main():
     start = datetime.now()
@@ -11,7 +12,7 @@ async def main():
     crawler = EnhancedPropertyCrawler()
     print("\n=== 😶‍🌫️☀️😁😂😑🤷‍♂️ ===")
     results = await crawler.crawl_multiple_properties(urls)
-    json_file = crawler.save_results_to_json(results)
+    json_file = FileUtils.save_json_results(results)
 
     end = datetime.now()
     duration = end - start

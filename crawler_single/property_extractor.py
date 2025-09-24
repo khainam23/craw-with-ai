@@ -40,16 +40,12 @@ class PropertyExtractor:
                     PropertyUtils.print_crawl_success(url, extracted_data)
                     
                     return PropertyUtils.create_crawl_result(
-                        success=True,
-                        url=url,
                         property_data=extracted_data,
                     )
                 else:
                     error_msg = result.error_message or 'Failed to extract content'
                     PropertyUtils.print_crawl_error(url, error_msg)
                     return PropertyUtils.create_crawl_result(
-                        success=False,
-                        url=url,
                         error=error_msg
                     )
                     
@@ -57,8 +53,6 @@ class PropertyExtractor:
             error_msg = str(e)
             PropertyUtils.print_crawl_error(url, error_msg)
             return PropertyUtils.create_crawl_result(
-                success=False,
-                url=url,
                 error=error_msg
             )
     
@@ -76,15 +70,16 @@ class PropertyExtractor:
         html_content = result.html if result.html else ""
         markdown_content = result.markdown if result.markdown else ""
                 
-        # Apply custom rules
+        # Apply custom rules (this will clean HTML and store it in _html)
         extracted_data = self.custom_extractor.extract_with_rules(html_content, extracted_data)
         
-        # Extract images từ HTML content
-        images = self.image_extractor.extract_images_from_html(html_content)
+        # Extract images từ cleaned HTML content (if available) or original HTML
+        cleaned_html = extracted_data.get('_html', html_content)
+        images = self.image_extractor.extract_images_from_html(cleaned_html)
         extracted_data['images'] = images
         
-        # Extract structured data từ HTML patterns
-        extracted_data = self.html_parser.extract_from_html_patterns(html_content, extracted_data)
+        # Extract structured data từ cleaned HTML patterns
+        extracted_data = self.html_parser.extract_from_html_patterns(cleaned_html, extracted_data)
         
         # Extract từ markdown content
         extracted_data = self.markdown_parser.extract_from_markdown(markdown_content, extracted_data)

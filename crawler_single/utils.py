@@ -62,20 +62,17 @@ class PropertyUtils:
             return PropertyModel(**basic_data)
     
     @staticmethod
-    def create_crawl_result(success: bool, url: str, property_data: Dict[str, Any] = None, 
+    def create_crawl_result(property_data: Dict[str, Any] = None, 
                            error: str = None) -> Dict[str, Any]:
         """Tạo cấu trúc kết quả crawl chuẩn"""
-        result = {
-            'success': success,
-            'url': url,
-        }
-        
-        if success and property_data:
-            result.update({
+        if property_data:
+            result = {
                 'property_data': property_data,
-            })
+            }
         else:
-            result['error'] = error or 'Unknown error'
+            result = {
+                'error': error or 'Unknown error'
+            }
         
         return result
     

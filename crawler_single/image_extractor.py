@@ -77,6 +77,8 @@ class ImageExtractor:
         if not src:
             return False
         
+        print("Checking image src:", src)
+        
         # Filter out small icons and invalid URLs
         if any(skip in src.lower() for skip in self.config.IMAGE_SKIP_PATTERNS):
             return False

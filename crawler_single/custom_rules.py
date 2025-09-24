@@ -6,7 +6,6 @@ import re
 from typing import Dict, Any, List, Callable
 from bs4 import BeautifulSoup
 
-
 class ExtractionRule:
     def __init__(self, 
                  name: str,
