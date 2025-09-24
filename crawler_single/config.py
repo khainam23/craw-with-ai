@@ -26,7 +26,7 @@ class CrawlerConfig:
     )
     
     # Image extraction limits
-    MAX_IMAGES = 99
+    MAX_IMAGES = 16
     
     # Station limits
     MAX_STATIONS = 5
