@@ -39,13 +39,10 @@ class EnhancedPropertyCrawler:
                 for i, img in enumerate(images_list):
                     img_num = i + 1
                     if isinstance(img, dict):
-                        if 'url' in img or 'category' in img:
-                            entry = {}
-                            if 'url' in img:
-                                entry['url'] = img['url']
-                            if 'category' in img:
-                                entry['category'] = img['category']
-                            property_dict[f'image_{img_num}'] = entry
+                        if 'url' in img:
+                            property_dict[f'image_url_{img_num}'] = img['url']
+                        if 'category' in img:
+                            property_dict[f'image_category_{img_num}'] = img['category']
             
             result['property_data'] = property_dict
             

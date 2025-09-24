@@ -32,7 +32,7 @@ class MarkdownParser:
             data = self.address_parser.extract_address_info(line, data)
             
             # Extract station information
-            station_count = self.station_parser.extract_station_info(line, data, station_count)
+            # station_count = self.station_parser.extract_station_info(line, data, station_count)
             
             # Extract property details
             data = self.property_parser.extract_building_type(line, data)

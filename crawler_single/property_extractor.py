@@ -64,7 +64,7 @@ class PropertyExtractor:
         extracted_data = get_empty_property_data(url)
         
         # Set property ID
-        extracted_data['property_csv_id'] = PropertyUtils.generate_property_id(url)
+        # extracted_data['property_csv_id'] = PropertyUtils.generate_property_id(url)
         
         # Get content
         html_content = result.html if result.html else ""

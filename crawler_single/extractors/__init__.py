@@ -7,7 +7,7 @@ from .amenity_extractor import AmenityExtractor
 from .pricing_extractor import PricingExtractor
 from .building_info_extractor import BuildingInfoExtractor
 from .location_extractor import LocationExtractor
-from .date_station_extractor import DateStationExtractor
+from .date_extractor import DateExtractor
 from .address_parser import AddressParser
 from .station_parser import StationParser
 from .property_details_parser import PropertyDetailsParser
@@ -18,7 +18,7 @@ __all__ = [
     'PricingExtractor',
     'BuildingInfoExtractor',
     'LocationExtractor',
-    'DateStationExtractor',
+    'DateExtractor',
     'AddressParser',
     'StationParser',
     'PropertyDetailsParser'

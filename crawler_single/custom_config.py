@@ -55,7 +55,39 @@ def setup_custom_extractor() -> CustomExtractor:
         data['_html'] = html
         return html, data
     
+    # Set default amenities to Y
+    def set_default_amenities(data: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Set specific amenities to Y by default
+        """
+        default_amenities = {
+            'credit_card': 'Y',         # Credit Card Accepted
+            'no_guarantor': 'Y',        # No Guarantor
+            'aircon': 'Y',              # Aircon
+            'aircon_heater': 'Y',       # Aircon Heater
+            'bs': 'Y',                  # Broadcast Satellite TV
+            'cable': 'Y',               # Cable
+            'internet_broadband': 'Y',  # Broadband
+            'internet_wifi': 'Y',       # Internet WiFi
+            'phoneline': 'Y',           # Phoneline
+            'flooring': 'Y',            # Flooring
+            'system_kitchen': 'Y',      # System Kitchen
+            'bath': 'Y',                # Bath
+            'shower': 'Y',              # Shower
+            'unit_bath': 'Y',           # Unit Bath
+            'western_toilet': 'Y'       # Western Toilet
+        }
+    
+        
+        # Set all default amenities to Y
+        for field_name, value in default_amenities.items():
+            data[field_name] = value
+            print(f"✅ Setting {field_name} = {value}")
+        
+        return data
+    
     extractor.add_pre_hook(pass_html)
     extractor.add_post_hook(convert_coordinates)
+    extractor.add_post_hook(set_default_amenities)
     
     return extractor

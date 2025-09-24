@@ -5,7 +5,7 @@ from .extractors import (
     PricingExtractor,
     BuildingInfoExtractor,
     LocationExtractor,
-    DateStationExtractor
+    DateExtractor
 )
 
 class HTMLParser:
@@ -18,7 +18,7 @@ class HTMLParser:
         self.pricing_extractor = PricingExtractor()
         self.building_extractor = BuildingInfoExtractor()
         self.location_extractor = LocationExtractor()
-        self.date_station_extractor = DateStationExtractor()
+        self.date_extractor = DateExtractor()
     
     def extract_from_html_patterns(self, html: str, data: Dict[str, Any]) -> Dict[str, Any]:
         """
@@ -46,8 +46,7 @@ class HTMLParser:
         data = self.location_extractor.extract_coordinates(html, data)
         data = self.location_extractor.extract_address_from_html(html, data)
         
-        # Extract date and station information
-        data = self.date_station_extractor.extract_available_date_from_html(html, data)
-        data = self.date_station_extractor.extract_station_from_html(html, data)
+        # Extract date information
+        data = self.date_extractor.extract_available_date_from_html(html, data)
         
         return data
