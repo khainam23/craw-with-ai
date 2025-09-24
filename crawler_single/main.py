@@ -6,7 +6,7 @@ from .utils import FileUtils
 async def main():
     start = datetime.now()
     urls = [
-        "https://www.mitsui-chintai.co.jp/rf/tatemono/10835/101", 
+        "https://www.mitsui-chintai.co.jp/rf/tatemono/4172/305", 
     ]
 
     crawler = EnhancedPropertyCrawler()
