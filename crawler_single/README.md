@@ -59,6 +59,12 @@ crawler/
 - Utility functions cho property processing
 - File operations, validation và model creation
 
+### 9. `custom_config.py` & `custom_rules.py`
+- Custom extraction rules và hooks system
+- **Tab Click Feature**: Tự động click tab selector để load thêm ảnh
+- Coordinate conversion và custom data processing
+- Xem `TAB_CLICK_GUIDE.md` để biết chi tiết về tính năng click tab
+
 ## Cách sử dụng
 
 ### Import package
@@ -128,3 +134,26 @@ file_utils = FileUtils()
 file_utils.save_to_json(data, "output.json")
 file_utils.save_to_csv(data, "output.csv")
 ```
+
+## Tính năng Tab Click
+
+### Mô tả
+Tính năng Tab Click cho phép crawler tự động click vào tab selector trên website để load thêm ảnh và nội dung. Đặc biệt hữu ích cho các website có ảnh được load động qua JavaScript.
+
+### Cách hoạt động
+1. **Detection**: Tự động phát hiện tab selector `data-js-buildroom-slide-tab="exterior"`
+2. **Click**: Thực thi JavaScript để click tab và chờ content load
+3. **Extract**: Thu thập thêm ảnh từ content được load động
+
+### Cấu hình
+- **Tab selector**: `[data-js-buildroom-slide-tab="exterior"]`
+- **Delay**: 3 giây sau click + 2 giây cho lazy images
+- **Image category**: `exterior_tab`
+
+### Test
+```bash
+python test/test_tab_click.py
+```
+
+### Chi tiết
+Xem file `TAB_CLICK_GUIDE.md` để biết hướng dẫn chi tiết và customization.

@@ -41,7 +41,7 @@ def setup_custom_extractor() -> CustomExtractor:
             except Exception as e:
                 print(f"❌ Coordinate conversion error: {e}")
         
-        # Keep _html for image extraction, it will be cleaned up later
+        # Keep _html for image extraction from cleaned HTML, will be cleaned up after processing
         return data
     
     # Pre-hook to pass HTML to post-hook
@@ -53,6 +53,29 @@ def setup_custom_extractor() -> CustomExtractor:
         html = re.sub(r'この部屋をチェックした人は、こんな部屋もチェックしています。.*?(?=<footer|$)', '', html, flags=re.DOTALL | re.IGNORECASE)
         
         data['_html'] = html
+        return html, data
+    
+    # Pre-hook to click tab selector and get additional images
+    def click_tab_for_images(html: str, data: Dict[str, Any]) -> tuple:
+        """
+        Click on tab selector to load additional images
+        This hook will be executed during crawling process
+        """
+        try:
+            # Check if the tab selector exists in HTML
+            tab_pattern = r'data-js-buildroom-slide-tab="exterior"'
+            if re.search(tab_pattern, html, re.IGNORECASE):
+                print("🖱️ Tab selector found - will be clicked during crawling")
+                # Mark that tab clicking is needed
+                data['_needs_tab_click'] = True
+                data['_tab_selector'] = '[data-js-buildroom-slide-tab="exterior"]'
+                data['_tab_delay'] = 3  # 3 seconds delay after click
+            else:
+                print("ℹ️ No tab selector found for exterior images")
+                
+        except Exception as e:
+            print(f"❌ Error in tab click pre-hook: {e}")
+        
         return html, data
     
     # Set default amenities to Y
@@ -86,6 +109,7 @@ def setup_custom_extractor() -> CustomExtractor:
         
         return data
     
+    extractor.add_pre_hook(click_tab_for_images)
     extractor.add_pre_hook(pass_html)
     extractor.add_post_hook(convert_coordinates)
     extractor.add_post_hook(set_default_amenities)
