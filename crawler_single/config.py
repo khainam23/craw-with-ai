@@ -18,7 +18,7 @@ class CrawlerConfig:
     RUN_CONFIG = CrawlerRunConfig(
         wait_for_images=True,
         scan_full_page=True,
-        scroll_delay=0.5,
+        scroll_delay=1,
         delay_before_return_html=3.0,
         page_timeout=45000,
         remove_overlay_elements=True,

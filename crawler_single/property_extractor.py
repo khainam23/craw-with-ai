@@ -82,7 +82,7 @@ class PropertyExtractor:
         extracted_data = self.html_parser.extract_from_html_patterns(cleaned_html, extracted_data)
         
         # Extract từ markdown content
-        extracted_data = self.markdown_parser.extract_from_markdown(markdown_content, extracted_data)
+        # extracted_data = self.markdown_parser.extract_from_markdown(markdown_content, extracted_data)
         
         return extracted_data
     

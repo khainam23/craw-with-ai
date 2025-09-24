@@ -126,7 +126,7 @@ class PropertyModel(BaseModel):
     # Thông tin căn hộ
     room_type: Optional[str] = Field(None, description="Loại phòng/mặt bằng (ví dụ: 1K, 2DK)")
     size: Optional[float] = Field(None, description="Diện tích phòng (mét vuông)")
-    unit_no: Optional[str] = Field(None, description="Số căn hộ")
+    unit_no: Optional[int] = Field(None, description="Số căn hộ")
     ad_type: Optional[str] = Field(None, description="Loại quảng cáo (ví dụ: đại lý, chủ sở hữu)")
     available_from: Optional[str] = Field(None, description="Ngày bất động sản có sẵn")
     

@@ -10,7 +10,47 @@ class BasicPropertyExtractor:
     """Extract basic property information like rent, size, floor, year"""
     
     def extract_rent_patterns(self, html: str, data: Dict[str, Any]) -> Dict[str, Any]:
-        """Extract rent patterns từ HTML"""
+        # Pattern 1: "賃料・管理費・共益費" followed by rent/management fee
+        # Matches: <dt>賃料・管理費・共益費</dt><dd class="__rent"><em>250,000円</em> / 10,000円</dd>
+        rent_management_pattern = r'賃料[・･]管理費[・･]共益費.*?<em>([\d,]+)円</em>\s*/\s*([\d,]+)円'
+        match = re.search(rent_management_pattern, html, re.DOTALL)
+        if match:
+            rent = match.group(1).replace(',', '')
+            monthly_maintenance = match.group(2).replace(',', '')
+            data['monthly_rent'] = int(rent)
+            data['monthly_maintenance'] = int(monthly_maintenance)
+            return data
+        
+        # Pattern 2: More general "賃料・管理費・共益費" pattern without <em> tags
+        rent_management_pattern2 = r'賃料[・･]管理費[・･]共益費.*?([\d,]+)円\s*/\s*([\d,]+)円'
+        match = re.search(rent_management_pattern2, html, re.DOTALL)
+        if match:
+            rent = match.group(1).replace(',', '')
+            monthly_maintenance = match.group(2).replace(',', '')
+            data['monthly_rent'] = int(rent)
+            data['monthly_maintenance'] = int(monthly_maintenance)
+            return data
+        
+        # Pattern 3: Simple "250,000円 / 10,000円" format (fallback)
+        combined_pattern = r'([\d,]+)円\s*/\s*([\d,]+)円'
+        match = re.search(combined_pattern, html)
+        if match:
+            rent = match.group(1).replace(',', '')
+            monthly_maintenance = match.group(2).replace(',', '')
+            data['monthly_rent'] = int(rent)
+            data['monthly_maintenance'] = int(monthly_maintenance)
+            return data
+        
+        # Pattern 4: "めやす賃料" pattern for fallback
+        meyasu_pattern = r'めやす賃料.*?([\d,]+)円'
+        match = re.search(meyasu_pattern, html, re.DOTALL)
+        if match:
+            rent = match.group(1).replace(',', '')
+            data['monthly_rent'] = int(rent)
+            data['rent_type'] = 'meyasu'  # Mark as estimated rent
+            return data
+        
+        # Fallback patterns (existing patterns)
         rent_patterns = [
             r'家賃[：:]\s*(\d+(?:,\d+)?)万円',
             r'賃料[：:]\s*(\d+(?:,\d+)?)万円',
@@ -23,11 +63,10 @@ class BasicPropertyExtractor:
             if matches:
                 rent_value = matches[0].replace(',', '')
                 try:
-                    # Convert to monthly rent in yen
                     if '万円' in pattern:
-                        data['monthly_rent'] = str(int(float(rent_value) * 10000))
+                        data['monthly_rent'] = int(float(rent_value) * 10000)  # convert "25万円" → 250000円
                     else:
-                        data['monthly_rent'] = rent_value
+                        data['monthly_rent'] = int(rent_value)
                 except ValueError:
                     data['monthly_rent'] = rent_value
                 break
@@ -99,7 +138,7 @@ class BasicPropertyExtractor:
                     
         return data
     
-    def _convert_fullwidth_to_halfwidth(self, text: str) -> str:
+    def _convert_fullwidth_to_halfwidth(self, text: str) -> int:
         """Convert full-width numbers to half-width numbers"""
         fullwidth_to_halfwidth = {
             '０': '0', '１': '1', '２': '2', '３': '3', '４': '4',
@@ -110,7 +149,7 @@ class BasicPropertyExtractor:
         for fw, hw in fullwidth_to_halfwidth.items():
             result = result.replace(fw, hw)
         
-        return result
+        return int(result)
     
     def extract_year_patterns(self, html: str, data: Dict[str, Any]) -> Dict[str, Any]:
         """Extract year patterns từ HTML"""
