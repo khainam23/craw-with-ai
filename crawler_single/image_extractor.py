@@ -64,9 +64,9 @@ class ImageExtractor:
         
         return True
     
-    def _categorize_image(self, position: int) -> str:
-        if position > 1:
-            return 'interior'
+    def _categorize_image(self, index: int) -> str:
+        if index == 0:
+            return 'exterior'
         else:
-            return 'others'
+            return 'interior'
         

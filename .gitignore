@@ -217,4 +217,5 @@ __marimo__/
 
 *.json
 !structure.json
-html.txt
+*.txt
+*.html

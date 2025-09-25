@@ -3,7 +3,6 @@ Cấu hình cho Property Crawler
 """
 
 from crawl4ai.async_configs import BrowserConfig, CrawlerRunConfig
-from crawl4ai.async_configs import CacheMode
 
 class CrawlerConfig:
     """Cấu hình cho crawler"""
@@ -18,50 +17,13 @@ class CrawlerConfig:
     RUN_CONFIG = CrawlerRunConfig(
         wait_for_images=True,
         scan_full_page=True,
-        scroll_delay=1,
-        delay_before_return_html=3.0,
+        delay_before_return_html=0.2,
         page_timeout=45000,
-        remove_overlay_elements=True,
-        cache_mode=CacheMode.BYPASS,
-        js_code="""
-        // Function to click tab selector and wait for images to load
-        async function clickTabForImages() {
-            try {
-                // Look for the exterior tab selector
-                const tabSelector = document.querySelector('[data-js-buildroom-slide-tab="exterior"]');
-                if (tabSelector) {
-                    console.log('🖱️ Clicking exterior tab...');
-                    tabSelector.click();
-                    
-                    // Wait for images to load
-                    await new Promise(resolve => setTimeout(resolve, 3000));
-                    
-                    // Wait for any lazy-loaded images
-                    const images = document.querySelectorAll('img[loading="lazy"]');
-                    if (images.length > 0) {
-                        console.log(`⏳ Waiting for ${images.length} lazy images to load...`);
-                        await new Promise(resolve => setTimeout(resolve, 2000));
-                    }
-                    
-                    console.log('✅ Tab clicked and images loaded');
-                    return true;
-                } else {
-                    console.log('ℹ️ No exterior tab found');
-                    return false;
-                }
-            } catch (error) {
-                console.error('❌ Error clicking tab:', error);
-                return false;
-            }
-        }
-        
-        // Execute the tab clicking function
-        await clickTabForImages();
-        """,
+        remove_overlay_elements=True
     )
     
     # Image extraction limits
-    MAX_IMAGES = 50
+    MAX_IMAGES = 16
     
     # Station limits
     MAX_STATIONS = 5

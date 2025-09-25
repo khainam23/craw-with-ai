@@ -2,6 +2,8 @@
 Custom Configuration - Setup your custom rules and hooks here
 """
 import re
+import json
+import requests
 from typing import Dict, Any
 from .custom_rules import CustomExtractor, RuleBuilder, ExtractionRule
 
@@ -55,28 +57,62 @@ def setup_custom_extractor() -> CustomExtractor:
         data['_html'] = html
         return html, data
     
-    # Pre-hook to click tab selector and get additional images
-    def click_tab_for_images(html: str, data: Dict[str, Any]) -> tuple:
-        """
-        Click on tab selector to load additional images
-        This hook will be executed during crawling process
-        """
+    def extract_image(data: Dict[str, Any]) -> Dict[str, Any]:
+        html = data.get('_html', '')
+        if not html:
+            return data
+
+        used_urls = set()
+        used_name = set()
+        images_list = []
+
+        def add_image(img_url: str, category: str):
+            """Thêm ảnh vào images list"""
+            if img_url not in used_urls and img_url.split('/')[-1] not in used_name and len(images_list) < 16:
+                image_data = {
+                    'url': img_url,
+                    'category': category
+                }
+                images_list.append(image_data)
+                used_urls.add(img_url)
+                used_name.add(img_url.split('/')[-1])
+                print(f"✅ Added {category} image [{len(images_list)}]: {img_url}")
+
+        def extract_js_var(var_name: str) -> str:
+            """Tìm giá trị biến JS trong source HTML"""
+            match = re.search(rf'{var_name}\s*=\s*["\']([^"\']+)["\']', html)
+            return match.group(1) if match else None
+
         try:
-            # Check if the tab selector exists in HTML
-            tab_pattern = r'data-js-buildroom-slide-tab="exterior"'
-            if re.search(tab_pattern, html, re.IGNORECASE):
-                print("🖱️ Tab selector found - will be clicked during crawling")
-                # Mark that tab clicking is needed
-                data['_needs_tab_click'] = True
-                data['_tab_selector'] = '[data-js-buildroom-slide-tab="exterior"]'
-                data['_tab_delay'] = 3  # 3 seconds delay after click
-            else:
-                print("ℹ️ No tab selector found for exterior images")
-                
+            # 1. Floor plan
+            firstfloor_url = extract_js_var("RF_firstfloorplan_photo")
+            if firstfloor_url and firstfloor_url != "null":
+                add_image(firstfloor_url, "floorplan")
+
+            # 2. Gallery
+            gallery_url = extract_js_var("RF_gallery_url")
+            if gallery_url and gallery_url != "null":
+                print(f"🖼️ Fetching gallery from: {gallery_url}")
+                response = requests.get(gallery_url, timeout=10)
+                if response.status_code == 200:
+                    gallery_data = response.json()
+                    for item in gallery_data:
+                        room_no = item.get("ROOM_NO", 0)
+                        filename = item.get("filename", "")
+                        if room_no != 99999 and filename:
+                            add_image(filename, "interior")
+                else:
+                    print(f"❌ Failed to fetch gallery: HTTP {response.status_code}")
+
         except Exception as e:
-            print(f"❌ Error in tab click pre-hook: {e}")
+            print(f"❌ Extraction error: {e}")
+
+        # Gán images list vào data
+        if images_list:
+            data['images'] = images_list
+            print(f"🎯 Total images extracted: {len(images_list)}")
         
-        return html, data
+        return data
     
     # Set default amenities to Y
     def set_default_amenities(data: Dict[str, Any]) -> Dict[str, Any]:
@@ -105,13 +141,25 @@ def setup_custom_extractor() -> CustomExtractor:
         # Set all default amenities to Y
         for field_name, value in default_amenities.items():
             data[field_name] = value
-            print(f"✅ Setting {field_name} = {value}")
         
         return data
     
-    extractor.add_pre_hook(click_tab_for_images)
+    # Cleanup hook to remove temporary fields
+    def cleanup_temp_fields(data: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Remove temporary fields that shouldn't be in final JSON
+        """
+        # Remove _html field used for processing
+        if '_html' in data:
+            del data['_html']
+            print("🧹 Cleaned up temporary _html field")
+        
+        return data
+    
     extractor.add_pre_hook(pass_html)
     extractor.add_post_hook(convert_coordinates)
     extractor.add_post_hook(set_default_amenities)
+    extractor.add_post_hook(extract_image)
+    extractor.add_post_hook(cleanup_temp_fields)
     
     return extractor
