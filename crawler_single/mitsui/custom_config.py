@@ -157,20 +157,25 @@ def setup_custom_extractor() -> CustomExtractor:
             if firstfloor_url and firstfloor_url != "null":
                 add_image(firstfloor_url, "floorplan")
 
-            # 2. Gallery
+            # 2. Gallery - Optimized with faster timeout
             gallery_url = find(r'RF_gallery_url\s*=\s*["\']([^"\']+)["\']', html)
             if gallery_url and gallery_url != "null":
                 print(f"🖼️ Fetching gallery from: {gallery_url}")
-                response = requests.get(gallery_url, timeout=10)
-                if response.status_code == 200:
-                    gallery_data = response.json()
-                    for item in gallery_data:
-                        room_no = item.get("ROOM_NO", 0)
-                        filename = item.get("filename", "")
-                        if room_no != 99999 and filename:
-                            add_image(filename, "interior")
-                else:
-                    print(f"❌ Failed to fetch gallery: HTTP {response.status_code}")
+                try:
+                    response = requests.get(gallery_url, timeout=3)  # Reduced timeout to 3s
+                    if response.status_code == 200:
+                        gallery_data = response.json()
+                        for item in gallery_data:
+                            room_no = item.get("ROOM_NO", 0)
+                            filename = item.get("filename", "")
+                            if room_no != 99999 and filename:
+                                add_image(filename, "interior")
+                    else:
+                        print(f"❌ Failed to fetch gallery: HTTP {response.status_code}")
+                except requests.exceptions.Timeout:
+                    print(f"⏰ Gallery request timeout - skipping images")
+                except Exception as e:
+                    print(f"❌ Gallery request error: {e}")
 
         except Exception as e:
             print(f"❌ Extraction error: {e}")

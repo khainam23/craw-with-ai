@@ -63,10 +63,6 @@ class PropertyExtractor:
         # Apply custom rules (this will clean HTML and store it in _html)
         extracted_data = self.custom_extractor.extract_with_rules(html_content, extracted_data)
         
-        # Skip HTML parser processing - using only custom configuration
-        # cleaned_html = extracted_data.get('_html', html_content)
-        # extracted_data = self.html_parser.extract_from_html_patterns(cleaned_html, extracted_data)
-        
         return extracted_data
     
     def validate_and_create_property_model(self, data: Dict[str, Any]):

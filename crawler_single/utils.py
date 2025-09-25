@@ -5,27 +5,11 @@ Utility functions cho Property Crawler
 import re
 from datetime import datetime
 from typing import Dict, Any
-from .models import PropertyModel, PropertyImage
+from .models import PropertyModel
 
 
 class PropertyUtils:
     """Utility functions cho property processing"""
-    
-    @staticmethod
-    def generate_property_id(url: str) -> str:
-        """Tạo property ID từ URL"""
-        # Extract ID từ URL
-        match = re.search(r'/(\d+)/?$', url)
-        if match:
-            return f"PROP_{match.group(1)}"
-        
-        # Extract từ path
-        path_match = re.search(r'/([^/]+)/?$', url)
-        if path_match:
-            return f"PROP_{path_match.group(1)}"
-        
-        # Fallback: timestamp
-        return f"PROP_{int(datetime.now().timestamp())}"
     
     @staticmethod
     def validate_and_create_property_model(data: Dict[str, Any]) -> PropertyModel:
@@ -33,16 +17,6 @@ class PropertyUtils:
         Validate và tạo PropertyModel từ extracted data
         """
         try:
-            # Xử lý images nếu có
-            if 'images' in data and isinstance(data['images'], list):
-                processed_images = []
-                for i, img in enumerate(data['images']):
-                    if isinstance(img, dict) and 'url' in img:
-                        processed_images.append(PropertyImage(**img))
-                    else:
-                        print(f"⚠️ Skipping invalid image data: {img}")
-                data['images'] = processed_images
-            
             # Tạo PropertyModel
             property_model = PropertyModel(**data)
             return property_model
@@ -77,16 +51,10 @@ class PropertyUtils:
         return result
     
     @staticmethod
-    def count_extracted_fields(data: Dict[str, Any]) -> int:
-        """Đếm số fields có dữ liệu"""
-        return len([k for k, v in data.items() if v is not None and v != []])
-    
-    @staticmethod
     def print_crawl_success(url: str, data: Dict[str, Any]):
         """In thông báo crawl thành công"""
         print(f"✅ Successfully crawled: {url}")
         print(f"🔍 Title: {data.get('building_name_ja', 'N/A')}")
-        print(f"🔍 Extracted {PropertyUtils.count_extracted_fields(data)} fields with data")
     
     @staticmethod
     def print_crawl_error(url: str, error: str):

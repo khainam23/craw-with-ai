@@ -1,23 +1,5 @@
 from pydantic import BaseModel, Field
 from typing import Optional, Literal, List, Dict, Any
-from datetime import datetime
-
-
-class PropertyImage(BaseModel):
-    """
-    Model cho hình ảnh bất động sản
-    """
-    category: Optional[str] = Field(None, description="Danh mục hình ảnh (ví dụ: exterior, interior, kitchen, bathroom)")
-    url: Optional[str] = Field(None, description="URL của hình ảnh")
-    
-    class Config:
-        schema_extra = {
-            "example": {
-                "category": "exterior",
-                "url": "https://example.com/property_image.jpg"
-            }
-        }
-
 
 class PropertyModel(BaseModel):
     """
@@ -256,7 +238,7 @@ class PropertyModel(BaseModel):
     vr_link: Optional[str] = Field(None, description="Liên kết tour thực tế ảo cho bất động sản")
     
     # Hình ảnh (danh sách linh hoạt)
-    images: Optional[List[PropertyImage]] = Field(default_factory=list, description="Danh sách hình ảnh của bất động sản")
+    images: Optional[List[object]] = Field(default_factory=list, description="Danh sách hình ảnh của bất động sản")
     
     # Ngày tạo
     create_date: Optional[str] = Field(None, description="Ngày tạo bất động sản (timestamp)")

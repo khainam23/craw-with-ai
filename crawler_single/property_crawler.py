@@ -46,9 +46,6 @@ class EnhancedPropertyCrawler:
             
             result['property_data'] = property_dict
             
-            if verbose:
-                print(f"✅ Success: Extracted {len(result['property_data'])} fields")
-            
             return result['property_data']
             
         except Exception as e:
