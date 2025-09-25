@@ -6,14 +6,12 @@ from typing import Dict, Any
 from crawl4ai import AsyncWebCrawler
 from .config import CrawlerConfig
 from .models import get_empty_property_data
-from .html_parser import HTMLParser
 from .utils import PropertyUtils
-from .custom_config import setup_custom_extractor
+from .mitsui.custom_config import setup_custom_extractor
 
 class PropertyExtractor:    
     def __init__(self):
         self.config = CrawlerConfig()
-        self.html_parser = HTMLParser()
         self.utils = PropertyUtils()
         self.custom_extractor = setup_custom_extractor()
     
@@ -65,9 +63,9 @@ class PropertyExtractor:
         # Apply custom rules (this will clean HTML and store it in _html)
         extracted_data = self.custom_extractor.extract_with_rules(html_content, extracted_data)
         
-        # Extract structured data từ cleaned HTML patterns
-        cleaned_html = extracted_data.get('_html', html_content)
-        extracted_data = self.html_parser.extract_from_html_patterns(cleaned_html, extracted_data)
+        # Skip HTML parser processing - using only custom configuration
+        # cleaned_html = extracted_data.get('_html', html_content)
+        # extracted_data = self.html_parser.extract_from_html_patterns(cleaned_html, extracted_data)
         
         return extracted_data
     

@@ -2,11 +2,9 @@
 Custom Configuration - Setup your custom rules and hooks here
 """
 import re
-import json
 import requests
 from typing import Dict, Any
-from .custom_rules import CustomExtractor, RuleBuilder, ExtractionRule
-
+from ..custom_rules import CustomExtractor
 
 def setup_custom_extractor() -> CustomExtractor:
     """
@@ -76,7 +74,6 @@ def setup_custom_extractor() -> CustomExtractor:
                 images_list.append(image_data)
                 used_urls.add(img_url)
                 used_name.add(img_url.split('/')[-1])
-                print(f"✅ Added {category} image [{len(images_list)}]: {img_url}")
 
         def extract_js_var(var_name: str) -> str:
             """Tìm giá trị biến JS trong source HTML"""
@@ -134,7 +131,8 @@ def setup_custom_extractor() -> CustomExtractor:
             'bath': 'Y',                # Bath
             'shower': 'Y',              # Shower
             'unit_bath': 'Y',           # Unit Bath
-            'western_toilet': 'Y'       # Western Toilet
+            'western_toilet': 'Y',      # Western Toilet
+            'fire_insurance': 20000,    # Insurance Fee
         }
     
         
@@ -142,6 +140,55 @@ def setup_custom_extractor() -> CustomExtractor:
         for field_name, value in default_amenities.items():
             data[field_name] = value
         
+        return data
+    
+    # Process pricing from めやす賃料 field
+    def process_pricing(data: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Extract めやす賃料 from HTML using regex and calculate monthly_rent and monthly_maintenance.
+        """
+        html = data.get('_html', '')
+        if not html:
+            return data
+
+        def extract_price_from_html(field_name: str) -> str:
+            """
+            Tìm giá trị trong <dd> ngay sau <dt>field_name</dt>.
+            """
+            pattern = rf"<dt[^>]*>{field_name}</dt>\s*<dd[^>]*>(.*?)</dd>"
+            match = re.search(pattern, html, re.DOTALL)
+            return match.group(1).strip() if match else ""
+
+        try:
+            total_monthly_raw = extract_price_from_html("めやす賃料")
+            print(f"💸 Processing pricing: めやす賃料={total_monthly_raw}")
+
+            if total_monthly_raw:
+                numeric_match = re.search(r"([\d,]+)", total_monthly_raw)
+                if numeric_match:
+                    total_monthly = int(numeric_match.group(1).replace(",", ""))
+
+                    # Tính toán
+                    numeric_guarantor = total_monthly * 50 // 100
+                    numeric_guarantor_max = total_monthly * 80 // 100
+
+                    # Ghi vào data
+                    data.update({
+                        "total_monthly": total_monthly,
+                        "numeric_guarantor": numeric_guarantor,
+                        "numeric_guarantor_max": numeric_guarantor_max,
+                    })
+
+                    print(f"💰 Processed pricing:")
+                    print(f"   total_monthly = {total_monthly:,}円")
+                    print(f"   numeric_guarantor = {numeric_guarantor:,}円 (50%)")
+                    print(f"   numeric_guarantor_max = {numeric_guarantor_max:,}円 (80%)")
+                else:
+                    print(f"⚠️ Could not extract numeric value from: {total_monthly_raw}")
+
+        except Exception as e:
+            print(f"❌ Error processing pricing: {e}")
+
         return data
     
     # Cleanup hook to remove temporary fields
@@ -159,6 +206,7 @@ def setup_custom_extractor() -> CustomExtractor:
     extractor.add_pre_hook(pass_html)
     extractor.add_post_hook(convert_coordinates)
     extractor.add_post_hook(set_default_amenities)
+    extractor.add_post_hook(process_pricing)
     extractor.add_post_hook(extract_image)
     extractor.add_post_hook(cleanup_temp_fields)
     
