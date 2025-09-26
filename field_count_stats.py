@@ -57,7 +57,7 @@ def analyze_field_counts(json_file_path: str):
 
 def main():
     """Hàm main"""
-    json_file = "crawl_results_20250926_085758.json"
+    json_file = "crawl_results_20250926_023546.json"
     analyze_field_counts(json_file)
 
 if __name__ == "__main__":

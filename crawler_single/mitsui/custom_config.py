@@ -400,7 +400,9 @@ def setup_custom_extractor() -> CustomExtractor:
                     'room_no': int(match.group(3))
                 })
             else:
-                print(f"⚠️ Could not parse h1 format: {h1_text}")
+               data.update({
+                    'building_name_ja': h1_text,
+                })
                 
         except Exception as e:
             print(f"❌ Error extracting header info: {e}")
