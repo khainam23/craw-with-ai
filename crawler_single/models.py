@@ -135,7 +135,7 @@ class PropertyModel(BaseModel):
     months_deposit: Optional[int] = Field(None, description="Tiền đặt cọc yêu cầu (tháng)")
     numeric_deposit: Optional[int] = Field(None, description="Tiền đặt cọc yêu cầu (số tiền)")
     months_key: Optional[int] = Field(None, description="Tiền chìa khóa yêu cầu (tháng)")
-    numeric_key: Optional[int] = Field(None, description="Tiền chìa khóa yêu cầu (số tiền)")
+    numeric_key: Optional[float] = Field(None, description="Tiền chìa khóa yêu cầu (số tiền)")
     months_guarantor: Optional[int] = Field(None, description="Phí người bảo lãnh yêu cầu (tháng)")
     numeric_guarantor: Optional[int] = Field(None, description="Phí người bảo lãnh yêu cầu (số tiền)")
     months_agency: Optional[int] = Field(None, description="Phí đại lý yêu cầu (tháng)")

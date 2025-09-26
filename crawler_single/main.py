@@ -23,6 +23,5 @@ async def crawl_pages(urls = [], batch_size: int = 5):
 
 if __name__ == "__main__":
     asyncio.run(crawl_pages([
-        "https://www.mitsui-chintai.co.jp/rf/tatemono/5995", 
-        "https://www.mitsui-chintai.co.jp/rf/tatemono/5995", 
+        "https://www.mitsui-chintai.co.jp/rf/tatemono/408/201", 
     ]))
