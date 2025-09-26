@@ -5,7 +5,7 @@ import asyncio
 
 url = "https://www.mitsui-chintai.co.jp/rf/result?"
 item_selector = "tr.c-room-list__body-row[data-js-room-link]"  # dùng CSS selector
-num_page = 1
+num_page = 74
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
