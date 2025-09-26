@@ -7,7 +7,7 @@ Tách từ enhanced_crawler.py thành các module nhỏ hơn để dễ đọc, 
 from .property_crawler import EnhancedPropertyCrawler
 from .property_extractor import PropertyExtractor
 from .config import CrawlerConfig
-from .utils import PropertyUtils, FileUtils
+from utils.utils import PropertyUtils, FileUtils
 
 __version__ = "1.0.0"
 

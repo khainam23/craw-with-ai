@@ -6,7 +6,7 @@ from typing import Dict, Any
 from crawl4ai import AsyncWebCrawler
 from .config import CrawlerConfig
 from .models import get_empty_property_data
-from .utils import PropertyUtils
+from utils.utils import PropertyUtils
 from .mitsui.custom_config import setup_custom_extractor
 
 class PropertyExtractor:    

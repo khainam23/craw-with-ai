@@ -5,7 +5,7 @@ Utility functions cho Property Crawler
 import re
 from datetime import datetime
 from typing import Dict, Any
-from .models import PropertyModel
+from crawler_single.models import PropertyModel
 
 
 class PropertyUtils:

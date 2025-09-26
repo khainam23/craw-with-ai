@@ -8,11 +8,11 @@ Optimized for large-scale crawling with memory management and batch processing.
 import asyncio
 import gc
 import psutil
-import os
 from datetime import datetime
-from typing import List, Optional, AsyncGenerator
+from typing import List
 from .url_extractor import extract_property_urls
 from crawler_single import EnhancedPropertyCrawler
+from utils.utils import FileUtils
 
 
 class IntegratedPropertyCrawler:
@@ -160,7 +160,7 @@ class IntegratedPropertyCrawler:
                 # Save intermediate results if enabled
                 if save_intermediate and batch_num % 5 == 0:  # Save every 5 batches
                     temp_filename = f"temp_crawl_results_batch_{batch_num}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-                    self.crawler.save_results_to_json(all_results, temp_filename)
+                    FileUtils.save_json_results(all_results, temp_filename)
                     print(f"💾 Intermediate results saved to: {temp_filename}")
                 
                 # Progress update
@@ -181,7 +181,7 @@ class IntegratedPropertyCrawler:
         print("💾 STEP 3: Saving final results")
         print("="*50)
         
-        json_file = self.crawler.save_results_to_json(all_results)
+        json_file = FileUtils.save_json_results(all_results)
         
         # Final cleanup
         self._force_garbage_collection()
