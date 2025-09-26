@@ -3,7 +3,7 @@ from datetime import datetime
 from .property_crawler import EnhancedPropertyCrawler
 from utils.utils import FileUtils
 
-async def main(urls = []):
+async def crawl_pages(urls = []):
     start = datetime.now()
 
     crawler = EnhancedPropertyCrawler()
@@ -22,7 +22,7 @@ async def main(urls = []):
     """)
 
 if __name__ == "__main__":
-    asyncio.run(main([
+    asyncio.run(crawl_pages([
         "https://www.mitsui-chintai.co.jp/rf/tatemono/5995", 
         "https://www.mitsui-chintai.co.jp/rf/tatemono/5995", 
     ]))

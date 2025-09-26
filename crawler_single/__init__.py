@@ -7,7 +7,7 @@ Tách từ enhanced_crawler.py thành các module nhỏ hơn để dễ đọc, 
 from .property_crawler import EnhancedPropertyCrawler
 from .property_extractor import PropertyExtractor
 from .config import CrawlerConfig
-from utils.utils import PropertyUtils, FileUtils
+from .main import crawl_pages
 
 __version__ = "1.0.0"
 
@@ -16,5 +16,5 @@ __all__ = [
     "PropertyExtractor", 
     "CrawlerConfig",
     "PropertyUtils",
-    "FileUtils",
+    "crawl_pages"
 ]
