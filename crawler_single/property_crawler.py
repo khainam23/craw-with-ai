@@ -56,26 +56,49 @@ class EnhancedPropertyCrawler:
                 print(f"❌ Exception crawling {url}: {e}")
             return error_result
 
-    async def crawl_multiple_properties(self, urls: List[str]) -> List[Dict[str, Any]]:
+    async def crawl_multiple_properties(self, urls: List[str], batch_size: int = 5) -> List[Dict[str, Any]]:
         """
-        Crawl nhiều properties cùng lúc
+        Crawl nhiều properties với batch processing để tránh timeout
+        
+        Args:
+            urls: List of URLs to crawl
+            batch_size: Number of URLs to crawl simultaneously (default: 5)
         """
-        print(f"🏘️ Crawling {len(urls)} properties...")
+        print(f"🏘️ Crawling {len(urls)} properties in batches of {batch_size}...")
         
-        # Tạo tasks cho tất cả URLs
-        tasks = [self._crawl_single_property(url) for url in urls]
+        all_results = []
         
-        # Chạy parallel với error handling
-        results = await asyncio.gather(*tasks, return_exceptions=True)
+        # Chia URLs thành các batches
+        for i in range(0, len(urls), batch_size):
+            batch_urls = urls[i:i + batch_size]
+            batch_num = (i // batch_size) + 1
+            total_batches = (len(urls) + batch_size - 1) // batch_size
+            
+            print(f"📦 Processing batch {batch_num}/{total_batches} ({len(batch_urls)} URLs)...")
+            
+            # Tạo tasks cho batch hiện tại
+            tasks = [self._crawl_single_property(url) for url in batch_urls]
+            
+            # Chạy parallel với error handling cho batch này
+            batch_results = await asyncio.gather(*tasks, return_exceptions=True)
+            
+            # Xử lý exceptions cho batch
+            processed_batch_results = []
+            for j, result in enumerate(batch_results):
+                if isinstance(result, Exception):
+                    processed_batch_results.append({
+                        'error': str(result),
+                        'url': batch_urls[j]
+                    })
+                else:
+                    processed_batch_results.append(result)
+            
+            all_results.extend(processed_batch_results)
+            
+            # Thêm delay giữa các batches để tránh quá tải server
+            if i + batch_size < len(urls):  # Không delay sau batch cuối
+                print(f"⏳ Waiting 2 seconds before next batch...")
+                await asyncio.sleep(2)
         
-        # Xử lý exceptions
-        processed_results = []
-        for i, result in enumerate(results):
-            if isinstance(result, Exception):
-                processed_results.append({
-                    'error': str(result),
-                })
-            else:
-                processed_results.append(result)
-        
-        return processed_results
+        print(f"✅ Completed crawling all {len(urls)} properties!")
+        return all_results

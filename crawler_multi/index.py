@@ -30,4 +30,4 @@ for page in range(1, num_page + 1):
         urls.append(link)
         
     
-asyncio.run(crawl_pages(urls))
+asyncio.run(crawl_pages(urls, batch_size=3))  # Giảm batch size để tránh timeout

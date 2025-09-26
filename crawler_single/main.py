@@ -3,12 +3,12 @@ from datetime import datetime
 from .property_crawler import EnhancedPropertyCrawler
 from utils.utils import FileUtils
 
-async def crawl_pages(urls = []):
+async def crawl_pages(urls = [], batch_size: int = 5):
     start = datetime.now()
 
     crawler = EnhancedPropertyCrawler()
     print("\n=== 😶‍🌫️☀️😁😂😑🤷‍♂️ ===")
-    results = await crawler.crawl_multiple_properties(urls)
+    results = await crawler.crawl_multiple_properties(urls, batch_size=batch_size)
     json_file = FileUtils.save_json_results(results)
 
     end = datetime.now()

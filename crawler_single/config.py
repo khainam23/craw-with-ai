@@ -22,7 +22,7 @@ class CrawlerConfig:
         wait_for_images=False,
         scan_full_page=False,
         delay_before_return_html=0.1,
-        page_timeout=23000,
+        page_timeout=25000,
         remove_overlay_elements=True
     )
     
