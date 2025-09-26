@@ -1,6 +1,7 @@
 import requests
 from crawler_single import crawl_pages
 from bs4 import BeautifulSoup
+import asyncio
 
 url = "https://www.mitsui-chintai.co.jp/rf/result?"
 item_selector = "tr.c-room-list__body-row[data-js-room-link]"  # dùng CSS selector
@@ -28,4 +29,5 @@ for page in range(1, num_page + 1):
         link = item.get("data-js-room-link")
         urls.append(link)
         
-    crawl_pages(urls)
+    
+asyncio.run(crawl_pages(urls))
