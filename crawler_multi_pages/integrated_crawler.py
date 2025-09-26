@@ -11,7 +11,7 @@ import psutil
 import os
 from datetime import datetime
 from typing import List, Optional, AsyncGenerator
-from url_extractor import extract_property_urls
+from .url_extractor import extract_property_urls
 from crawler_single import EnhancedPropertyCrawler
 
 

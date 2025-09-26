@@ -1,7 +1,7 @@
 import asyncio
 from datetime import datetime
-from integrated_crawler import IntegratedPropertyCrawler
-from crawler_config import get_config_by_name, print_config_info
+from .integrated_crawler import IntegratedPropertyCrawler
+from .crawler_config import get_config_by_name, print_config_info
 
 async def main():
     """Main function to run integrated property crawler with configurable settings"""

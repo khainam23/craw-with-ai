@@ -10,6 +10,10 @@ class CrawlerConfig:
     # Browser configuration
     BROWSER_CONFIG = BrowserConfig(
         headless=True,
+        headers={
+            "Accept-Encoding": "gzip, deflate",
+            "Cache-Control": "no-cache",
+        },
         user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     )
     
@@ -18,7 +22,7 @@ class CrawlerConfig:
         wait_for_images=False,
         scan_full_page=False,
         delay_before_return_html=0.1,
-        page_timeout=15000,
+        page_timeout=23000,
         remove_overlay_elements=True
     )
     

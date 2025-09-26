@@ -11,6 +11,7 @@ class PropertyModel(BaseModel):
     property_csv_id: Optional[str] = Field(None, description="Mã định danh duy nhất cho bất động sản ở định dạng CSV")
     
     # Địa chỉ
+    address: Optional[str] = Field(None, description="Địa chỉ của bất động sản")
     postcode: Optional[str] = Field(None, description="Mã bưu điện của bất động sản")
     prefecture: Optional[str] = Field(None, description="Tỉnh nơi bất động sản tọa lạc")
     city: Optional[str] = Field(None, description="Thành phố nơi bất động sản tọa lạc")
@@ -152,6 +153,9 @@ class PropertyModel(BaseModel):
     other_initial_fees: Optional[int] = Field(None, description="Các phí ban đầu khác")
     other_subscription_fees: Optional[int] = Field(None, description="Các phí đăng ký khác")
     
+    # Tổng khoảng tiền
+    total_monthly: Optional[int] = Field(None, description="Tổng chi phí hàng tháng")
+    
     # Thông tin bảo lãnh
     no_guarantor: Optional[Literal['Y', 'N']] = Field(None, description="Có yêu cầu không cần người bảo lãnh không? ('Y' hoặc 'N')")
     guarantor_agency: Optional[str] = Field(None, description="Yêu cầu đại lý bảo lãnh")
@@ -284,80 +288,6 @@ class PropertyModel(BaseModel):
                 ]
             }
         }
-
-class AmenityKeywords:
-    """Keywords cho việc detect amenities"""
-    
-    AMENITY_KEYWORDS = {
-        # Building amenities
-        'elevator': ['エレベーター', 'elevator', 'EV'],
-        'autolock': ['オートロック', 'auto lock', 'autoloc'],
-        'delivery_box': ['宅配ボックス', 'delivery box', '宅配BOX', '宅配ロッカー'],
-        'concierge': ['コンシェルジュ', 'concierge', 'フロント'],
-        'gym': ['ジム', 'gym', 'フィットネス'],
-        'swimming_pool': ['プール', 'pool', 'swimming'],
-        
-        # Parking - with more specific keywords
-        'parking': ['駐車場有', '駐車場', 'parking', '駐車可', '車庫'],
-        'bicycle_parking': ['駐輪場', 'bicycle parking', '自転車置場', '自転車'],
-        'motorcycle_parking': ['バイク置場', 'motorcycle', 'バイク駐車', 'バイク'],
-        
-        # Unit amenities
-        'aircon': ['エアコン', 'air conditioning', 'aircon', 'AC', '冷暖房'],
-        'aircon_heater': ['エアコン暖房', 'air conditioning heater'],
-        'internet_wifi': ['WiFi', 'インターネット', 'internet', 'ネット', 'ブロードバンド'],
-        'cable': ['ケーブルTV', 'cable', 'CATV'],
-        'bs': ['BS', 'BS放送', 'satellite', 'BS有'],
-        
-        # Kitchen
-        'system_kitchen': ['システムキッチン', 'system kitchen'],
-        'counter_kitchen': ['カウンターキッチン', 'counter kitchen'],
-        'full_kitchen': ['フルキッチン', 'full kitchen'],
-        'induction_cooker': ['IHクッキング', 'induction', 'IH'],
-        'gas': ['ガス', 'gas', 'ガスコンロ'],
-        'microwave': ['電子レンジ', 'microwave'],
-        'oven': ['オーブン', 'oven'],
-        'dishwasher': ['食洗機', 'dishwasher', '食器洗い'],
-        'refrigerator': ['冷蔵庫', 'refrigerator', '冷蔵'],
-        'refrigerator_freezer': ['冷凍冷蔵庫', 'freezer'],
-        
-        # Bathroom - enhanced with more Japanese terms
-        'bath': ['バス', 'bath', '浴室', 'バス有', '浴槽'],
-        'separate_toilet': ['独立洗面台', 'separate toilet', '独立', 'バストイレ別'],
-        'unit_bath': ['ユニットバス', 'unit bath', 'バストイレ'],
-        'auto_fill_bath': ['自動給湯', 'auto fill', '給湯追い焚き有', '追い焚き'],
-        'shower': ['シャワー', 'shower'],
-        'japanese_toilet': ['和式トイレ', 'japanese toilet'],
-        'western_toilet': ['洋式トイレ', 'western toilet'],
-        'washlet': ['ウォシュレット', 'washlet'],
-        
-        # Flooring & Interior
-        'flooring': ['フローリング', 'flooring', 'フロア'],
-        'tatami': ['畳', 'tatami'],
-        'carpet': ['カーペット', 'carpet'],
-        'underfloor_heating': ['床暖房', 'underfloor heating'],
-        
-        # Storage & Space - enhanced
-        'storage': ['収納', 'storage', 'クローゼット', '室内洗濯機置場'],
-        'loft': ['ロフト', 'loft'],
-        'balcony': ['バルコニー', 'balcony'],
-        'veranda': ['ベランダ', 'veranda'],
-        'roof_balcony': ['ルーフバルコニー', 'roof balcony'],
-        'yard': ['庭', 'yard', 'ガーデン'],
-        
-        # Appliances - enhanced
-        'washing_machine': ['洗濯機', 'washing machine', '室内洗濯機置場'],
-        'washer_dryer': ['洗濯乾燥機', 'washer dryer', '浴室乾燥機'],
-        'furnished': ['家具付き', 'furnished', '家具'],
-        'all_electric': ['オール電化', 'all electric'],
-        
-        # Special features - enhanced
-        'pets': ['ペット', 'pet', 'ペット可', 'ペット相談'],
-        'female_only': ['女性限定', 'female only', '女性専用'],
-        'student_friendly': ['学生可', 'student', '学生'],
-        'soho': ['SOHO', 'soho', '事務所可', 'ピアノ可'],
-        'newly_built': ['新築', 'newly built', '新築物件']
-    }
 
 
 # Thêm class method vào PropertyModel để tạo empty data
