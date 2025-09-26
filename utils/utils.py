@@ -77,6 +77,10 @@ class FileUtils:
         """Lưu kết quả vào file JSON"""
         import json
         
+        if(results.get("error")):
+            print(f"❌ Error occurred during crawling.", results.get("error"))
+            return None
+        
         if filename is None:
             filename = FileUtils.generate_filename("crawl_results", "json")
         
