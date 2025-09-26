@@ -2,7 +2,7 @@
 Utility functions cho Property Crawler
 """
 
-import re
+import json
 from datetime import datetime
 from typing import Dict, Any
 from crawler_single.models import PropertyModel
@@ -75,12 +75,6 @@ class FileUtils:
     @staticmethod
     def save_json_results(results: list, filename: str = None) -> str:
         """Lưu kết quả vào file JSON"""
-        import json
-        
-        if(results.get("error")):
-            print(f"❌ Error occurred during crawling.", results.get("error"))
-            return None
-        
         if filename is None:
             filename = FileUtils.generate_filename("crawl_results", "json")
         

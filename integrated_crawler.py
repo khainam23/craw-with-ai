@@ -43,4 +43,4 @@ async def integrated_crawl(num_pages=2):
 
 if __name__ == "__main__":
     # You can adjust the number of pages here
-    asyncio.run(integrated_crawl(num_pages=2))
+    asyncio.run(integrated_crawl(num_pages=1))

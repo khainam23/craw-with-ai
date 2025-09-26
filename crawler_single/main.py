@@ -24,4 +24,5 @@ async def main(urls = []):
 if __name__ == "__main__":
     asyncio.run(main([
         "https://www.mitsui-chintai.co.jp/rf/tatemono/5995", 
+        "https://www.mitsui-chintai.co.jp/rf/tatemono/5995", 
     ]))
