@@ -30,7 +30,6 @@ class ExtractionRule:
             print(f"❌ Error applying rule {self.name}: {e}")
             return None
 
-
 class CustomExtractor:
     def __init__(self):
         self.pre_hooks: List[Callable] = []

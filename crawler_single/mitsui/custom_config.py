@@ -3,8 +3,10 @@ Custom Configuration - Optimized version with better performance and structure
 """
 import re
 import requests
+import calendar
 from typing import Dict, Any, Optional, Tuple
 from functools import lru_cache
+from datetime import datetime, date
 from ..custom_rules import CustomExtractor
 from pyproj import CRS, Transformer
 
@@ -106,6 +108,20 @@ AMENITIES_MAPPING = {
     'SOHO可': 'soho',
     '女性限定': 'female_only',
     '学生可': 'student_friendly',
+}
+
+# Structure mapping
+STRUCTURE_MAPPING = {
+    "木造": "wood",
+    "ブロック": "cb",
+    "鉄骨造": "steel_frame",
+    "鉄筋コンクリート（RC）": "rc",
+    "鉄骨鉄筋コンクリート（SRC）": "src",
+    "プレキャストコンクリート（PC）": "pc",
+    "鉄骨プレキャスト（HPC）": "other",
+    "軽量鉄骨": "light_gauge_steel",
+    "軽量気泡コンクリート（ALC）": "alc",
+    "その他": "other",
 }
 
 # ============================================================================
@@ -406,28 +422,116 @@ def setup_custom_extractor() -> CustomExtractor:
                 
         except Exception as e:
             print(f"❌ Error extracting header info: {e}")
-            
+
     def extract_available_from(data: Dict[str, Any], html: str):
+        """
+        Trích 入居可能日, chuyển đổi thành date object.
+        - '即可' -> hôm nay
+        - '上旬' -> ngày 5
+        - '中旬' -> ngày 15
+        - '下旬' -> ngày 25
+        - '月末' -> ngày cuối tháng
+        """
+        try:
+            content = find(r'<dt[^>]*>入居可能日</dt>\s*<dd[^>]*>(.*?)</dd>', html)
+            text = clean_html(content) if content else ""
+            if not text:
+                return
+
+            current_year = datetime.now().year
+            parsed_date = None
+
+            if "即可" in text:
+                parsed_date = date.today()
+                print(f"📅 Available immediately: {parsed_date}")
+            else:
+                # 上旬/中旬/下旬 → ngày cố định
+                for key, day in {"上旬": "5日", "中旬": "15日", "下旬": "25日"}.items():
+                    text = re.sub(rf'(\d{{4}}年)?(\d{{1,2}})月{key}', 
+                                lambda m: f"{m.group(1) or str(current_year)+'年'}{m.group(2)}月{day}", 
+                                text)
+
+                # 月末 → ngày cuối tháng
+                m = re.search(r'(\d{4})?年?(\d{1,2})月末', text)
+                if m:
+                    year = int(m.group(1)) if m.group(1) else current_year
+                    month = int(m.group(2))
+                    last_day = calendar.monthrange(year, month)[1]
+                    text = f"{year}年{month}月{last_day}日"
+
+                # regex patterns
+                patterns = [
+                    (r'(\d{4})年(\d{1,2})月(\d{1,2})日', lambda y,m,d: date(int(y), int(m), int(d))),
+                    (r'(\d{1,2})月(\d{1,2})日',          lambda m,d: date(current_year, int(m), int(d))),
+                    (r'(\d{4})/(\d{1,2})/(\d{1,2})',   lambda y,m,d: date(int(y), int(m), int(d))),
+                    (r'(\d{1,2})/(\d{1,2})',           lambda m,d: date(current_year, int(m), int(d))),
+                ]
+
+                for pat, conv in patterns:
+                    m = re.search(pat, text)
+                    if m:
+                        parsed_date = conv(*m.groups())
+                        break
+
+            data["available_from"] = parsed_date.isoformat()
+            if parsed_date:
+                print(f"📅 Parsed available_from: {parsed_date} (from: {text})")
+            else:
+                print(f"⚠️ Could not parse date from: {text}")
+
+        except Exception as e:
+            print(f"❌ Error extracting available_from: {e}")
+            data["available_from"] = None
+
+            
+    def extract_parking(data: Dict[str, Any], html: str):
         '''
-        Tìm 入居可能日 và nội dung thẻ dd sau nó lưu vào available_from
+        Xử lý tại 駐車場 lấy dd liền kề
+        Nó sẽ là kiểu Yes No tiếng nhật nhưng đôi lúc sẽ có trường hợp đặc biệt, xử lý bằng cách nếu không rơi vào phủ định thì đánh cho parking là Y
         '''
         try:
-            # Tìm thẻ dt chứa "入居可能日" và thẻ dd ngay sau nó
-            available_from_content = find(r'<dt[^>]*>入居可能日</dt>\s*<dd[^>]*>(.*?)</dd>', html)
-            if not available_from_content:
-                print("⚠️ No available_from section found")
+            # Tìm thẻ dt chứa "駐車場" và thẻ dd ngay sau nó
+            parking_content = find(r'<dt[^>]*>駐車場</dt>\s*<dd[^>]*>(.*?)</dd>', html)
+            if not parking_content:
+                print("⚠️ No parking section found")
                 return
             
             # Làm sạch HTML và lấy text
-            available_from_text = clean_html(available_from_content)
-            if available_from_text:
-                data['available_from'] = available_from_text
-                print(f"📅 Set available_from: {available_from_text}")
+            parking_text = clean_html(parking_content).strip()
+            if not parking_text:
+                print("⚠️ Parking content is empty after cleaning")
+                return
+            
+            print(f"🚗 Found parking text: {parking_text}")
+            
+            # Danh sách các giá trị phủ định tiếng Nhật
+            negative_values = [
+                'なし',     # nashi - không có
+                '無し',     # nashi - không có (kanji)
+                '×',        # dấu X
+                '不可',     # fuka - không được phép
+                'ー',       # dấu gạch ngang
+                '無',       # mu - không có
+                'NO',       # tiếng Anh
+                'No',       # tiếng Anh
+                'no',       # tiếng Anh
+            ]
+            
+            # Kiểm tra xem có phải giá trị phủ định không
+            is_negative = any(neg_val in parking_text for neg_val in negative_values)
+            
+            if is_negative:
+                data['parking'] = 'N'
+                print(f"🚗 Set parking to N (negative value found): {parking_text}")
             else:
-                print("⚠️ Available_from content is empty after cleaning")
+                data['parking'] = 'Y'
+                print(f"🚗 Set parking to Y (positive or neutral value): {parking_text}")
                 
         except Exception as e:
-            print(f"❌ Error extracting available_from: {e}")
+            print(f"❌ Error extracting parking: {e}")
+            # Trong trường hợp lỗi, mặc định là Y theo yêu cầu
+            data['parking'] = 'Y'
+            print("🚗 Set parking to Y (default due to error)")
     
     def extract_address_info(data: Dict[str, Any], html: str):
         """Extract address information"""
@@ -456,9 +560,10 @@ def setup_custom_extractor() -> CustomExtractor:
             print(f"❌ Error extracting address info: {e}")
     
     def extract_rent_info(data: Dict[str, Any], html: str):
-        """Extract rent information"""
+        """Extract rent and maintenance fee from HTML"""
         try:
-            rent_pattern = compile_regex(r'class="[^"]*__rent[^"]*"[^>]*>(.*?)</[^>]+>')
+            # Match toàn bộ <dd class="__rent">...</dd>
+            rent_pattern = compile_regex(r'<dd[^>]*class="[^"]*__rent[^"]*"[^>]*>(.*?)</dd>')
             rent_match = rent_pattern.search(html)
             
             if not rent_match:
@@ -467,49 +572,68 @@ def setup_custom_extractor() -> CustomExtractor:
             
             rent_text = clean_html(rent_match.group(1))
             print(f"🏠 Found rent text: {rent_text}")
-            
-            # Extract rent and maintenance fees
-            price_pattern = compile_regex(r'([\d,]+)円(?:\s*/\s*([\d,]+)円)?')
-            price_match = price_pattern.search(rent_text)
-            
-            if price_match:
-                monthly_rent = int(price_match.group(1).replace(',', ''))
-                monthly_maintenance = int(price_match.group(2).replace(',', '')) if price_match.group(2) else 0
-                
-                data.update({
-                    'monthly_rent': monthly_rent,
-                    'monthly_maintenance': monthly_maintenance
-                })
-                
-                print(f"💰 Extracted rent: {monthly_rent}円, maintenance: {monthly_maintenance}円")
+
+            # Normalize
+            rent_text = rent_text.replace("／", "/")
+            rent_text = rent_text.replace(",", "")
+            rent_text = re.sub(r"\s+", " ", rent_text)
+
+            # Case 1: rent / maintenance
+            match1 = re.search(r'(\d+)円\s*/\s*(\d+)円', rent_text)
+            # Case 2: rent 管理費 maintenance
+            match2 = re.search(r'(\d+)円.*管理費\s*(\d+)円', rent_text)
+            # Case 3: only rent
+            match3 = re.search(r'(\d+)円', rent_text)
+
+            monthly_rent = 0
+            monthly_maintenance = 0
+
+            if match1:
+                monthly_rent = int(match1.group(1))
+                monthly_maintenance = int(match1.group(2))
+            elif match2:
+                monthly_rent = int(match2.group(1))
+                monthly_maintenance = int(match2.group(2))
+            elif match3:
+                monthly_rent = int(match3.group(1))
+                monthly_maintenance = 0
             else:
                 print(f"⚠️ Rent format not matched: {rent_text}")
-                
+                return
+
+            data.update({
+                'monthly_rent': monthly_rent,
+                'monthly_maintenance': monthly_maintenance
+            })
+
+            print(f"💰 Extracted rent: {monthly_rent}円, maintenance: {monthly_maintenance}円")
+
         except Exception as e:
             print(f"❌ Error extracting rent info: {e}")
     
     def extract_deposit_key_info(data: Dict[str, Any], html: str):
         """Extract deposit and key money information"""
-        try:
-            deposit_key_content = find(r'<dt[^>]*>敷金／礼金</dt>\s*<dd[^>]*>(.*?)</dd>', html)
-            if not deposit_key_content:
-                print("⚠️ No deposit/key section found")
-                return
+        deposit_key_content = find(r'<dt[^>]*>敷金／礼金</dt>\s*<dd[^>]*>(.*?)</dd>', html)
+        if not deposit_key_content:
+            print("⚠️ No deposit/key section found")
+            return
+        
+        total_monthly = data['total_monthly']
+        
+        deposit_key_text = clean_html(deposit_key_content)
+        print(f"💰 Found deposit/key info: {deposit_key_text}")
+        
+        pattern = compile_regex(r'([\d.]+)ヶ月\s*/\s*([\d.]+)ヶ月')
+        match = pattern.search(deposit_key_text)
+        
+        if match:
+            data.update({
+                'numeric_deposit': float(match.group(1)) * total_monthly,
+                'numeric_key': float(match.group(2)) * total_monthly
+            })
             
-            deposit_key_text = clean_html(deposit_key_content)
-            print(f"💰 Found deposit/key info: {deposit_key_text}")
-            
-            pattern = compile_regex(r'([\d.]+)ヶ月\s*/\s*([\d.]+)ヶ月')
-            match = pattern.search(deposit_key_text)
-            
-            if match:
-                data.update({
-                    'numeric_deposit': float(match.group(1)),
-                    'numeric_key': float(match.group(2))
-                })
+        return data
                 
-        except Exception as e:
-            print(f"❌ Error extracting deposit/key info: {e}")
     
     def extract_room_info(data: Dict[str, Any], html: str):
         """Extract room type and size"""
@@ -556,7 +680,7 @@ def setup_custom_extractor() -> CustomExtractor:
             print(f"❌ Error extracting construction date: {e}")
     
     def extract_structure_info(data: Dict[str, Any], html: str):
-        """Extract building structure information"""
+        """Extract building structure information with mapping"""
         try:
             structure_content = find(r'<dt[^>]*>規模構造</dt>\s*<dd[^>]*>(.*?)</dd>', html)
             if not structure_content:
@@ -569,16 +693,35 @@ def setup_custom_extractor() -> CustomExtractor:
             pattern = compile_regex(r'^(.*?造)\s*地上(\d+)階(?:地下(\d+)階建?)?')
             match = pattern.search(structure_text)
             
+            import difflib
+            
+            def map_structure(original_structure: str) -> str:
+                if not original_structure:
+                    return "other"
+
+                keys = list(STRUCTURE_MAPPING.keys())
+                # Tìm key giống nhất, cutoff = 0.5 để tránh match lung tung
+                matches = difflib.get_close_matches(original_structure, keys, n=1, cutoff=0.5)
+
+                if matches:
+                    return STRUCTURE_MAPPING[matches[0]]
+                return "other"
+     
             if match:
+                original_structure = match.group(1).strip()
+                
+                # Map structure using STRUCTURE_MAPPING
+                mapped_structure = map_structure(original_structure)
+                
                 data.update({
-                    'structure': match.group(1).strip(),
+                    'structure': mapped_structure,
                     'floors': int(match.group(2))
                 })
                 
                 if match.group(3):
                     data['basement_floors'] = int(match.group(3))
                     
-                print(f"🏗️ Extracted structure info successfully")
+                print(f"🏗️ Mapped structure: '{original_structure}' → '{mapped_structure}'")
             else:
                 print(f"⚠️ Structure pattern did not match: '{structure_text}'")
                 
@@ -636,6 +779,9 @@ def setup_custom_extractor() -> CustomExtractor:
                 return
             
             other_fees_text = clean_html(other_fees_content)
+            
+            data['property_other_expenses_ja'] = other_fees_text
+            
             pattern = compile_regex(r'玄関錠交換代[^\d]*([\d,]+)円')
             match = pattern.search(other_fees_text)
             
@@ -693,9 +839,9 @@ def setup_custom_extractor() -> CustomExtractor:
         # Process each section using dedicated functions
         extract_header_info(data, html)
         extract_available_from(data, html)
+        extract_parking(data, html)
         extract_address_info(data, html)
         extract_rent_info(data, html)
-        extract_deposit_key_info(data, html)
         extract_room_info(data, html)
         extract_construction_date(data, html)
         extract_structure_info(data, html)
@@ -717,6 +863,7 @@ def setup_custom_extractor() -> CustomExtractor:
         convert_coordinates, 
         set_default_amenities,
         process_pricing,
+        extract_deposit_key_info, # Vì nó cần giá trị của total_monthly
         cleanup_temp_fields,
     ]
     

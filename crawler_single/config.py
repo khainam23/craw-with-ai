@@ -1,7 +1,3 @@
-"""
-Cấu hình cho Property Crawler
-"""
-
 from crawl4ai.async_configs import BrowserConfig, CrawlerRunConfig
 
 class CrawlerConfig:
